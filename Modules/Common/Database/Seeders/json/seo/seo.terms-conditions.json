@@ -1,0 +1,38 @@
+[
+    {
+        "key": "seo.terms-conditions.title",
+        "input_type": "input:text",
+        "meta": {},
+        "name": "SEO Title",
+        "value": "Syarat & Ketentuan Perumda Air Minum Tirta Ampera Boyolali",
+        "page": "terms-conditions",
+        "section": "title"
+    },
+    {
+        "key": "seo.terms-conditions.description",
+        "input_type": "textarea",
+        "meta": {},
+        "name": "SEO Description",
+        "value": "Ketahui syarat dan ketentuan penggunaan layanan Perumda Air Minum Tirta Ampera Boyolali. Informasi ini penting untuk memahami hak, kewajiban, serta tata tertib dalam penggunaan website dan pelayanan kami.",
+        "page": "terms-conditions",
+        "section": "description"
+    },
+    {
+        "key": "seo.terms-conditions.image",
+        "input_type": "input:image",
+        "meta": {},
+        "name": "SEO Image",
+        "value": "public/assets/images/logo_long.png",
+        "page": "terms-conditions",
+        "section": "image"
+    },
+    {
+        "key": "seo.terms-conditions.keywords",
+        "input_type": "input:text",
+        "meta": {},
+        "name": "SEO Keywords",
+        "value": "Perumda Air Minum, Tirta Ampera, Boyolali, syarat dan ketentuan, peraturan penggunaan, layanan pelanggan, website",
+        "page": "terms-conditions",
+        "section": "keywords"
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "key": "seo.about.title",
+        "input_type": "input:text",
+        "meta": {},
+        "name": "SEO Title",
+        "value": "Tentang Perumda Air Minum Tirta Ampera Boyolali",
+        "page": "about",
+        "section": "title"
+    },
+    {
+        "key": "seo.about.description",
+        "input_type": "textarea",
+        "meta": {},
+        "name": "SEO Description",
+        "value": "Kenali Perumda Air Minum Tirta Ampera Boyolali: sejarah, visi misi, komitmen kami dalam menyediakan air bersih berkualitas dan pelayanan terbaik untuk masyarakat Boyolali.",
+        "page": "about",
+        "section": "description"
+    },
+    {
+        "key": "seo.about.image",
+        "input_type": "input:image",
+        "meta": {},
+        "name": "SEO Image",
+        "value": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1000&q=80",
+        "page": "about",
+        "section": "image"
+    },
+    {
+        "key": "seo.about.keywords",
+        "input_type": "input:text",
+        "meta": {},
+        "name": "SEO Keywords",
+        "value": "Perumda Air Minum, Tirta Ampera, Boyolali, tentang, visi misi, sejarah, pelayanan air bersih, perusahaan daerah",
+        "page": "about",
+        "section": "keywords"
+    }
+]

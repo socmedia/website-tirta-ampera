@@ -1,0 +1,116 @@
+[
+    {
+        "key": "about.header.headline",
+        "input_type": "input:text",
+        "name": "Headline (Tentang Kami)",
+        "value": "Tentang Kami"
+    },
+    {
+        "key": "about.header.title.part1",
+        "input_type": "input:text",
+        "name": "Header Title (Part 1)",
+        "value": "Kami Bangun Kepercayaan,"
+    },
+    {
+        "key": "about.header.title.part2",
+        "input_type": "input:text",
+        "name": "Header Title (Part 2 - Highlight)",
+        "value": "Bukan Sekadar Jaringan Pipa."
+    },
+    {
+        "key": "about.header.subtitle",
+        "input_type": "textarea",
+        "name": "Header Subtitle/Pengantar",
+        "value": "Halo, Warga Boyolali! Sebagai Perumda Air Minum Tirta Ampera, kami bangga melayani kebutuhan dasar Anda. Kami adalah tim yang berdedikasi untuk kualitas, kontinuitas, dan pelayanan yang hangat, selalu siap mendampingi Anda."
+    },
+    {
+        "key": "about.vm.title",
+        "input_type": "input:text",
+        "name": "Visi Misi - Title",
+        "value": "Apa yang Kami Perjuangkan?"
+    },
+    {
+        "key": "about.vm.description",
+        "input_type": "textarea",
+        "name": "Visi Misi - Deskripsi",
+        "value": "Kami berkomitmen menghadirkan air bersih terbaik dan pelayanan yang berkelanjutan."
+    },
+    {
+        "key": "about.vm.image",
+        "input_type": "input:image",
+        "name": "Gambar Visi Misi",
+        "value": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1000&q=80"
+    },
+    {
+        "key": "about.vm.visi.title",
+        "input_type": "input:text",
+        "name": "Visi - Title",
+        "value": "Visi Kami"
+    },
+    {
+        "key": "about.vm.visi.description",
+        "input_type": "textarea",
+        "name": "Visi - Deskripsi",
+        "value": "Menjadi perusahaan yang mampu memberikan pelayanan air bersih dengan kualitas, kuantitas, dan kontinuitas yang tepat bagi masyarakat"
+    },
+    {
+        "key": "about.vm.misi.title",
+        "input_type": "input:text",
+        "name": "Misi - Title",
+        "value": "Misi Kami"
+    },
+    {
+        "key": "about.vm.misi",
+        "input_type": "json",
+        "name": "Misi - Deskripsi",
+        "value": [
+            "Mengelola sumber daya air secara berkelanjutan agar terpenuhi kebutuhan air bersih tanpa mengabaikan kelestarian lingkungan.",
+            "Mengembangkan usaha untuk meningkatkan kinerja operasional dan berkontribusi pada pendapatan asli daerah (PAD)."
+        ]
+    },
+    {
+        "key": "about.vm.tujuan.title",
+        "input_type": "input:text",
+        "name": "Tujuan - Title",
+        "value": "Tujuan Utama"
+    },
+    {
+        "key": "about.vm.tujuan",
+        "input_type": "json",
+        "name": "Tujuan",
+        "value": [
+            {
+                "title": "Tujuan Umum (Pasal 5 Perda No. 2 tahun 1978)",
+                "description": "Pembangunan Daerah khususnya, Pembangunan ekonomi nasional umumnya dalam meningkatkan kesejahteraan dan memenuhi kebutuhan rakyat serta ketenaga kerjaan dalam perusahaan, menuju masyarakat adil dan makmur berdasarkan Pancasila."
+            },
+            {
+                "title": "Tujuan Khusus",
+                "description": "Mencari keuntungan dengan tidak mengesampingkan sifat-sifat sosialnya yaitu pelayanan air bersih terhadap masyarakat."
+            }
+        ]
+    },
+    {
+        "key": "about.milestone.title",
+        "input_type": "input:text",
+        "name": "Milestone - Title",
+        "value": "Tonggak Sejarah Kami"
+    },
+    {
+        "key": "about.milestone.description",
+        "input_type": "textarea",
+        "name": "Milestone - Deskripsi",
+        "value": "Sejak berdiri, kami telah melalui berbagai tahapan penting yang menjadi fondasi dan tonggak kemajuan Pelayanan Air Minum Tirta Ampera Boyolali."
+    },
+    {
+        "key": "about.leadership.title",
+        "input_type": "input:text",
+        "name": "Kepemimpinan - Title",
+        "value": "Kepemimpinan Kami"
+    },
+    {
+        "key": "about.leadership.direksi.subtitle",
+        "input_type": "textarea",
+        "name": "Direksi - Description",
+        "value": "Kepemimpinan yang berintegritas dan profesional, siap membawa pelayanan Tirta Ampera ke tingkat terbaik."
+    }
+]

@@ -1,0 +1,187 @@
+/* Light mode styles */
+.ck-content > blockquote,
+.ck-content > dl,
+.ck-content > dd,
+.ck-content > h1,
+.ck-content > h2,
+.ck-content > h3,
+.ck-content > h4,
+.ck-content > h5,
+.ck-content > h6,
+.ck-content > hr,
+.ck-content > figure,
+.ck-content > p,
+.ck-content > pre {
+    margin: revert;
+}
+
+.ck-content > ol,
+.ck-content > ul {
+    list-style: revert;
+    margin: revert;
+    padding: revert;
+}
+
+.ck-content li::marker {
+    font-size: inherit;
+}
+
+.ck-content > table {
+    border-collapse: revert;
+}
+
+.ck-content > h1,
+.ck-content > h2,
+.ck-content > h3,
+.ck-content > h4,
+.ck-content > h5,
+.ck-content > h6 {
+    font-size: revert;
+    font-weight: revert;
+}
+
+.ck .ck-block-toolbar-button {
+    transform: translateX(0.75rem);
+    border-width: 2px !important;
+    border-style: solid !important;
+    border-color: var(--color-blue-200) !important;
+    background-color: var(--color-blue-100) !important;
+    color: var(--color-blue-600) !important;
+    box-shadow: none !important;
+    border-radius: var(--radius-md) !important;
+    padding: 4px !important;
+}
+
+.ck .ck-button {
+    border-radius: var(--radius-lg) !important;
+    padding: calc(var(--spacing) * 1.5) !important;
+    font-size: calc(var(--spacing) * 2.5) !important;
+    box-shadow: none !important;
+    border: none !important;
+    transition: all 0.2s;
+}
+
+.ck .ck-dropdown .ck-splitbutton .ck-button:first-child {
+    border-radius: var(--radius-lg) 0 0 var(--radius-lg) !important;
+}
+
+.ck .ck-dropdown .ck-splitbutton .ck-button:last-child {
+    border-radius: 0 var(--radius-lg) var(--radius-lg) 0 !important;
+}
+
+.ck .ck-button:hover,
+.ck .ck-button:focus {
+    box-shadow: none !important;
+    border: none !important;
+    background: var(--color-neutral-100) !important;
+}
+
+.ck .ck-button .ck-button__label {
+    font-size: calc(var(--spacing) * 3) !important;
+}
+
+.ck.ck-editor__editable.ck-focused:not(.ck-editor__nested-editable) {
+    outline: none !important;
+    box-shadow: 0 0 0 2px var(--color-zinc-900), 0 0 0 4px var(--color-white) !important;
+}
+
+.ck.ck-editor__editable_inline {
+    padding: calc(var(--spacing) * 2) calc(var(--spacing) * 6) !important;
+    border-radius: 0.5rem !important;
+    border-width: 1px !important;
+    border-style: solid !important;
+    border-color: var(--color-gray-200) !important;
+    background-color: #ffffffb3 !important;
+    color: var(--color-gray-800) !important;
+}
+
+.ck.ck-editor__editable_inline:disabled {
+    opacity: 0.5 !important;
+    pointer-events: none !important;
+}
+
+.ck.ck-editor__editable_inline::placeholder {
+    color: var(--color-gray-400) !important;
+}
+
+.ck .ck-powered-by {
+    display: none !important;
+}
+
+.ck-rounded-corners .ck.ck-balloon-panel,
+.ck.ck-balloon-panel.ck-rounded-corners,
+.ck-rounded-corners .ck.ck-toolbar,
+.ck.ck-toolbar.ck-rounded-corners {
+    border-radius: var(--radius-lg) !important;
+}
+
+.ck.ck-dropdown .ck-dropdown__panel.ck-dropdown__panel_ne,
+.ck.ck-dropdown .ck-dropdown__panel.ck-dropdown__panel_se {
+    padding: calc(var(--spacing) * 1.5) !important;
+    border-radius: var(--radius-md) !important;
+}
+
+.ck .ck-input {
+    border-radius: 0.5rem !important;
+    border: 1px solid var(--color-gray-200) !important;
+    outline: none !important;
+    transition: box-shadow 0.2s;
+    background-color: #fff !important;
+    color: inherit !important;
+}
+
+.ck .ck-input:focus {
+    outline: none !important;
+    box-shadow: 0 0 0 2px var(--color-zinc-900), 0 0 0 4px var(--color-gray-200) !important;
+}
+
+.ck .ck-input:disabled {
+    pointer-events: none !important;
+    background-color: var(--color-neutral-100) !important;
+}
+
+.ck .ck-input::placeholder {
+    color: inherit;
+}
+
+/* Dark mode styles */
+.ck .ck-block-toolbar-button.dark,
+.dark .ck .ck-block-toolbar-button {
+    background-color: var(--color-blue-200) !important;
+}
+
+.ck.ck-editor__editable.ck-focused:not(.ck-editor__nested-editable).dark,
+.dark .ck.ck-editor__editable.ck-focused:not(.ck-editor__nested-editable) {
+    box-shadow: 0 0 0 2px var(--color-gray-300), 0 0 0 4px var(--color-zinc-900) !important;
+}
+
+.ck.ck-editor__editable_inline.dark,
+.dark .ck.ck-editor__editable_inline {
+    border-color: var(--color-neutral-700) !important;
+    background-color: var(--color-neutral-900) !important;
+    color: var(--color-gray-100) !important;
+}
+
+.ck.ck-editor__editable_inline.dark::placeholder,
+.dark .ck.ck-editor__editable_inline::placeholder {
+    color: var(--color-gray-400) !important;
+}
+
+.dark .ck .ck-input {
+    background-color: var(--color-neutral-900) !important;
+    border-color: var(--color-neutral-700) !important;
+    color: var(--color-neutral-400) !important;
+}
+
+.dark .ck .ck-input:focus {
+    box-shadow: 0 0 0 2px var(--color-neutral-400),
+        0 0 0 4px var(--color-neutral-900) !important;
+}
+
+.dark .ck .ck-input:disabled {
+    background-color: var(--color-neutral-800) !important;
+}
+
+.dark .ck .ck-input::placeholder {
+    color: var(--color-neutral-500) !important;
+}

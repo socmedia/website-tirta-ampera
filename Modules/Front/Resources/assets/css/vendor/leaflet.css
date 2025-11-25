@@ -1,0 +1,122 @@
+/* Leaflet map styling adjusted to match site theme */
+
+/* Map container */
+.leaflet-container {
+    font: 12px "Montserrat", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    /* background: #18181b;
+    color: #fff;
+    outline: none;
+    border-radius: 1rem;
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.18);
+    border: 2px solid #e5e7eb; */
+}
+
+/* Custom marker icon shadow */
+.leaflet-marker-icon {
+    /* Add drop shadow for better visibility */
+    filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.25));
+    /* If using PNG/SVG with transparency, this will add a soft shadow */
+    transition: filter 0.2s;
+}
+
+/* Attribution and controls */
+.leaflet-control-attribution {
+    background: rgba(24, 24, 27, 0.85);
+    margin: 0;
+    padding: 0 8px;
+    color: #d1d5db;
+    font-size: 12px;
+    border-radius: 0 0 10px 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+    letter-spacing: 0.01em;
+}
+
+.leaflet-control-zoom {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+    background: #232323;
+    border: 1px solid #333;
+    overflow: hidden;
+}
+
+.leaflet-control-zoom-in,
+.leaflet-control-zoom-out {
+    background: #232323;
+    color: #fff;
+    border: none;
+    width: 32px;
+    height: 32px;
+    font-size: 20px;
+    line-height: 32px;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+}
+.leaflet-control-zoom-in:hover,
+.leaflet-control-zoom-out:hover {
+    background: #f59e42;
+    color: #18181b;
+}
+
+/* Marker popup */
+.leaflet-popup-content-wrapper {
+    background: #fff;
+    color: #18181b;
+    border-radius: 10px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.18);
+    padding: 8px 12px;
+    font-family: "Montserrat", Arial, sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.01em;
+    /* Fix for popup content overflow and spacing */
+    max-width: 260px;
+    min-width: 120px;
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+
+.leaflet-popup-content {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+
+.leaflet-popup-content p {
+    margin: 4px 0;
+}
+
+.leaflet-popup-tip {
+    background: #fff;
+}
+
+/* Remove focus outline for controls for better look */
+.leaflet-control:focus {
+    outline: none;
+}
+
+/* Responsive map container for mobile */
+@media (max-width: 640px) {
+    .leaflet-container {
+        border-radius: 0.5rem;
+        font-size: 10px;
+    }
+    .leaflet-popup-content-wrapper {
+        font-size: 10px;
+        padding: 10px 12px;
+        max-width: 180px;
+        min-width: 80px;
+    }
+    .leaflet-popup-content {
+        font-size: 10px;
+    }
+    .leaflet-marker-icon {
+        width: 24px !important;
+        height: 36px !important;
+        background-size: contain;
+        filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.18));
+    }
+}

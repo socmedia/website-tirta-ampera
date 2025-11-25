@@ -1,0 +1,7 @@
+{
+    "Core": true,
+    "Auth": true,
+    "Panel": true,
+    "Front": true,
+    "Common": true
+}

@@ -1,0 +1,38 @@
+[
+    {
+        "group": "shipping",
+        "key": "shipping_couriers",
+        "type": "json",
+        "meta": {
+            "required": true,
+            "options": [
+                "jne",
+                "jnt",
+                "sicepat",
+                "anteraja"
+            ]
+        },
+        "name": "Active Couriers",
+        "value": [
+            "jne",
+            "jnt",
+            "sicepat",
+            "anteraja"
+        ],
+        "created_at": "2023-01-01 00:00:00",
+        "updated_at": "2023-01-01 00:00:00"
+    },
+    {
+        "group": "shipping",
+        "key": "shipping_flat_rate",
+        "type": "input:number",
+        "meta": {
+            "required": false,
+            "min": 0
+        },
+        "name": "Flat Shipping Rate",
+        "value": 10000,
+        "created_at": "2023-01-01 00:00:00",
+        "updated_at": "2023-01-01 00:00:00"
+    }
+]

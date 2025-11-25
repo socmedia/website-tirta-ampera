@@ -1,0 +1,58 @@
+@layer components {
+    .ck-content > blockquote,
+    .ck-content > dl,
+    .ck-content > dd,
+    .ck-content > h1,
+    .ck-content > h2,
+    .ck-content > h3,
+    .ck-content > h4,
+    .ck-content > h5,
+    .ck-content > h6,
+    .ck-content > hr,
+    .ck-content > figure,
+    .ck-content > p,
+    .ck-content > pre {
+        margin: revert;
+    }
+
+    .ck-content > ol,
+    .ck-content > ul {
+        list-style: revert;
+        margin: revert;
+        padding: revert;
+    }
+
+    .ck-content li::marker {
+        font-size: 0;
+    }
+
+    .ck-content > table {
+        border-collapse: revert;
+    }
+
+    .ck-content > h1,
+    .ck-content > h2,
+    .ck-content > h3,
+    .ck-content > h4,
+    .ck-content > h5,
+    .ck-content > h6 {
+        font-size: revert;
+        font-weight: revert;
+    }
+
+    .ck .ck-block-toolbar-button {
+        @apply translate-x-3 !border !bg-white !border-gray-200  !text-gray-800 dark:!bg-neutral-200 shadow;
+    }
+
+    .ck.ck-editor__editable.ck-focused:not(.ck-editor__nested-editable) {
+        @apply !outline-none !ring-2 !ring-zinc-900 !ring-offset-1 dark:!ring-offset-gray-900 dark:!ring-2 dark:!ring-gray-400;
+    }
+
+    .ck.ck-editor__editable_inline {
+        @apply !px-8 !rounded-lg border !border-gray-200 !bg-white !text-gray-800 disabled:!opacity-50 disabled:!pointer-events-none dark:!border-neutral-700 dark:!bg-neutral-800 dark:!text-gray-100 dark:!placeholder-gray-500;
+    }
+
+    .ck .ck-powered-by {
+        @apply !hidden;
+    }
+}

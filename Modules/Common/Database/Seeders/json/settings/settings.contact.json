@@ -1,0 +1,122 @@
+[
+    {
+        "group": "contact",
+        "key": "contact_address",
+        "type": "textarea",
+        "meta": {
+            "required": true
+        },
+        "name": "Address",
+        "value": "Komplek Alun Alun Lor, Area Sawah/Kebun, Kragilan, Kec. Mojosongo, Kabupaten Boyolali, Jawa Tengah 57323",
+        "created_at": "2023-01-01 00:00:00",
+        "updated_at": "2024-06-01 00:00:00"
+    },
+    {
+        "group": "contact",
+        "key": "contact_phone",
+        "type": "input:text",
+        "meta": {
+            "required": true
+        },
+        "name": "Phone",
+        "value": "0276-321411",
+        "created_at": "2023-01-01 00:00:00",
+        "updated_at": "2024-06-01 00:00:00"
+    },
+    {
+        "group": "contact",
+        "key": "contact_fax",
+        "type": "input:text",
+        "meta": {
+            "required": false
+        },
+        "name": "Fax",
+        "value": "0276-322372",
+        "created_at": "2024-06-01 00:00:00",
+        "updated_at": "2024-06-01 00:00:00"
+    },
+    {
+        "group": "contact",
+        "key": "contact_service_info",
+        "type": "input:text",
+        "meta": {
+            "required": false
+        },
+        "name": "Info Pelayanan",
+        "value": "0276-3295259",
+        "created_at": "2024-06-01 00:00:00",
+        "updated_at": "2024-06-01 00:00:00"
+    },
+    {
+        "group": "contact",
+        "key": "contact_email",
+        "type": "input:email",
+        "meta": {
+            "required": true
+        },
+        "name": "Official Email",
+        "value": "hello@pamoboyolali.co.id",
+        "created_at": "2023-01-01 00:00:00",
+        "updated_at": "2024-06-01 00:00:00"
+    },
+    {
+        "group": "contact",
+        "key": "contact_support_email",
+        "type": "input:email",
+        "meta": {
+            "required": false
+        },
+        "name": "Support Email",
+        "value": "support@pamoboyolali.co.id",
+        "created_at": "2023-01-01 00:00:00",
+        "updated_at": "2024-06-01 00:00:00"
+    },
+    {
+        "group": "contact",
+        "key": "contact_embed_maps",
+        "type": "textarea",
+        "meta": {
+            "required": false
+        },
+        "name": "Embed Maps",
+        "value": "<iframe src=\"https://www.google.com/maps?q=Komplek+Alun+Alun+Lor,+Area+Sawah%2FKebun,+Kragilan,+Kec.+Mojosongo,+Kabupaten+Boyolali,+Jawa+Tengah+57323&output=embed\" width=\"100%\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>",
+        "created_at": "2023-01-01 00:00:00",
+        "updated_at": "2024-06-01 00:00:00"
+    },
+    {
+        "group": "contact",
+        "key": "contact_whatsapp",
+        "type": "input:text",
+        "meta": {
+            "required": false
+        },
+        "name": "WhatsApp",
+        "value": "082210004120",
+        "created_at": "2023-01-01 00:00:00",
+        "updated_at": "2024-06-01 00:00:00"
+    },
+    {
+        "group": "contact",
+        "key": "contact_whatsapp_link",
+        "type": "input:text",
+        "meta": {
+            "required": false
+        },
+        "name": "WhatsApp Link",
+        "value": "https://api.whatsapp.com/send/?phone=6282210004120&text=Halo%20Mbak%20TaTa%2C%20saya%20ingin%20menanyakan%20layanan%20dan%20mengajukan%20pengaduan%20terkait%20PDAM%20Boyolali.&type=phone_number&app_absent=0",
+        "created_at": "2024-06-01 00:00:00",
+        "updated_at": "2024-06-01 00:00:00"
+    },
+    {
+        "group": "contact",
+        "key": "contact_whatsapp_default_message",
+        "type": "textarea",
+        "meta": {
+            "required": false
+        },
+        "name": "WhatsApp Default Message",
+        "value": "Halo Mbak TaTa, saya ingin menanyakan layanan dan mengajukan pengaduan terkait PDAM Boyolali.",
+        "created_at": "2024-06-01 00:00:00",
+        "updated_at": "2024-06-01 00:00:00"
+    }
+]

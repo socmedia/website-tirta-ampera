@@ -1,0 +1,165 @@
+@layer components {
+    /* --- Top Info Bar --- */
+    .topbar {
+        @apply hidden lg:block w-full text-sm py-2 border-b border-b-slate-200 py-1.5;
+    }
+
+    .topbar-container {
+        @apply container flex flex-col lg:flex-row items-center justify-between gap-2;
+    }
+
+    .topbar-left {
+        @apply flex items-center gap-2 mb-1 lg:mb-0 py-1.5;
+    }
+
+    .topbar-right {
+        @apply flex items-center gap-2 flex-wrap text-sm;
+    }
+
+    .topbar-link {
+        @apply text-sky-600 font-semibold hover:underline transition;
+    }
+
+    .topbar-contact {
+        @apply hover:text-sky-600 transition flex items-center gap-1;
+    }
+
+    /* --- Navbar --- */
+    .navbar {
+        @apply w-full fixed top-0 z-[55] transition text-neutral-700;
+    }
+    .navbar.scrolled {
+        @apply bg-white/50 backdrop-blur border-b border-gray-200 shadow-sm text-neutral-700 shadow-sm;
+    }
+    .navbar:not(.scrolled) {
+        @apply bg-transparent text-white;
+    }
+    .navbar.always-fixed {
+        @apply bg-white/50 backdrop-blur border-b border-gray-200 shadow-sm text-neutral-700;
+    }
+
+    .navbar-flex {
+        @apply flex h-20 items-center justify-between;
+    }
+
+    .navbar-logo {
+        @apply flex-shrink-0 flex items-center;
+    }
+
+    .navbar-logo-text {
+        @apply font-bold text-lg text-neutral-900 tracking-tight;
+    }
+
+    .navbar-links {
+        @apply hidden items-center space-x-2 lg:flex text-sm h-full;
+    }
+
+    /*
+    LOGIC:
+    - .navbar-link-active is always text-sky-700 (for both scrolled/not-scrolled)
+    - .navbar-link (not active):
+        . If not scrolled, text-white.
+        . If scrolled, text-neutral-700.
+    */
+    .navbar-link {
+        @apply rounded-md px-3 py-2 border border-transparent transition-colors;
+    }
+
+    .navbar-link:not(.active) {
+        @apply text-white px-3 py-2 font-medium transition-colors duration-150 rounded-md hover:text-sky-700;
+    }
+
+    .navbar.always-fixed .navbar-link:not(.active) {
+        @apply text-neutral-700 hover:text-sky-700;
+    }
+
+    .navbar-link.active,
+    .navbar-link:hover {
+        @apply font-medium bg-sky-50 !text-sky-700 border border-sky-100;
+    }
+
+    .navbar-link.scrolled {
+        @apply text-neutral-700 hover:text-sky-700;
+    }
+
+    .navbar-right {
+        @apply flex items-center gap-2 ml-auto h-full;
+    }
+
+    /* --- Sub Menu/Navbar Dropdown --- */
+    .navbar-dropdown {
+        @apply relative;
+    }
+
+    .navbar-dropdown-button {
+        @apply flex items-center gap-1;
+    }
+
+    /* ===== Custom Dropdown (dropoodown) ===== */
+
+    /* 5. Dropdown Toggle Specific Styles (used on button) */
+    .dropdown-toggle-active {
+        @apply text-sky-600 bg-sky-50;
+    }
+    .dropdown-toggle-hover:hover {
+        @apply bg-sky-50;
+    }
+
+    /* 6. Dropdown Menu (div) */
+    .dropdown-menu {
+        @apply absolute left-0 mt-3 w-56 rounded-xl shadow-2xl bg-white z-20 origin-top-left ring-1 ring-sky-100/70 p-2;
+    }
+
+    /* 7. Dropdown Header (h3) */
+    .dropdown-header {
+        @apply px-4 pt-2 pb-1 text-xs font-semibold uppercase text-sky-600 border-b border-sky-100 mb-1;
+    }
+    .dropdown-header-top {
+        @apply mt-2 pt-3 border-t border-sky-100 border-b-0;
+    }
+
+    /* 8. Dropdown Item (a) */
+    .dropdown-item {
+        @apply block px-4 py-2 text-sm text-gray-700 rounded-lg transition duration-150;
+    }
+    .dropdown-item:hover {
+        @apply bg-sky-100/70 text-sky-800;
+    }
+
+    /* --- Legacy Dropdown Styling for Compatibility --- */
+    .navbar-dropdown-menu {
+        @apply absolute left-0 mt-2 w-48 rounded-md shadow-lg bg-white z-50 border border-gray-200;
+        @apply py-2 flex flex-col;
+    }
+
+    .dropdown-item.legacy {
+        @apply block w-full text-left px-4 py-2 text-sm text-neutral-800 hover:bg-sky-50 hover:text-sky-700 transition rounded-md whitespace-nowrap;
+    }
+
+    .dropdown-item.active {
+        @apply bg-sky-100 text-sky-700 font-semibold;
+    }
+
+    .mobile-nav {
+        @apply lg:hidden bg-white border-t border-gray-200 shadow;
+    }
+
+    .mobile-nav-link {
+        @apply block rounded-md px-3 py-2 text-sm font-medium transition-colors text-neutral-800 hover:bg-sky-50;
+    }
+
+    .mobile-nav-link-active {
+        @apply font-bold text-white bg-sky-600 shadow-md drop-shadow;
+    }
+
+    /* --- Mobile Submenu --- */
+    .mobile-submenu {
+        @apply pl-5 flex flex-col gap-0.5;
+    }
+    .mobile-submenu-link {
+        @apply px-3 py-1 rounded text-sm font-normal text-neutral-700 hover:bg-sky-50 transition-colors;
+    }
+    .mobile-submenu-link-active {
+        @apply font-semibold text-sky-700;
+    }
+}

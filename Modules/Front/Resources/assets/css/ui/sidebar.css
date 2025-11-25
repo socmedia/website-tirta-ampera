@@ -1,0 +1,26 @@
+@layer components {
+    .sidebar {
+        @apply fixed inset-y-0 left-0 z-50 w-64 transform transition-transform duration-200 ease-in-out
+            bg-white border-r border-gray-200;
+    }
+
+    .sidebar:not(.open) {
+        @apply -translate-x-full lg:translate-x-0;
+    }
+
+    .sidebar.open {
+        @apply translate-x-0 lg:-translate-x-full;
+    }
+
+    .content {
+        @apply transform transition-transform duration-200 ease-in-out;
+    }
+
+    .content:not(.sidebar-open) {
+        @apply ml-0 lg:ml-64;
+    }
+
+    .content.sidebar-open {
+        @apply lg:ml-0;
+    }
+}

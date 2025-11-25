@@ -1,0 +1,124 @@
+[
+    {
+        "key": "service.header.title.part1",
+        "input_type": "input:text",
+        "name": "Judul Header Layanan (Bagian 1)",
+        "value": "Layanan Tirta Ampera,"
+    },
+    {
+        "key": "service.header.title.part2",
+        "input_type": "input:text",
+        "name": "Judul Header Layanan (Bagian 2)",
+        "value": "Sekarang Lebih Mudah Diakses"
+    },
+    {
+        "key": "service.header.highlight",
+        "input_type": "input:text",
+        "name": "Highlight Header",
+        "value": "Kami Tidak Hanya Mengalirkan Air, Kami Mengalirkan Kenyamanan Layanan."
+    },
+    {
+        "key": "service.header.description",
+        "input_type": "textarea",
+        "name": "Deskripsi Header Layanan",
+        "value": "Komitmen kami adalah memastikan setiap pelanggan mendapatkan akses layanan air bersih yang cepat, transparan, dan dapat diurus secara mandiri tanpa terhalang jarak dan waktu. Kami menyederhanakan semua kebutuhan air Anda, mengurangi antrean, dan mempercepat respons."
+    },
+    {
+        "key": "service.pillar.title",
+        "input_type": "input:text",
+        "name": "Judul Bagian 3 Pilar Layanan",
+        "value": "Layanan Utama Unggulan"
+    },
+    {
+        "key": "service.pillar.description",
+        "input_type": "textarea",
+        "name": "Deskripsi Bagian 3 Pilar Layanan",
+        "value": "Kami berinvestasi pada sistem layanan untuk memecahkan tiga masalah utama layanan air tradisional, memberikan Anda kontrol penuh atas penggunaan dan administrasi air bersih."
+    },
+    {
+        "key": "service.pillar.items",
+        "input_type": "json",
+        "name": "Data 3 Pilar Layanan",
+        "value": [
+            {
+                "title": "Pilar Pembayaran & Tagihan",
+                "subtitle": "Transparansi Finansial",
+                "icon": "bx bx-credit-card",
+                "description": "Lupakan kertas dan antrean. Kami memberikan akses 24/7 ke data keuangan Anda untuk perencanaan anggaran yang lebih baik."
+            },
+            {
+                "title": "Pilar Laporan & Pengaduan",
+                "subtitle": "Respons Cepat",
+                "icon": "bx bx-location-check",
+                "description": "Kami memastikan laporan gangguan Anda langsung sampai ke tim teknis di lapangan melalui sistem terpadu. Setiap laporan Anda adalah prioritas."
+            },
+            {
+                "title": "Pilar Pemasangan Baru & Administrasi",
+                "subtitle": "Efisiensi Proses",
+                "icon": "bx bx-file",
+                "description": "Seluruh proses pengajuan kini dapat dilakukan dengan mudah dari rumah, menghilangkan kebutuhan untuk datang ke kantor."
+            }
+        ]
+    },
+    {
+        "key": "service.extra.title",
+        "input_type": "input:text",
+        "name": "Judul Layanan Tambahan",
+        "value": "Layanan Administrasi Lainnya"
+    },
+    {
+        "key": "service.extra.description",
+        "input_type": "textarea",
+        "name": "Deskripsi Layanan Tambahan",
+        "value": "Untuk kebutuhan administrasi, pemeliharaan, dan perubahan kepemilikan aset, layanan berikut dapat diajukan melalui kantor unit, kantor pusat, atau aplikasi Tirta Amperaku."
+    },
+    {
+        "key": "service.extra.items",
+        "input_type": "json",
+        "name": "Daftar Layanan Tambahan",
+        "value": [
+            {
+                "icon": "bx bxs-file-detail",
+                "title": "Bayar Tagihan Online",
+                "description": "Layanan pembayaran tagihan air bulanan secara online melalui aplikasi atau layanan mitra, tanpa harus datang ke kantor.",
+                "link_label": "Selengkapnya",
+                "link_route": "front.service.pay-bill"
+            },
+            {
+                "icon": "bx bxs-forward-big",
+                "title": "Pindah Meter",
+                "description": "Layanan untuk permintaan pemindahan posisi meter air. Umumnya diajukan karena renovasi, pembangunan, atau penataan ulang properti.",
+                "link_label": "Selengkapnya",
+                "link_route": "front.service.move-meter"
+            },
+            {
+                "icon": "bx bx-git-compare",
+                "title": "Ganti Stop Kran",
+                "description": "Layanan teknis untuk mengganti komponen Stop Kran pada instalasi pelanggan akibat kerusakan atau masalah teknis yang mengganggu suplai air.",
+                "link_label": "Selengkapnya",
+                "link_route": "front.service.replace-stop-valve"
+            },
+            {
+                "icon": "bx bxs-file-detail",
+                "title": "Balik Nama",
+                "description": "Layanan untuk mengganti nama pemilik sambungan air yang terdaftar di sistem kami. Wajib diajukan saat terjadi perubahan kepemilikan aset, seperti karena jual-beli, warisan, atau hibah.",
+                "link_label": "Selengkapnya",
+                "link_route": "front.service.change-name"
+            },
+            {
+                "icon": "bx bxs-cog",
+                "title": "Tutup Sementara",
+                "description": "Permohonan resmi untuk menghentikan sementara suplai air jika properti tidak digunakan dalam jangka waktu tertentu (misalnya, bepergian lama).",
+                "link_label": "Selengkapnya",
+                "link_route": "front.service.temporary-disconnect"
+            },
+            {
+                "icon": "bx bx-git-commit",
+                "title": "Buka Kembali",
+                "description": "Permohonan untuk mengaktifkan kembali sambungan air yang sebelumnya ditutup sementara oleh pelanggan, sehingga layanan air bisa digunakan kembali.",
+                "link_label": "Selengkapnya",
+                "link_route": "front.service.reconnect"
+            }
+        ]
+    }
+]

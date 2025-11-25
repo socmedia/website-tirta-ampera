@@ -1,0 +1,41 @@
+{
+    "parent": [
+        {
+            "parent_id": null,
+            "status": true,
+            "featured": false,
+            "group": "posts",
+            "sort_order": 1,
+            "name": "Berita & Pengumuman",
+            "slug": "berita-pengumuman",
+            "description": "Kategori untuk berita terkini, pengumuman penting, dan informasi resmi seputar produk atau layanan.",
+            "image_path": null,
+            "icon": null
+        },
+        {
+            "parent_id": null,
+            "status": true,
+            "featured": false,
+            "group": "posts",
+            "sort_order": 2,
+            "name": "Tutorial & Panduan",
+            "slug": "tutorial-panduan",
+            "description": "Kategori untuk artikel panduan, tips, dan tutorial penggunaan, pengembangan, serta best practice.",
+            "image_path": null,
+            "icon": null
+        },
+        {
+            "parent_id": null,
+            "status": true,
+            "featured": false,
+            "group": "posts",
+            "sort_order": 3,
+            "name": "Komunitas & Event",
+            "slug": "komunitas-event",
+            "description": "Kategori untuk update kegiatan komunitas, event, seminar, dan cerita kolaborasi pengguna.",
+            "image_path": null,
+            "icon": null
+        }
+    ],
+    "child": []
+}

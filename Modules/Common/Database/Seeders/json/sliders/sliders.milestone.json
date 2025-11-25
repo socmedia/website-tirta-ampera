@@ -1,0 +1,116 @@
+[
+    {
+        "type": "MILESTONE",
+        "desktop_media_path": "bx bx-train",
+        "mobile_media_path": null,
+        "heading": "Sejak Zaman Belanda",
+        "sub_heading": "Air untuk Lokomotif",
+        "description": "Penyediaan air awal hanya untuk kebutuhan transportasi (lokomotif) Boyolali–Solo. Kelebihan air inilah yang menjadi awal layanan publik (bak umum).",
+        "alt": null,
+        "meta": {
+            "date": null,
+            "step_number": 1
+        },
+        "sort_order": 0,
+        "status": true,
+        "created_by": null,
+        "updated_by": null,
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "type": "MILESTONE",
+        "desktop_media_path": "bx bx-water",
+        "mobile_media_path": null,
+        "heading": "1960-an",
+        "sub_heading": "Pengembangan Sistem Air",
+        "description": "Periode 1960–1967: Pengembangan sistem sederhana dari mata air Musuk dan memanfaatkan bak pengendap air bekas pabrik kopi untuk rumah sakit dan perumahan dokter.",
+        "alt": null,
+        "meta": {
+            "date": "1960-1967",
+            "step_number": 2
+        },
+        "sort_order": 1,
+        "status": true,
+        "created_by": null,
+        "updated_by": null,
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "type": "MILESTONE",
+        "desktop_media_path": "bx bx-donate-blood",
+        "mobile_media_path": null,
+        "heading": "1975",
+        "sub_heading": "Awal Pelayanan Masyarakat",
+        "description": "Tanggal 5 Juli 1975: Pengelolaan diserahterimakan dari Pusat kepada Bupati Boyolali, menandai beroperasinya pelayanan air bersih kepada masyarakat pelanggan secara resmi.",
+        "alt": null,
+        "meta": {
+            "date": "1975-07-05",
+            "step_number": 3
+        },
+        "sort_order": 2,
+        "status": true,
+        "created_by": null,
+        "updated_by": null,
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "type": "MILESTONE",
+        "desktop_media_path": "bx bx-building-house",
+        "mobile_media_path": null,
+        "heading": "1978",
+        "sub_heading": "Badan Pengelola Air Minum",
+        "description": "Tahun 1978: Berdasarkan Perda No. 2 Tahun 1978, dibentuklah Perusahaan Daerah Air Minum (PDAM) Kabupaten Boyolali sebagai badan pengelola resmi.",
+        "alt": null,
+        "meta": {
+            "date": "1978",
+            "step_number": 4
+        },
+        "sort_order": 3,
+        "status": true,
+        "created_by": null,
+        "updated_by": null,
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "type": "MILESTONE",
+        "desktop_media_path": "bx bx-handshake",
+        "mobile_media_path": null,
+        "heading": "1994",
+        "sub_heading": "Peningkatan Tata Kelola",
+        "description": "Tahun 1994: Perda No. 2 Tahun 1994 mengatur ketentuan pokok Dewan Pengawas, Direksi, dan Kepegawaian, memastikan tata kelola yang semakin solid.",
+        "alt": null,
+        "meta": {
+            "date": "1994",
+            "step_number": 5
+        },
+        "sort_order": 4,
+        "status": true,
+        "created_by": null,
+        "updated_by": null,
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "type": "MILESTONE",
+        "desktop_media_path": "bx bx-chip",
+        "mobile_media_path": null,
+        "heading": "Masa Kini",
+        "sub_heading": "Perumda Tirta Ampera",
+        "description": "Masa kini: Kami bertransformasi menjadi Perumda Air Minum Tirta Ampera, fokus pada GCG dan inovasi digital untuk kemudahan layanan Anda.",
+        "alt": null,
+        "meta": {
+            "date": null,
+            "step_number": 6
+        },
+        "sort_order": 5,
+        "status": true,
+        "created_by": null,
+        "updated_by": null,
+        "created_at": null,
+        "updated_at": null
+    }
+]

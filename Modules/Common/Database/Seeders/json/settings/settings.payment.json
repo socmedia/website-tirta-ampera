@@ -1,0 +1,35 @@
+[
+    {
+        "group": "payment",
+        "key": "payment_methods",
+        "type": "json",
+        "meta": {
+            "required": true,
+            "options": [
+                "bank_transfer",
+                "cod",
+                "ewallet"
+            ]
+        },
+        "name": "Payment Methods",
+        "value": [
+            "bank_transfer",
+            "cod",
+            "ewallet"
+        ],
+        "created_at": "2023-01-01 00:00:00",
+        "updated_at": "2023-01-01 00:00:00"
+    },
+    {
+        "group": "payment",
+        "key": "payment_bank_info",
+        "type": "textarea",
+        "meta": {
+            "required": false
+        },
+        "name": "Bank Transfer Info",
+        "value": "Bank BCA 1234567890 a.n. PT My Ecommerce",
+        "created_at": "2023-01-01 00:00:00",
+        "updated_at": "2023-01-01 00:00:00"
+    }
+]

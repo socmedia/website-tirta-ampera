@@ -1,0 +1,22 @@
+[{
+        "desktop_media_path": "/assets/images/promo/promo_1.png",
+        "status": true,
+        "type": "PROMOTION",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "desktop_media_path": "/assets/images/promo/promo_2.png",
+        "status": true,
+        "type": "PROMOTION",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "desktop_media_path": "/assets/images/promo/promo_3.png",
+        "status": true,
+        "type": "PROMOTION",
+        "created_at": null,
+        "updated_at": null
+    }
+]

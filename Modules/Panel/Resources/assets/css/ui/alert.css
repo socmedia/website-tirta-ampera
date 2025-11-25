@@ -1,0 +1,131 @@
+@layer components {
+    /* Base */
+    .alert {
+        @apply flex items-center gap-x-3 rounded-lg border p-4 dark:border-neutral-700;
+    }
+
+    /* === SIZES === */
+    .alert.alert-sm {
+        @apply p-3 text-sm;
+    }
+
+    .alert.alert-lg {
+        @apply p-5 text-base;
+    }
+
+    /* === SOLID VARIANTS === */
+    .alert.solid-primary {
+        @apply border-transparent bg-blue-600 text-white dark:bg-blue-500;
+    }
+
+    .alert.solid-dark {
+        @apply border-transparent bg-gray-800 text-white dark:bg-gray-700;
+    }
+
+    .alert.solid-danger {
+        @apply border-transparent bg-red-600 text-white dark:bg-red-500;
+    }
+
+    .alert.solid-info {
+        @apply border-transparent bg-teal-600 text-white dark:bg-teal-500;
+    }
+
+    .alert.solid-warning {
+        @apply border-transparent bg-yellow-500 text-white dark:bg-yellow-400;
+    }
+
+    .alert.solid-white {
+        @apply border border-gray-200 bg-white text-gray-800 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-100;
+    }
+
+    .alert.solid-secondary {
+        @apply border-transparent bg-gray-600 text-white dark:bg-gray-500;
+    }
+
+    /* === SOFT VARIANTS === */
+    .alert.soft-primary {
+        @apply border-transparent bg-blue-50 text-blue-800 dark:bg-blue-900/30 dark:text-blue-300;
+    }
+
+    .alert.soft-dark {
+        @apply border-transparent bg-gray-50 text-gray-800 dark:bg-gray-800/30 dark:text-gray-200;
+    }
+
+    .alert.soft-danger {
+        @apply border-transparent bg-red-50 text-red-800 dark:bg-red-900/30 dark:text-red-300;
+    }
+
+    .alert.soft-info {
+        @apply border-transparent bg-teal-50 text-teal-800 dark:bg-teal-900/30 dark:text-teal-300;
+    }
+
+    .alert.soft-warning {
+        @apply border-transparent bg-yellow-200 text-yellow-800 dark:bg-yellow-900/30 dark:text-yellow-300;
+    }
+
+    .alert.soft-white {
+        @apply border-transparent bg-white/10 text-white dark:bg-white/5;
+    }
+
+    .alert.soft-secondary {
+        @apply border-transparent bg-gray-50 text-gray-800 dark:bg-gray-800/30 dark:text-gray-300;
+    }
+
+    /* === OUTLINE VARIANTS === */
+    .alert.outline-primary {
+        @apply border border-blue-600 text-blue-600 dark:border-blue-400 dark:text-blue-400;
+    }
+
+    .alert.outline-dark {
+        @apply border border-gray-800 text-gray-800 dark:border-gray-400 dark:text-gray-400;
+    }
+
+    .alert.outline-danger {
+        @apply border border-red-500 text-red-500 dark:border-red-400 dark:text-red-400;
+    }
+
+    .alert.outline-info {
+        @apply border border-teal-500 text-teal-500 dark:border-teal-400 dark:text-teal-400;
+    }
+
+    .alert.outline-warning {
+        @apply border border-yellow-500 text-yellow-500 dark:border-yellow-400 dark:text-yellow-400;
+    }
+
+    .alert.outline-white {
+        @apply border border-white text-white dark:border-gray-400 dark:text-gray-400;
+    }
+
+    .alert.outline-secondary {
+        @apply border border-gray-500 text-gray-500 dark:border-gray-400 dark:text-gray-400;
+    }
+
+    /* === DOT VARIANTS === */
+    .alert .dot-primary {
+        @apply w-2 h-2 rounded-full bg-blue-600 dark:bg-blue-500;
+    }
+
+    .alert .dot-dark {
+        @apply w-2 h-2 rounded-full bg-gray-800 dark:bg-gray-700;
+    }
+
+    .alert .dot-danger {
+        @apply w-2 h-2 rounded-full bg-red-600 dark:bg-red-500;
+    }
+
+    .alert .dot-info {
+        @apply w-2 h-2 rounded-full bg-teal-600 dark:bg-teal-500;
+    }
+
+    .alert .dot-warning {
+        @apply w-2 h-2 rounded-full bg-yellow-500 dark:bg-yellow-400;
+    }
+
+    .alert .dot-white {
+        @apply w-2 h-2 rounded-full bg-white dark:bg-gray-400;
+    }
+
+    .alert .dot-secondary {
+        @apply w-2 h-2 rounded-full bg-gray-600 dark:bg-gray-500;
+    }
+}

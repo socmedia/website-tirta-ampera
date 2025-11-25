@@ -1,0 +1,110 @@
+[
+    {
+        "group": "general",
+        "key": "site_name",
+        "type": "input:text",
+        "meta": {
+            "required": true
+        },
+        "name": "Site Name",
+        "value": "Perumda Air Minum Tirta Ampera Boyolali",
+        "created_at": "2024-01-01 00:00:00",
+        "updated_at": "2024-01-01 00:00:00"
+    },
+    {
+        "group": "general",
+        "key": "site_tagline",
+        "type": "input:text",
+        "meta": {
+            "required": false
+        },
+        "name": "Tagline",
+        "value": "Melayani dengan Hati, Menyegarkan Negeri!",
+        "created_at": "2024-01-01 00:00:00",
+        "updated_at": "2024-01-01 00:00:00"
+    },
+    {
+        "group": "general",
+        "key": "logo",
+        "type": "input:image",
+        "meta": {
+            "required": true
+        },
+        "name": "Logo Long",
+        "value": "/assets/images/logo_long.png",
+        "created_at": "2024-01-01 00:00:00",
+        "updated_at": "2024-01-01 00:00:00"
+    },
+    {
+        "group": "general",
+        "key": "logo_square",
+        "type": "input:image",
+        "meta": {
+            "required": true
+        },
+        "name": "Logo Square",
+        "value": "/assets/images/logo_square.png",
+        "created_at": "2024-01-01 00:00:00",
+        "updated_at": "2024-01-01 00:00:00"
+    },
+    {
+        "group": "general",
+        "key": "logogram",
+        "type": "input:image",
+        "meta": {
+            "required": true
+        },
+        "name": "Logogram",
+        "value": "/assets/images/logogram.png",
+        "created_at": "2024-01-01 00:00:00",
+        "updated_at": "2024-01-01 00:00:00"
+    },
+    {
+        "group": "general",
+        "key": "favicon",
+        "type": "input:image",
+        "meta": {
+            "required": false
+        },
+        "name": "Favicon",
+        "value": "/assets/images/favicon.png",
+        "created_at": "2024-01-01 00:00:00",
+        "updated_at": "2024-01-01 00:00:00"
+    },
+    {
+        "group": "general",
+        "key": "thumbnail_1_1",
+        "type": "input:image",
+        "meta": {
+            "required": false
+        },
+        "name": "Thumbnail 1:1",
+        "value": "/assets/images/thumbnail/thumbnail_1_1.png",
+        "created_at": "2024-01-01 00:00:00",
+        "updated_at": "2024-01-01 00:00:00"
+    },
+    {
+        "group": "general",
+        "key": "thumbnail_3_2",
+        "type": "input:image",
+        "meta": {
+            "required": false
+        },
+        "name": "Thumbnail 3:2",
+        "value": "/assets/images/thumbnail/thumbnail_3_2.png",
+        "created_at": "2024-01-01 00:00:00",
+        "updated_at": "2024-01-01 00:00:00"
+    },
+    {
+        "group": "general",
+        "key": "copyright",
+        "type": "input:text",
+        "meta": {
+            "required": false
+        },
+        "name": "Copyright",
+        "value": "Copyright © Perumda Air Minum Tirta Ampera Boyolali 2024. All rights reserved.",
+        "created_at": "2024-01-01 00:00:00",
+        "updated_at": "2024-01-01 00:00:00"
+    }
+]

@@ -1,0 +1,131 @@
+@layer components {
+    /* Base */
+    .alert {
+        @apply flex items-center gap-x-3 rounded-lg border p-4;
+    }
+
+    /* === SIZES === */
+    .alert.alert-sm {
+        @apply p-3 text-sm;
+    }
+
+    .alert.alert-lg {
+        @apply p-5 text-base;
+    }
+
+    /* === SOLID VARIANTS === */
+    .alert.solid-primary {
+        @apply border-transparent bg-sky-600 text-white;
+    }
+
+    .alert.solid-dark {
+        @apply border-transparent bg-gray-800 text-white;
+    }
+
+    .alert.solid-danger {
+        @apply border-transparent bg-red-600 text-white;
+    }
+
+    .alert.solid-info {
+        @apply border-transparent bg-teal-600 text-white;
+    }
+
+    .alert.solid-warning {
+        @apply border-transparent bg-yellow-500 text-white;
+    }
+
+    .alert.solid-white {
+        @apply border border-gray-200 bg-white text-gray-800;
+    }
+
+    .alert.solid-secondary {
+        @apply border-transparent bg-gray-600 text-white;
+    }
+
+    /* === SOFT VARIANTS === */
+    .alert.soft-primary {
+        @apply border-transparent bg-sky-50 text-sky-800;
+    }
+
+    .alert.soft-dark {
+        @apply border-transparent bg-gray-50 text-gray-800;
+    }
+
+    .alert.soft-danger {
+        @apply border-transparent bg-red-50 text-red-800;
+    }
+
+    .alert.soft-info {
+        @apply border-transparent bg-teal-50 text-teal-800;
+    }
+
+    .alert.soft-warning {
+        @apply border-transparent bg-yellow-200 text-yellow-800;
+    }
+
+    .alert.soft-white {
+        @apply border-transparent bg-white/10 text-white;
+    }
+
+    .alert.soft-secondary {
+        @apply border-transparent bg-gray-50 text-gray-800;
+    }
+
+    /* === OUTLINE VARIANTS === */
+    .alert.outline-primary {
+        @apply border border-sky-600 text-sky-600 bg-transparent;
+    }
+
+    .alert.outline-dark {
+        @apply border border-gray-800 text-gray-800 bg-transparent;
+    }
+
+    .alert.outline-danger {
+        @apply border border-red-500 text-red-500 bg-transparent;
+    }
+
+    .alert.outline-info {
+        @apply border border-teal-500 text-teal-500 bg-transparent;
+    }
+
+    .alert.outline-warning {
+        @apply border border-yellow-500 text-yellow-500 bg-transparent;
+    }
+
+    .alert.outline-white {
+        @apply border border-white text-white bg-transparent;
+    }
+
+    .alert.outline-secondary {
+        @apply border border-gray-500 text-gray-500 bg-transparent;
+    }
+
+    /* === DOT VARIANTS === */
+    .alert .dot-primary {
+        @apply w-2 h-2 rounded-full bg-sky-600;
+    }
+
+    .alert .dot-dark {
+        @apply w-2 h-2 rounded-full bg-gray-800;
+    }
+
+    .alert .dot-danger {
+        @apply w-2 h-2 rounded-full bg-red-600;
+    }
+
+    .alert .dot-info {
+        @apply w-2 h-2 rounded-full bg-teal-600;
+    }
+
+    .alert .dot-warning {
+        @apply w-2 h-2 rounded-full bg-yellow-500;
+    }
+
+    .alert .dot-white {
+        @apply w-2 h-2 rounded-full bg-white;
+    }
+
+    .alert .dot-secondary {
+        @apply w-2 h-2 rounded-full bg-gray-600;
+    }
+}

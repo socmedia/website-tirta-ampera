@@ -1,0 +1,30 @@
+{
+    "name": "ssh/panel",
+    "description": "",
+    "authors": [
+        {
+            "name": "SOC Software House",
+            "email": "socsoftwarehouse@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Panel\\": "App/",
+            "Modules\\Panel\\Database\\Factories\\": "database/factories/",
+            "Modules\\Panel\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Panel\\Tests\\": "tests/"
+        }
+    }
+}

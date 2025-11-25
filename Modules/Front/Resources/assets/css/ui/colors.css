@@ -1,0 +1,59 @@
+@layer components {
+    /* Soft color variants */
+    .soft-primary {
+        @apply bg-sky-100 text-sky-800;
+    }
+
+    .soft-dark {
+        @apply bg-gray-100 text-gray-800;
+    }
+
+    .soft-danger {
+        @apply bg-red-100 text-red-800;
+    }
+
+    .soft-info {
+        @apply bg-teal-100 text-teal-800;
+    }
+
+    .soft-warning {
+        @apply bg-yellow-100 text-yellow-800;
+    }
+
+    .soft-white {
+        @apply bg-white/10 text-white;
+    }
+
+    .soft-secondary {
+        @apply bg-zinc-100 text-zinc-800;
+    }
+
+    /* Text color variants */
+    .text-primary {
+        @apply text-sky-800;
+    }
+
+    .text-dark {
+        @apply text-gray-800;
+    }
+
+    .text-danger {
+        @apply text-red-800;
+    }
+
+    .text-info {
+        @apply text-teal-800;
+    }
+
+    .text-warning {
+        @apply text-yellow-800;
+    }
+
+    .text-white {
+        @apply text-white;
+    }
+
+    .text-secondary {
+        @apply text-zinc-800;
+    }
+}

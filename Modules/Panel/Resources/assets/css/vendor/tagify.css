@@ -1,0 +1,43 @@
+@import "../../../../../../node_modules/@yaireo/tagify/dist/tagify.css";
+
+@layer components {
+    .custom-tagify .tagify {
+        @apply w-full !bg-white/70 !rounded-lg border !border-gray-200 px-4 !py-[1.30px] text-sm disabled:!opacity-50 disabled:!pointer-events-none dark:!bg-neutral-900 dark:!border-neutral-700 dark:!text-neutral-400 dark:!placeholder-neutral-500;
+    }
+
+    .custom-tagify .tagify.tagify--focus {
+        @apply !outline-none !ring-2 !ring-zinc-900 !ring-offset-1 dark:!ring-offset-neutral-900 dark:!ring-2 dark:!ring-neutral-400;
+    }
+
+    .custom-tagify .tagify .tagify__tag {
+        @apply !bg-gray-200 dark:!bg-neutral-800 overflow-hidden rounded-md before:inset-0;
+    }
+
+    .custom-tagify .tagify .tagify__tag > div {
+        @apply dark:!text-neutral-400 before:!inset-auto;
+    }
+
+    .custom-tagify .tagify .tagify__tag__removeBtn {
+        @apply dark:!text-neutral-400 dark:hover:!text-white hover:bg-blue-600;
+    }
+
+    .custom-tagify .tagify .tagify__input {
+        @apply text-gray-900 dark:text-neutral-200;
+    }
+
+    .tagify__dropdown {
+        @apply mt-2 !rounded-lg border !border-gray-200 !bg-white !p-2 !shadow-lg dark:!border-neutral-700 dark:!bg-neutral-900;
+    }
+
+    .tagify__dropdown__wrapper {
+        @apply !bg-transparent !border-0 !shadow-none;
+    }
+
+    .tagify__dropdown__item {
+        @apply !text-gray-600 dark:!text-neutral-400 my-1.5 !rounded-lg !bg-transparent !p-2 !border-0;
+    }
+
+    .tagify__dropdown__item--active {
+        @apply hover:!bg-neutral-100 dark:hover:!bg-neutral-800;
+    }
+}

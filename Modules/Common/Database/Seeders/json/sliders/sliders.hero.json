@@ -1,0 +1,59 @@
+[
+    {
+        "type": "HERO",
+        "desktop_media_path": "/assets/images/hero.jpg",
+        "mobile_media_path": null,
+        "heading": "Trusted Digital Solutions for Your Business",
+        "sub_heading": "Empowering Growth with SOC Software House",
+        "description": "SOC Software House delivers innovative, reliable, and scalable technology solutions to help your business thrive in the digital era.",
+        "alt": null,
+        "meta": {
+            "button_text": "Learn More",
+            "button_url": "/about"
+        },
+        "sort_order": 0,
+        "status": true,
+        "created_by": null,
+        "updated_by": null,
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "type": "HERO",
+        "desktop_media_path": "/assets/images/hero2.jpg",
+        "mobile_media_path": null,
+        "heading": "Your Partner in Digital Transformation",
+        "sub_heading": "Custom Software, Web, and Mobile Solutions",
+        "description": "From startups to enterprises, SOC Software House crafts tailored digital products that drive efficiency and innovation.",
+        "alt": null,
+        "meta": {
+            "button_text": "Our Services",
+            "button_url": "/services"
+        },
+        "sort_order": 1,
+        "status": true,
+        "created_by": null,
+        "updated_by": null,
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "type": "HERO",
+        "desktop_media_path": "/assets/images/hero3.jpg",
+        "mobile_media_path": null,
+        "heading": "Build, Launch, and Scale with Confidence",
+        "sub_heading": "Experienced Team. Proven Results.",
+        "description": "Join leading brands who trust SOC Software House to deliver robust digital solutions and ongoing support for sustainable growth.",
+        "alt": null,
+        "meta": {
+            "button_text": "Contact Us",
+            "button_url": "/contact"
+        },
+        "sort_order": 2,
+        "status": true,
+        "created_by": null,
+        "updated_by": null,
+        "created_at": null,
+        "updated_at": null
+    }
+]

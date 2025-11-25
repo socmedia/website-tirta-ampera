@@ -1,0 +1,31 @@
+@layer components {
+    .table-responsive {
+        @apply overflow-x-auto w-full;
+    }
+
+    .table {
+        @apply min-w-full divide-y divide-zinc-200;
+    }
+
+    .table thead {
+        @apply bg-zinc-50 py-1.5;
+    }
+
+    .table tbody {
+        @apply -m-1.5 bg-white;
+    }
+
+    .table thead th {
+        @apply px-6 py-3 uppercase font-semibold text-xs text-left text-zinc-600 hover:text-zinc-500 focus:outline-hidden focus:text-zinc-500;
+    }
+
+    .table tbody td {
+        @apply size-px px-6 py-3 text-sm text-zinc-700;
+    }
+
+    .table.freeze-right thead th:last-child,
+    .table.freeze-right tbody td:last-child {
+        /* @apply sticky right-0 bg-white z-10; */
+        /* box-shadow: -4px 0 6px -1px rgba(0, 0, 0, 0.1); */
+    }
+}

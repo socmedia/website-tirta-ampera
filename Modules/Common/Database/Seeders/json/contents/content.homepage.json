@@ -1,0 +1,158 @@
+[
+    {
+        "key": "homepage.hero.title",
+        "input_type": "input:text",
+        "name": "Title",
+        "value": "Perumda Air Minum"
+    },
+    {
+        "key": "homepage.hero.title_highlight",
+        "input_type": "input:text",
+        "name": "Title Highlight",
+        "value": "Tirta Ampera Boyolali"
+    },
+    {
+        "key": "homepage.hero.subtitle",
+        "input_type": "input:text",
+        "name": "Subtitle",
+        "value": "Kami berkomitmen memberikan pelayanan air bersih yang profesional, berkelanjutan, dan merata untuk meningkatkan kualitas hidup masyarakat dan mendukung kemandirian daerah."
+    },
+    {
+        "key": "homepage.hero.image",
+        "input_type": "input:image",
+        "name": "Image",
+        "value": "https://placehold.co/700x800/0067A3/FFFFFF?text=Foto+Instalasi+Pengolahan+Air"
+    },
+    {
+        "key": "homepage.hero.stats",
+        "input_type": "json",
+        "name": "Stats",
+        "value": [
+            {
+                "number": "70.000+",
+                "label": "Pelanggan Terlayani"
+            },
+            {
+                "number": "22",
+                "label": "Kecamatan Terjangkau"
+            },
+            {
+                "number": "98%",
+                "label": "Kualitas Air Teruji"
+            }
+        ]
+    },
+    {
+        "key": "homepage.about.title",
+        "input_type": "input:text",
+        "name": "Title",
+        "value": "BUMD Profesional Kebanggaan Boyolali"
+    },
+    {
+        "key": "homepage.about.subtitle",
+        "input_type": "input:text",
+        "name": "Subtitle",
+        "value": "Tentang Kami"
+    },
+    {
+        "key": "homepage.about.content",
+        "input_type": "textarea",
+        "name": "Content",
+        "value": "Perumda Air Minum Tirta Ampera adalah BUMD milik Pemerintah Kabupaten Boyolali yang berdedikasi penuh untuk menyelenggarakan pelayanan air bersih yang berkualitas, profesional, dan berkelanjutan bagi seluruh masyarakat."
+    },
+    {
+        "key": "homepage.about.features",
+        "input_type": "json",
+        "name": "About List",
+        "value": [
+            {
+                "title": "Profesional & Berintegritas",
+                "desc": "Dikelola oleh SDM kompeten dengan tata kelola perusahaan yang baik."
+            },
+            {
+                "title": "Fokus Pada Pelanggan",
+                "desc": "Menyediakan layanan digital yang mudah diakses dan responsif."
+            },
+            {
+                "title": "Inovasi Berkelanjutan",
+                "desc": "Terus beradaptasi dengan teknologi untuk menjaga kualitas air dan layanan."
+            }
+        ]
+    },
+    {
+        "key": "homepage.services.heading",
+        "input_type": "input:text",
+        "name": "Heading",
+        "value": "Layanan Digital Profesional"
+    },
+    {
+        "key": "homepage.services.description",
+        "input_type": "textarea",
+        "name": "Description",
+        "value": "Akses mudah untuk semua kebutuhan administratif Anda, langsung dari genggaman."
+    },
+    {
+        "key": "homepage.services.list",
+        "input_type": "json",
+        "name": "Service List",
+        "value": [
+            {
+                "title": "Cek & Bayar Tagihan",
+                "desc": "Bayar tagihan air Anda kapan saja, di mana saja, tanpa perlu login atau antre di loket.",
+                "cta": "Bayar Sekarang",
+                "url": "/layanan"
+            },
+            {
+                "title": "Sambungan Baru",
+                "desc": "Ajukan sambungan baru air bersih untuk rumah atau bisnis Anda secara online.",
+                "cta": "Ajukan Sekarang",
+                "url": "/layanan"
+            },
+            {
+                "title": "Pengaduan & Laporan",
+                "desc": "Laporkan kebocoran, air keruh, atau gangguan layanan 24 jam melalui saluran resmi kami.",
+                "cta": "Lapor Sekarang",
+                "url": "/hubungi-kami"
+            }
+        ]
+    },
+    {
+        "key": "homepage.partners.heading",
+        "input_type": "input:text",
+        "name": "Heading",
+        "value": "Dipercaya oleh Mitra Profesional"
+    },
+    {
+        "key": "homepage.partners.description",
+        "input_type": "textarea",
+        "name": "Description",
+        "value": "Kami bekerja sama dengan berbagai pemangku kepentingan untuk menjamin pelayanan terbaik."
+    },
+    {
+        "key": "homepage.partners.logos",
+        "input_type": "json",
+        "name": "Partner Logos",
+        "value": [
+            {
+                "name": "Pemkab Boyolali",
+                "image": "https://placehold.co/200x100/CCCCCC/94A3B8?text=PEMKAB+BOYOLALI"
+            },
+            {
+                "name": "Bank Jateng",
+                "image": "https://placehold.co/200x100/CCCCCC/94A3B8?text=BANK+JATENG"
+            },
+            {
+                "name": "Perpamsi",
+                "image": "https://placehold.co/200x100/CCCCCC/94A3B8?text=PERPAMSI"
+            },
+            {
+                "name": "Mitra 4",
+                "image": "https://placehold.co/200x100/CCCCCC/94A3B8?text=LOGO+MITRA+4"
+            },
+            {
+                "name": "Mitra 5",
+                "image": "https://placehold.co/200x100/CCCCCC/94A3B8?text=LOGO+MITRA+5"
+            }
+        ]
+    }
+]

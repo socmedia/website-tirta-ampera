@@ -1,0 +1,38 @@
+[
+    {
+        "key": "seo.news.title",
+        "input_type": "input:text",
+        "meta": {},
+        "name": "SEO Title",
+        "value": "Berita & Artikel",
+        "page": "news",
+        "section": "title"
+    },
+    {
+        "key": "seo.news.description",
+        "input_type": "textarea",
+        "meta": {},
+        "name": "SEO Description",
+        "value": "Ikuti kabar terbaru, kisah, dan artikel dari Perumda Air Minum Tirta Ampera Boyolali. Temukan insight, acara, dan perkembangan seputar pelayanan air minum dan teknologi.",
+        "page": "news",
+        "section": "description"
+    },
+    {
+        "key": "seo.news.image",
+        "input_type": "input:image",
+        "meta": {},
+        "name": "SEO Image",
+        "value": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1000&q=80",
+        "page": "news",
+        "section": "image"
+    },
+    {
+        "key": "seo.news.keywords",
+        "input_type": "input:text",
+        "meta": {},
+        "name": "SEO Keywords",
+        "value": "Tirta Ampera Boyolali, berita, artikel, pelayanan air, pengumuman, teknologi, acara, update perusahaan",
+        "page": "news",
+        "section": "keywords"
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "key": "seo.homepage.title",
+        "input_type": "input:text",
+        "type": "content",
+        "meta": {},
+        "name": "SEO Title",
+        "value": "Perumda Air Minum Tirta Ampera Boyolali - Melayani dengan Hati, Menyegarkan Negeri!",
+        "page": "homepage",
+        "section": "title"
+    },
+    {
+        "key": "seo.homepage.description",
+        "input_type": "textarea",
+        "type": "content",
+        "meta": {},
+        "name": "SEO Description",
+        "value": "Perumda Air Minum Tirta Ampera Boyolali adalah BUMD yang menyediakan layanan air bersih andal dan profesional untuk mendukung kualitas hidup masyarakat Boyolali. Komitmen kami adalah menghadirkan pelayanan berkualitas, berkelanjutan, dan merata.",
+        "page": "homepage",
+        "section": "description"
+    },
+    {
+        "key": "seo.homepage.image",
+        "input_type": "input:image",
+        "type": "content",
+        "meta": {},
+        "name": "SEO Image",
+        "value": "public/assets/images/logo_long.png",
+        "page": "homepage",
+        "section": "image"
+    },
+    {
+        "key": "seo.homepage.keywords",
+        "input_type": "input:text",
+        "type": "content",
+        "meta": {},
+        "name": "SEO Keywords",
+        "value": "Perumda Air Minum, Tirta Ampera, Boyolali, air bersih, BUMD, layanan air Boyolali, profesional, kualitas air, pelayanan publik",
+        "page": "homepage",
+        "section": "keywords"
+    }
+]

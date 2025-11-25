@@ -1,0 +1,74 @@
+[
+    {
+        "group": "social",
+        "key": "social_instagram",
+        "type": "input:url",
+        "meta": {
+            "required": false
+        },
+        "name": "Instagram Link",
+        "value": "https://www.instagram.com/socsoftwarehouse",
+        "created_at": "2023-01-01 00:00:00",
+        "updated_at": "2023-01-01 00:00:00"
+    },
+    {
+        "group": "social",
+        "key": "social_instagram_id",
+        "type": "input:text",
+        "meta": {
+            "required": false
+        },
+        "name": "Instagram ID",
+        "value": "socsoftwarehouse",
+        "created_at": "2023-01-01 00:00:00",
+        "updated_at": "2023-01-01 00:00:00"
+    },
+    {
+        "group": "social",
+        "key": "social_facebook",
+        "type": "input:url",
+        "meta": {
+            "required": false
+        },
+        "name": "Facebook Link",
+        "value": "",
+        "created_at": "2023-01-01 00:00:00",
+        "updated_at": "2023-01-01 00:00:00"
+    },
+    {
+        "group": "social",
+        "key": "social_facebook_id",
+        "type": "input:text",
+        "meta": {
+            "required": false
+        },
+        "name": "Facebook ID",
+        "value": "",
+        "created_at": "2023-01-01 00:00:00",
+        "updated_at": "2023-01-01 00:00:00"
+    },
+    {
+        "group": "social",
+        "key": "social_tiktok",
+        "type": "input:url",
+        "meta": {
+            "required": false
+        },
+        "name": "TikTok Link",
+        "value": "https://www.tiktok.com/@socsoftwarehouse",
+        "created_at": "2023-01-01 00:00:00",
+        "updated_at": "2023-01-01 00:00:00"
+    },
+    {
+        "group": "social",
+        "key": "social_tiktok_id",
+        "type": "input:text",
+        "meta": {
+            "required": false
+        },
+        "name": "TikTok ID",
+        "value": "socsoftwarehouse",
+        "created_at": "2023-01-01 00:00:00",
+        "updated_at": "2023-01-01 00:00:00"
+    }
+]

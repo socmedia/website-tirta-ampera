@@ -1,0 +1,371 @@
+[
+    {
+        "category": "company",
+        "question": "Apa visi utama SOC Software House?",
+        "slug": "visi-utama-soc-software-house",
+        "answer": "Visi SOC Software House adalah menjadi penyedia solusi perangkat lunak terdepan di Indonesia dan Asia Tenggara.",
+        "sort_order": 1,
+        "featured": 0,
+        "status": 1
+    },
+    {
+        "category": "company",
+        "question": "Sejak kapan SOC Software House berdiri?",
+        "slug": "sejarah-soc-software-house",
+        "answer": "SOC Software House berdiri sejak tahun 2020 dan telah melayani berbagai klien dari berbagai industri.",
+        "sort_order": 2,
+        "featured": 0,
+        "status": 1
+    },
+    {
+        "category": "company",
+        "question": "Berapa jumlah proyek yang telah diselesaikan SOC Software House?",
+        "slug": "jumlah-proyek-soc-software-house",
+        "answer": "Hingga saat ini, SOC Software House telah menyelesaikan lebih dari 200 proyek perangkat lunak.",
+        "sort_order": 3,
+        "featured": 0,
+        "status": 1
+    },
+    {
+        "category": "service",
+        "question": "Apa keunggulan layanan SOC Software House?",
+        "slug": "keunggulan-layanan-soc-software-house",
+        "answer": "SOC Software House menawarkan solusi kustom, tim berpengalaman, dan dukungan penuh untuk setiap klien.",
+        "sort_order": 4,
+        "featured": 0,
+        "status": 1
+    },
+    {
+        "category": "company",
+        "question": "Apakah SOC Software House berkomitmen pada keberlanjutan?",
+        "slug": "soc-software-house-keberlanjutan",
+        "answer": "Ya, SOC Software House berkomitmen pada pengembangan perangkat lunak yang ramah lingkungan dan berkelanjutan.",
+        "sort_order": 5,
+        "featured": 0,
+        "status": 1
+    },
+    {
+        "category": "company",
+        "question": "Siapa pendiri SOC Software House?",
+        "slug": "pendiri-soc-software-house",
+        "answer": "SOC Software House didirikan oleh tim profesional IT dengan pengalaman di bidang pengembangan perangkat lunak dan bisnis.",
+        "sort_order": 6,
+        "featured": 0,
+        "status": 1
+    },
+    {
+        "category": "technology",
+        "question": "Apakah SOC Software House sudah menggunakan teknologi terbaru?",
+        "slug": "soc-software-house-teknologi-terbaru",
+        "answer": "Ya, SOC Software House selalu mengadopsi teknologi terbaru untuk setiap solusi yang dikembangkan.",
+        "sort_order": 7,
+        "featured": 0,
+        "status": 1
+    },
+    {
+        "category": "service",
+        "question": "Apakah SOC Software House hanya melayani klien di Indonesia?",
+        "slug": "soc-software-house-klien",
+        "answer": "SOC Software House melayani klien di Indonesia dan juga beberapa negara di Asia Tenggara.",
+        "sort_order": 8,
+        "featured": 0,
+        "status": 1
+    },
+    {
+        "category": "company",
+        "question": "Apa strategi pertumbuhan SOC Software House?",
+        "slug": "soc-software-house-strategi-pertumbuhan",
+        "answer": "Strateginya adalah inovasi produk, pengembangan SDM, dan ekspansi pasar.",
+        "sort_order": 9,
+        "featured": 0,
+        "status": 1
+    },
+    {
+        "category": "partnership",
+        "question": "Apakah SOC Software House bekerja sama dengan institusi pendidikan?",
+        "slug": "soc-software-house-institusi-pendidikan",
+        "answer": "Ya, SOC Software House bermitra dengan universitas dan sekolah untuk pengembangan talenta digital.",
+        "sort_order": 10,
+        "featured": 0,
+        "status": 1
+    },
+    {
+        "category": "service",
+        "question": "Apa saja layanan utama SOC Software House?",
+        "slug": "layanan-utama-soc-software-house",
+        "answer": "SOC Software House menyediakan pengembangan aplikasi web, mobile, integrasi sistem, dan konsultasi IT.",
+        "sort_order": 11,
+        "featured": 0,
+        "status": 1
+    },
+    {
+        "category": "technology",
+        "question": "Apakah SOC Software House memiliki produk open source?",
+        "slug": "produk-open-source-soc-software-house",
+        "answer": "Ya, SOC Software House aktif mengembangkan dan membagikan produk open source untuk komunitas.",
+        "sort_order": 12,
+        "featured": 0,
+        "status": 1
+    },
+    {
+        "category": "process",
+        "question": "Bagaimana proses pengembangan proyek di SOC Software House?",
+        "slug": "proses-pengembangan-soc-software-house",
+        "answer": "Proses pengembangan mengikuti metodologi agile dengan komunikasi intensif bersama klien.",
+        "sort_order": 13,
+        "featured": 0,
+        "status": 1
+    },
+    {
+        "category": "service",
+        "question": "Apakah SOC Software House menyediakan layanan maintenance?",
+        "slug": "layanan-maintenance-soc-software-house",
+        "answer": "Ya, SOC Software House menyediakan layanan maintenance dan support pasca implementasi.",
+        "sort_order": 14,
+        "featured": 0,
+        "status": 1
+    },
+    {
+        "category": "service",
+        "question": "Apakah SOC Software House menerima proyek dari luar negeri?",
+        "slug": "proyek-luar-negeri-soc-software-house",
+        "answer": "Ya, SOC Software House terbuka untuk proyek dari luar negeri dan telah berpengalaman dalam kerja remote.",
+        "sort_order": 15,
+        "featured": 0,
+        "status": 1
+    },
+    {
+        "category": "security",
+        "question": "Bagaimana SOC Software House menjaga keamanan data klien?",
+        "slug": "keamanan-data-soc-software-house",
+        "answer": "SOC Software House menerapkan standar keamanan tinggi dan audit berkala untuk melindungi data klien.",
+        "sort_order": 16,
+        "featured": 0,
+        "status": 1
+    },
+    {
+        "category": "service",
+        "question": "Apakah SOC Software House menyediakan pelatihan untuk klien?",
+        "slug": "pelatihan-klien-soc-software-house",
+        "answer": "Ya, SOC Software House menyediakan pelatihan penggunaan aplikasi dan transfer knowledge.",
+        "sort_order": 17,
+        "featured": 0,
+        "status": 1
+    },
+    {
+        "category": "contact",
+        "question": "Bagaimana cara konsultasi dengan SOC Software House?",
+        "slug": "konsultasi-soc-software-house",
+        "answer": "Konsultasi dapat dilakukan melalui website resmi atau menghubungi tim sales SOC Software House.",
+        "sort_order": 18,
+        "featured": 0,
+        "status": 1
+    },
+    {
+        "category": "certification",
+        "question": "Apakah SOC Software House memiliki sertifikasi ISO?",
+        "slug": "sertifikasi-iso-soc-software-house",
+        "answer": "SOC Software House telah memperoleh beberapa sertifikasi ISO terkait manajemen kualitas dan keamanan informasi.",
+        "sort_order": 19,
+        "featured": 0,
+        "status": 1
+    },
+    {
+        "category": "career",
+        "question": "Bagaimana cara menjadi bagian dari tim SOC Software House?",
+        "slug": "karir-soc-software-house",
+        "answer": "Informasi lowongan dan rekrutmen tersedia di website resmi SOC Software House pada menu Karir.",
+        "sort_order": 20,
+        "featured": 0,
+        "status": 1
+    },
+    {
+        "category": "documentation",
+        "question": "Di mana mendapatkan dokumentasi produk SOC Software House?",
+        "slug": "dokumentasi-produk-soc-software-house",
+        "answer": "Dokumentasi produk dapat diakses melalui portal dokumentasi di website resmi SOC Software House.",
+        "sort_order": 21,
+        "featured": 0,
+        "status": 1
+    },
+    {
+        "category": "contact",
+        "question": "Bagaimana cara menghubungi tim support SOC Software House?",
+        "slug": "hubungi-support-soc-software-house",
+        "answer": "Tim support dapat dihubungi melalui email support@soc.co.id atau formulir kontak di website.",
+        "sort_order": 22,
+        "featured": 0,
+        "status": 1
+    },
+    {
+        "category": "report",
+        "question": "Apakah SOC Software House menyediakan laporan proyek berkala?",
+        "slug": "laporan-proyek-soc-software-house",
+        "answer": "Ya, laporan perkembangan proyek diberikan secara berkala kepada klien.",
+        "sort_order": 23,
+        "featured": 0,
+        "status": 1
+    },
+    {
+        "category": "legal",
+        "question": "Apa saja dokumen legal yang tersedia untuk klien?",
+        "slug": "dokumen-legal-soc-software-house",
+        "answer": "Dokumen legal seperti NDA, kontrak, dan SLA tersedia sesuai kebutuhan klien.",
+        "sort_order": 24,
+        "featured": 0,
+        "status": 1
+    },
+    {
+        "category": "documentation",
+        "question": "Apakah SOC Software House menyediakan whitepaper atau studi kasus?",
+        "slug": "whitepaper-soc-software-house",
+        "answer": "Ya, whitepaper dan studi kasus dapat diunduh di website resmi SOC Software House.",
+        "sort_order": 25,
+        "featured": 0,
+        "status": 1
+    },
+    {
+        "category": "report",
+        "question": "Apakah tersedia laporan analis tentang SOC Software House?",
+        "slug": "laporan-analis-soc-software-house",
+        "answer": "Ya, beberapa laporan analis tersedia untuk klien dan mitra bisnis.",
+        "sort_order": 26,
+        "featured": 0,
+        "status": 1
+    },
+    {
+        "category": "training",
+        "question": "Apakah SOC Software House menyediakan pelatihan untuk pengembang?",
+        "slug": "pelatihan-pengembang-soc-software-house",
+        "answer": "Ya, SOC Software House menyediakan pelatihan dan workshop untuk pengembang internal maupun eksternal.",
+        "sort_order": 27,
+        "featured": 0,
+        "status": 1
+    },
+    {
+        "category": "partnership",
+        "question": "Bagaimana cara menjadi mitra SOC Software House?",
+        "slug": "cara-mitra-soc-software-house",
+        "answer": "Calon mitra dapat mendaftar melalui website resmi SOC Software House pada menu Kemitraan.",
+        "sort_order": 28,
+        "featured": 0,
+        "status": 1
+    },
+    {
+        "category": "loyalty",
+        "question": "Apakah SOC Software House memiliki program loyalitas klien?",
+        "slug": "loyalitas-klien-soc-software-house",
+        "answer": "Ya, tersedia program loyalitas dan benefit khusus untuk klien setia.",
+        "sort_order": 29,
+        "featured": 0,
+        "status": 1
+    },
+    {
+        "category": "payment",
+        "question": "Apakah SOC Software House menerima pembayaran digital?",
+        "slug": "pembayaran-digital-soc-software-house",
+        "answer": "Ya, SOC Software House menerima berbagai metode pembayaran digital.",
+        "sort_order": 30,
+        "featured": 0,
+        "status": 1
+    },
+    {
+        "category": "career",
+        "question": "Apakah SOC Software House memiliki program magang?",
+        "slug": "program-magang-soc-software-house",
+        "answer": "Ya, SOC Software House membuka program magang untuk mahasiswa dan fresh graduate.",
+        "sort_order": 31,
+        "featured": 0,
+        "status": 1
+    },
+    {
+        "category": "contact",
+        "question": "Bagaimana cara memberikan feedback ke SOC Software House?",
+        "slug": "feedback-soc-software-house",
+        "answer": "Feedback dapat diberikan melalui aplikasi, website, atau media sosial resmi SOC Software House.",
+        "sort_order": 32,
+        "featured": 0,
+        "status": 1
+    },
+    {
+        "category": "service",
+        "question": "Apakah SOC Software House menyediakan layanan konsultasi gratis?",
+        "slug": "layanan-konsultasi-gratis-soc-software-house",
+        "answer": "Ya, tersedia sesi konsultasi gratis untuk klien baru melalui website resmi.",
+        "sort_order": 33,
+        "featured": 0,
+        "status": 1
+    },
+    {
+        "category": "certification",
+        "question": "Apakah SOC Software House memiliki sertifikasi halal untuk produk digital?",
+        "slug": "sertifikasi-halal-soc-software-house",
+        "answer": "SOC Software House memastikan seluruh produk digital sesuai dengan standar etika dan regulasi yang berlaku.",
+        "sort_order": 34,
+        "featured": 0,
+        "status": 1
+    },
+    {
+        "category": "service",
+        "question": "Bagaimana cara memulai proyek dengan SOC Software House?",
+        "slug": "cara-memulai-proyek-soc-software-house",
+        "answer": "Proyek dapat dimulai dengan mengisi formulir konsultasi di website atau menghubungi tim sales.",
+        "sort_order": 35,
+        "featured": 0,
+        "status": 1
+    },
+    {
+        "category": "service",
+        "question": "Apakah ada minimum nilai proyek di SOC Software House?",
+        "slug": "minimum-nilai-proyek-soc-software-house",
+        "answer": "Nilai minimum proyek dapat didiskusikan sesuai kebutuhan dan skala proyek.",
+        "sort_order": 36,
+        "featured": 0,
+        "status": 1
+    },
+    {
+        "category": "service",
+        "question": "Bagaimana cara memantau progres proyek di SOC Software House?",
+        "slug": "pantau-progres-proyek-soc-software-house",
+        "answer": "Progres proyek dapat dipantau melalui dashboard klien yang disediakan oleh SOC Software House.",
+        "sort_order": 37,
+        "featured": 0,
+        "status": 1
+    },
+    {
+        "category": "product",
+        "question": "Apakah SOC Software House memiliki rencana pengembangan produk baru?",
+        "slug": "rencana-pengembangan-produk-soc-software-house",
+        "answer": "Ya, roadmap pengembangan produk baru selalu diperbarui dan diinformasikan ke klien.",
+        "sort_order": 38,
+        "featured": 0,
+        "status": 1
+    },
+    {
+        "category": "news",
+        "question": "Di mana mendapatkan update terbaru tentang SOC Software House?",
+        "slug": "update-terbaru-soc-software-house",
+        "answer": "Update terbaru tersedia di website resmi dan media sosial SOC Software House.",
+        "sort_order": 39,
+        "featured": 0,
+        "status": 1
+    },
+    {
+        "category": "news",
+        "question": "Bagaimana cara berlangganan newsletter SOC Software House?",
+        "slug": "newsletter-soc-software-house",
+        "answer": "Newsletter dapat diakses dan didaftarkan melalui website resmi SOC Software House.",
+        "sort_order": 40,
+        "featured": 0,
+        "status": 1
+    },
+    {
+        "category": "news",
+        "question": "Apakah SOC Software House mengadakan event untuk komunitas?",
+        "slug": "event-komunitas-soc-software-house",
+        "answer": "Ya, event komunitas dan webinar diadakan secara berkala dan informasinya tersedia di website.",
+        "sort_order": 41,
+        "featured": 0,
+        "status": 1
+    }
+]

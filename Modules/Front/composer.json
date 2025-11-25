@@ -1,0 +1,30 @@
+{
+    "name": "ssh/front",
+    "description": "",
+    "authors": [
+        {
+            "name": "SOC Software House",
+            "email": "socsoftwarehouse@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Front\\": "App/",
+            "Modules\\Front\\Database\\Factories\\": "database/factories/",
+            "Modules\\Front\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Front\\Tests\\": "tests/"
+        }
+    }
+}

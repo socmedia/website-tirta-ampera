@@ -1,0 +1,166 @@
+{
+    "parent": [
+        {
+            "parent": null,
+            "status": true,
+            "featured": false,
+            "group": "notifications",
+            "sort_order": 1,
+            "name": "Order",
+            "slug": "order",
+            "description": "Kategori notifikasi terkait order (Order Category)"
+        },
+        {
+            "parent": null,
+            "status": true,
+            "featured": false,
+            "group": "notifications",
+            "sort_order": 2,
+            "name": "User",
+            "slug": "user",
+            "description": "Kategori notifikasi terkait user (User Category)"
+        },
+        {
+            "parent": null,
+            "status": true,
+            "featured": false,
+            "group": "notifications",
+            "sort_order": 3,
+            "name": "Customer",
+            "slug": "customer",
+            "description": "Kategori notifikasi terkait customer (Customer Category)"
+        },
+        {
+            "parent": null,
+            "status": true,
+            "featured": false,
+            "group": "notifications",
+            "sort_order": 4,
+            "name": "Mentor",
+            "slug": "mentor",
+            "description": "Kategori notifikasi terkait mentor (Mentor Category)"
+        },
+        {
+            "parent": null,
+            "status": true,
+            "featured": false,
+            "group": "notifications",
+            "sort_order": 5,
+            "name": "Course",
+            "slug": "course",
+            "description": "Kategori notifikasi terkait course (Course Category)"
+        }
+    ],
+    "child": [
+        {
+            "parent": "Order",
+            "status": true,
+            "featured": false,
+            "group": "notifications",
+            "icon": "/assets/default/Iconex/Document.svg",
+            "sort_order": 1,
+            "name": "Create Order",
+            "slug": "create-order",
+            "description": "Notifikasi saat order dibuat (Create Order Notification)"
+        },
+        {
+            "parent": "Order",
+            "status": true,
+            "featured": false,
+            "group": "notifications",
+            "icon": "/assets/default/Iconex/Document.svg",
+            "sort_order": 2,
+            "name": "Order Complete",
+            "slug": "order-complete",
+            "description": "Notifikasi saat order selesai (Order Complete Notification)"
+        },
+        {
+            "parent": "Order",
+            "status": true,
+            "featured": false,
+            "group": "notifications",
+            "icon": "/assets/default/Iconex/Rocket.svg",
+            "sort_order": 3,
+            "name": "Payment Success",
+            "slug": "payment-success",
+            "description": "Notifikasi pembayaran sukses (Payment Success Notification)"
+        },
+        {
+            "parent": "Order",
+            "status": true,
+            "featured": false,
+            "group": "notifications",
+            "icon": "/assets/default/Iconex/Danger.svg",
+            "sort_order": 4,
+            "name": "Payment Error",
+            "slug": "payment-error",
+            "description": "Notifikasi pembayaran gagal (Payment Error Notification)"
+        },
+        {
+            "parent": "Order",
+            "status": true,
+            "featured": false,
+            "group": "notifications",
+            "icon": "/assets/default/Iconex/Danger.svg",
+            "sort_order": 5,
+            "name": "Payment Expired",
+            "slug": "payment-expired",
+            "description": "Notifikasi pembayaran kadaluarsa (Payment Expired Notification)"
+        },
+        {
+            "parent": "Customer",
+            "status": true,
+            "featured": false,
+            "group": "notifications",
+            "icon": "/assets/default/Iconex/Add user.svg",
+            "sort_order": 6,
+            "name": "New Customer",
+            "slug": "new-customer",
+            "description": "Notifikasi customer baru (New Customer Notification)"
+        },
+        {
+            "parent": "Course",
+            "status": true,
+            "featured": false,
+            "group": "notifications",
+            "icon": "/assets/default/Iconex/Message square.svg",
+            "sort_order": 7,
+            "name": "Course Review",
+            "slug": "course-review",
+            "description": "Notifikasi review course (Course Review Notification)"
+        },
+        {
+            "parent": "Course",
+            "status": true,
+            "featured": false,
+            "group": "notifications",
+            "icon": "/assets/default/Iconex/Book.svg",
+            "sort_order": 8,
+            "name": "Course Lesson",
+            "slug": "course-lesson",
+            "description": "Notifikasi lesson pada course (Course Lesson Notification)"
+        },
+        {
+            "parent": "Course",
+            "status": true,
+            "featured": false,
+            "group": "notifications",
+            "icon": "/assets/default/Iconex/Book.svg",
+            "sort_order": 9,
+            "name": "Course Claimed",
+            "slug": "course-claimed",
+            "description": "Notifikasi course diklaim (Course Claimed Notification)"
+        },
+        {
+            "parent": "Course",
+            "status": true,
+            "featured": false,
+            "group": "notifications",
+            "icon": "/assets/default/Iconex/Book.svg",
+            "sort_order": 10,
+            "name": "Course Given",
+            "slug": "course-given",
+            "description": "Notifikasi course diberikan (Course Given Notification)"
+        }
+    ]
+}

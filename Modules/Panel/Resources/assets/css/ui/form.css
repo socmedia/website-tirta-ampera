@@ -1,0 +1,290 @@
+@layer components {
+    .form-label {
+        @apply block text-sm font-medium dark:text-white;
+    }
+
+    .form-label.disabled {
+        @apply cursor-not-allowed;
+    }
+
+    /* Base input styles */
+    .form-input {
+        @apply block w-full rounded-lg border border-gray-200 px-4 py-2.5 text-sm bg-white/70
+        focus:outline-none focus:ring-2 focus:ring-zinc-900 focus:ring-offset-1
+        disabled:pointer-events-none disabled:bg-neutral-100 dark:disabled:bg-neutral-800 dark:focus:ring-offset-neutral-900
+        dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400
+        dark:placeholder-neutral-500 dark:focus:ring-2 dark:focus:ring-neutral-400;
+    }
+
+    .form-input.disabled {
+        @apply cursor-not-allowed bg-neutral-100 dark:bg-neutral-800;
+    }
+
+    /* Size variants */
+    .form-input-sm {
+        @apply py-1.5 px-3 text-xs;
+    }
+
+    .form-input-lg {
+        @apply py-3 px-4 text-base;
+    }
+
+    /* Select input */
+    .form-select {
+        @apply appearance-none bg-no-repeat bg-[length:1.5em_1.5em] bg-[right_0.5rem_center] pr-10;
+        @apply block w-full rounded-lg border border-gray-200 px-4 py-2.5 text-sm bg-white/70
+        focus:outline-none focus:ring-2 focus:ring-zinc-900 focus:ring-offset-1
+        disabled:pointer-events-none disabled:bg-neutral-100 dark:disabled:bg-neutral-800 dark:focus:ring-offset-neutral-900
+        dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400
+        dark:placeholder-neutral-500 dark:focus:ring-2 dark:focus:ring-neutral-400;
+    }
+
+    .form-select.disabled {
+        @apply cursor-not-allowed bg-neutral-100 dark:bg-neutral-800;
+    }
+
+    /* Textarea */
+    .form-textarea {
+        @apply min-h-[100px] resize-y;
+        @apply block w-full rounded-lg border border-gray-200 px-4 py-2.5 text-sm
+        focus:outline-none focus:ring-2 focus:ring-zinc-900 focus:ring-offset-1
+        disabled:pointer-events-none disabled:bg-neutral-100 dark:disabled:bg-neutral-800 dark:focus:ring-offset-neutral-900
+        dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400
+        dark:placeholder-neutral-500 dark:focus:ring-2 dark:focus:ring-neutral-400;
+    }
+
+    .form-textarea.disabled {
+        @apply cursor-not-allowed bg-neutral-100 dark:bg-neutral-800;
+    }
+
+    /* Checkbox */
+    .form-checkbox {
+        @apply rounded shrink-0 mt-0.5 text-blue-600 disabled:pointer-events-none disabled:bg-neutral-100 dark:disabled:bg-neutral-800 dark:bg-neutral-800 dark:border-neutral-700 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800;
+        cursor: pointer;
+        transition: box-shadow 0.1s ease;
+    }
+
+    .form-checkbox.disabled {
+        @apply cursor-not-allowed bg-neutral-100 dark:bg-neutral-800;
+    }
+
+    .form-checkbox:focus {
+        @apply outline-none ring-2 ring-blue-500 ring-offset-1;
+    }
+
+    .form-checkbox-sm {
+        @apply w-3 h-3;
+    }
+
+    .form-checkbox-lg {
+        @apply w-5 h-5;
+    }
+
+    /* Switch/Toggle */
+    .form-switch {
+        @apply relative inline-flex items-center rounded-full bg-gray-200 dark:bg-gray-700 h-6 w-11;
+    }
+
+    .form-switch.disabled {
+        @apply cursor-not-allowed;
+    }
+
+    .form-switch-sm {
+        @apply h-4 w-7;
+    }
+
+    .form-switch-lg {
+        @apply h-8 w-14;
+    }
+
+    .form-switch:checked {
+        @apply bg-blue-600 dark:bg-blue-600;
+    }
+
+    .form-switch-thumb {
+        @apply inline-block h-4 w-4 translate-x-1 rounded-full bg-white transition checked:translate-x-6;
+    }
+
+    .form-switch-thumb-sm {
+        @apply h-3 w-3 translate-x-0.5 checked:translate-x-3;
+    }
+
+    .form-switch-thumb-lg {
+        @apply h-6 w-6 translate-x-1 checked:translate-x-7;
+    }
+
+    /* Radio */
+    .form-radio {
+        @apply w-4 h-4 text-blue-600 bg-white border-gray-300 rounded-full
+        focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800
+        dark:bg-gray-700 dark:border-gray-600 disabled:bg-neutral-100 dark:disabled:bg-neutral-800;
+    }
+
+    .form-radio.disabled {
+        @apply cursor-not-allowed bg-neutral-100 dark:bg-neutral-800;
+    }
+
+    .form-radio-sm {
+        @apply w-3 h-3;
+    }
+
+    .form-radio-lg {
+        @apply w-5 h-5;
+    }
+
+    /* File input */
+    .form-file {
+        @apply block w-full pr-2 border border-gray-200 rounded-lg text-sm focus:z-10 text-ellipsis
+        focus:outline-none focus:ring-2 focus:ring-zinc-900 focus:ring-offset-1
+        disabled:pointer-events-none disabled:bg-neutral-100 dark:disabled:bg-neutral-800 dark:focus:ring-offset-neutral-900
+      dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400
+      dark:placeholder-neutral-500 dark:focus:ring-2 dark:focus:ring-neutral-400
+      file:bg-gray-100 file:font-medium file:border-0 file:text-neutral-600 file:me-4 file:py-2.5 file:px-4
+      dark:file:bg-neutral-700 dark:file:text-neutral-400;
+    }
+
+    .form-file.disabled {
+        @apply cursor-not-allowed bg-neutral-100 dark:bg-neutral-800;
+    }
+
+    .form-file-sm {
+        @apply text-xs file:py-1 file:px-2;
+    }
+
+    .form-file-lg {
+        @apply text-base file:py-3 file:px-5;
+    }
+
+    /* Search input */
+    .form-search {
+        @apply pl-10;
+        @apply block w-full rounded-lg border border-gray-200 px-4 py-2.5 text-sm
+        focus:outline-none focus:ring-2 focus:ring-zinc-900 focus:ring-offset-1
+        disabled:pointer-events-none disabled:bg-neutral-100 dark:disabled:bg-neutral-800 dark:focus:ring-offset-neutral-900
+        dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400
+        dark:placeholder-neutral-500 dark:focus:ring-2 dark:focus:ring-neutral-400;
+    }
+
+    .form-search.disabled {
+        @apply cursor-not-allowed bg-neutral-100 dark:bg-neutral-800;
+    }
+
+    /* Number input */
+    .form-number {
+        @apply [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none;
+        @apply block w-full rounded-lg border border-gray-200 px-4 py-2.5 text-sm
+        focus:outline-none focus:ring-2 focus:ring-zinc-900 focus:ring-offset-1
+        disabled:pointer-events-none disabled:bg-neutral-100 dark:disabled:bg-neutral-800 dark:focus:ring-offset-neutral-900
+        dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400
+        dark:placeholder-neutral-500 dark:focus:ring-2 dark:focus:ring-neutral-400;
+    }
+
+    .form-number.disabled {
+        @apply cursor-not-allowed bg-neutral-100 dark:bg-neutral-800;
+    }
+
+    /* Date input */
+    .form-date {
+        @apply block w-full rounded-lg border border-gray-200 px-4 py-2.5 text-sm
+        focus:outline-none focus:ring-2 focus:ring-zinc-900 focus:ring-offset-1
+        disabled:pointer-events-none disabled:bg-neutral-100 dark:disabled:bg-neutral-800 dark:focus:ring-offset-neutral-900
+        dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400
+        dark:placeholder-neutral-500 dark:focus:ring-2 dark:focus:ring-neutral-400;
+    }
+
+    .form-date.disabled {
+        @apply cursor-not-allowed;
+    }
+
+    /* Time input */
+    .form-time {
+        @apply block w-full rounded-lg border border-gray-200 px-4 py-2.5 text-sm
+        focus:outline-none focus:ring-2 focus:ring-zinc-900 focus:ring-offset-1
+        disabled:pointer-events-none dark:focus:ring-offset-neutral-900
+        dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400
+        dark:placeholder-neutral-500 dark:focus:ring-2 dark:focus:ring-neutral-400;
+    }
+
+    .form-time.disabled {
+        @apply cursor-not-allowed bg-neutral-100 dark:bg-neutral-800;
+    }
+
+    /* Color input */
+    .form-color {
+        @apply h-10 p-1;
+        @apply block w-full rounded-lg border border-gray-200 px-4 py-2.5 text-sm
+        focus:outline-none focus:ring-2 focus:ring-zinc-900 focus:ring-offset-1
+        disabled:pointer-events-none disabled:bg-neutral-100 dark:disabled:bg-neutral-800 dark:focus:ring-offset-neutral-900
+        dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400
+        dark:placeholder-neutral-500 dark:focus:ring-2 dark:focus:ring-neutral-400;
+    }
+
+    .form-color-sm {
+        @apply h-8;
+    }
+
+    .form-color-lg {
+        @apply h-12;
+    }
+
+    /* Range input */
+    .form-range {
+        @apply w-full appearance-none cursor-pointer rounded-lg bg-gray-200 h-2 dark:bg-gray-700;
+    }
+
+    .form-range-sm {
+        @apply h-1;
+    }
+
+    .form-range-lg {
+        @apply h-3;
+    }
+
+    .form-range::-webkit-slider-thumb {
+        @apply appearance-none rounded-full bg-blue-600 w-4 h-4;
+    }
+
+    .form-range-sm::-webkit-slider-thumb {
+        @apply w-3 h-3;
+    }
+
+    .form-range-lg::-webkit-slider-thumb {
+        @apply w-5 h-5;
+    }
+
+    .input-group {
+        @apply w-full relative;
+    }
+
+    .input-field {
+        @apply block w-full rounded-lg border border-gray-200 px-4 py-2.5 text-sm
+      focus:outline-none focus:ring-2 focus:ring-zinc-900 focus:ring-offset-1
+      disabled:pointer-events-none disabled:bg-neutral-100 dark:disabled:bg-neutral-800 dark:focus:ring-offset-neutral-900
+      dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400
+      dark:placeholder-neutral-500 dark:focus:ring-2 dark:focus:ring-neutral-400;
+    }
+
+    .input-field.disabled {
+        @apply cursor-not-allowed bg-neutral-100 dark:bg-neutral-800;
+    }
+
+    .input-field.has-icon-left {
+        @apply pl-11;
+    }
+
+    .input-field.has-icon-right {
+        @apply pr-11;
+    }
+
+    .input-icon-left {
+        @apply absolute inset-y-0 left-0 flex items-center z-[2] pl-4;
+    }
+
+    .input-icon-right {
+        @apply absolute inset-y-0 right-0 flex items-center z-[2] pr-4;
+    }
+
+    .icon {
+        @apply text-gray-400 dark:text-neutral-400;
+    }
+}

@@ -1,0 +1,29 @@
+@layer components {
+    .soft-primary {
+        @apply bg-blue-100 text-blue-800 dark:bg-blue-900/30 dark:text-blue-800;
+    }
+
+    .soft-dark {
+        @apply bg-gray-100 text-gray-800 dark:bg-gray-800/30 dark:text-gray-200;
+    }
+
+    .soft-danger {
+        @apply bg-red-100 text-red-800 dark:bg-red-900/30 dark:text-red-800;
+    }
+
+    .soft-info {
+        @apply bg-teal-100 text-teal-800 dark:bg-teal-900/30 dark:text-teal-800;
+    }
+
+    .soft-warning {
+        @apply bg-yellow-100 text-yellow-800 dark:bg-yellow-900/30 dark:text-yellow-800;
+    }
+
+    .soft-white {
+        @apply bg-white/10 text-white dark:bg-white/5 dark:text-white;
+    }
+
+    .soft-secondary {
+        @apply bg-zinc-100 text-zinc-800 dark:bg-zinc-800/30 dark:text-zinc-800;
+    }
+}

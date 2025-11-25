@@ -1,0 +1,54 @@
+[
+    {
+        "group": "integration",
+        "key": "integration_facebook_pixel",
+        "type": "input:text",
+        "meta": {
+            "required": false,
+            "placeholder": "e.g. 123456789012345"
+        },
+        "name": "Facebook Pixel ID",
+        "value": "123456789012345",
+        "created_at": "2023-01-01 00:00:00",
+        "updated_at": "2023-01-01 00:00:00"
+    },
+    {
+        "group": "integration",
+        "key": "integration_google_tag_manager",
+        "type": "input:text",
+        "meta": {
+            "required": false,
+            "placeholder": "e.g. GTM-XXXXXXX"
+        },
+        "name": "Google Tag Manager ID",
+        "value": "GTM-XXXXXXX",
+        "created_at": "2023-01-01 00:00:00",
+        "updated_at": "2023-01-01 00:00:00"
+    },
+    {
+        "group": "integration",
+        "key": "integration_google_analytics",
+        "type": "input:text",
+        "meta": {
+            "required": false,
+            "placeholder": "e.g. G-XXXXXXXXXX"
+        },
+        "name": "Google Analytics ID",
+        "value": "G-XXXXXXXXXX",
+        "created_at": "2023-01-01 00:00:00",
+        "updated_at": "2023-01-01 00:00:00"
+    },
+    {
+        "group": "integration",
+        "key": "integration_google_analytics_stream_id",
+        "type": "input:text",
+        "meta": {
+            "required": false,
+            "placeholder": "e.g. 11111111111"
+        },
+        "name": "Google Analytics Stream ID",
+        "value": "11111111111",
+        "created_at": "2023-01-01 00:00:00",
+        "updated_at": "2023-01-01 00:00:00"
+    }
+]

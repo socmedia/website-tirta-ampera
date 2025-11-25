@@ -1,0 +1,102 @@
+/* Swiper custom pagination dots */
+.hero-swiper .swiper-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 2rem;
+    z-index: 20;
+}
+
+.hero-swiper .swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    border-radius: 9999px;
+    background: #fff;
+    opacity: 0.4;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    margin: 0;
+    border: none;
+    display: inline-block;
+}
+
+.hero-swiper .swiper-pagination-bullet-active {
+    width: 32px;
+    height: 8px;
+    border-radius: 9999px;
+    background: #fff;
+    opacity: 1;
+}
+
+.promo-swiper .swiper-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 2rem;
+    z-index: 20;
+}
+
+.promo-swiper .swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    border-radius: 9999px;
+    background: #fff;
+    opacity: 0.4;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    margin: 0;
+    border: none;
+    display: inline-block;
+}
+
+.promo-swiper .swiper-pagination-bullet-active {
+    width: 32px;
+    height: 8px;
+    border-radius: 9999px;
+    background: #fff;
+    opacity: 1;
+}
+
+.milestone-swiper .swiper-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -2rem;
+    z-index: 20;
+}
+
+.milestone-swiper .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    border-radius: 9999px;
+    background: var(--color-sky-200);
+    opacity: 0.4;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    margin: 0;
+    border: none;
+    display: inline-block;
+}
+
+.milestone-swiper .swiper-pagination-bullet-active {
+    width: 12px;
+    height: 12px;
+    border-radius: 9999px;
+    background: var(--color-sky-600);
+    opacity: 1;
+}
+
+.arahome-swiper .swiper-container {
+    width: 100%;
+    padding-top: 50px; /* Jarak atas untuk slide */
+    padding-bottom: 50px; /* Jarak bawah untuk slide */
+}

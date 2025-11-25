@@ -1,0 +1,92 @@
+[
+    {
+        "group": "ecommerce",
+        "key": "ecommerce_tax_status",
+        "type": "input:checkbox",
+        "meta": {
+            "required": false,
+            "description": "Aktifkan atau nonaktifkan pajak PPN"
+        },
+        "name": "Enable Tax?",
+        "value": true,
+        "created_at": "2023-01-01 00:00:00",
+        "updated_at": "2023-01-01 00:00:00"
+    },
+    {
+        "group": "ecommerce",
+        "key": "ecommerce_tax_rate",
+        "type": "input:number",
+        "meta": {
+            "required": false,
+            "min": 0,
+            "max": 100
+        },
+        "name": "Tax Percentage (VAT)",
+        "value": "11%",
+        "created_at": "2023-01-01 00:00:00",
+        "updated_at": "2023-01-01 00:00:00"
+    },
+    {
+        "group": "ecommerce",
+        "key": "ecommerce_admin_fee_status",
+        "type": "input:checkbox",
+        "meta": {
+            "required": false
+        },
+        "name": "Enable Admin Fee?",
+        "value": true,
+        "created_at": "2023-01-01 00:00:00",
+        "updated_at": "2023-01-01 00:00:00"
+    },
+    {
+        "group": "ecommerce",
+        "key": "ecommerce_admin_fee_rate",
+        "type": "input:number",
+        "meta": {
+            "required": false,
+            "min": 0
+        },
+        "name": "Admin Fee (Rp)",
+        "value": 2500,
+        "created_at": "2023-01-01 00:00:00",
+        "updated_at": "2023-01-01 00:00:00"
+    },
+    {
+        "group": "ecommerce",
+        "key": "ecommerce_min_order",
+        "type": "input:number",
+        "meta": {
+            "required": false,
+            "min": 0
+        },
+        "name": "Minimum Order",
+        "value": 0,
+        "created_at": "2023-01-01 00:00:00",
+        "updated_at": "2023-01-01 00:00:00"
+    },
+    {
+        "group": "ecommerce",
+        "key": "ecommerce_max_order",
+        "type": "input:number",
+        "meta": {
+            "required": false,
+            "min": 0
+        },
+        "name": "Maximum Order",
+        "value": 0,
+        "created_at": "2023-01-01 00:00:00",
+        "updated_at": "2023-01-01 00:00:00"
+    },
+    {
+        "group": "ecommerce",
+        "key": "ecommerce_show_stock",
+        "type": "input:checkbox",
+        "meta": {
+            "required": false
+        },
+        "name": "Show Product Stock",
+        "value": true,
+        "created_at": "2023-01-01 00:00:00",
+        "updated_at": "2023-01-01 00:00:00"
+    }
+]

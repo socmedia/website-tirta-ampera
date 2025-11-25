@@ -1,0 +1,29 @@
+@layer components {
+    .toastify.ssh-toast {
+        @apply !p-0 end-10 z-90 !max-w-md text-sm
+               opacity-0 transition-all duration-300
+               text-gray-700 border-none !shadow-none
+               dark:bg-neutral-800 dark:border-neutral-700 dark:text-neutral-400;
+
+        background: none !important;
+    }
+
+    .toastify.ssh-toast .toast-content {
+        @apply p-4;
+    }
+    .toastify.ssh-toast .toast-description {
+        @apply break-words overflow-hidden line-clamp-3 hover:line-clamp-none transition transition-transform;
+    }
+
+    .toastify.hs-toastify-on {
+        @apply opacity-100;
+    }
+
+    .toastify .toast-close {
+        @apply hidden;
+    }
+
+    .toastify-right {
+        @apply !right-4 !left-4 !w-auto md:!left-[unset];
+    }
+}

@@ -1,0 +1,164 @@
+@layer components {
+    /* Base */
+    .badge {
+        @apply inline-flex items-center justify-center gap-x-1.5 px-2 py-0.5 text-xs font-medium rounded-md border whitespace-nowrap;
+    }
+
+    /* === SIZES === */
+    .badge.badge-sm {
+        @apply px-1.5 py-0.5 text-[10px];
+    }
+
+    .badge.badge-lg {
+        @apply px-2.5 py-1 text-sm;
+    }
+
+    /* === SOLID VARIANTS === */
+    .badge.solid-primary {
+        @apply border-transparent bg-sky-600 text-white;
+    }
+
+    .badge.solid-dark {
+        @apply border-transparent bg-gray-800 text-white;
+    }
+
+    .badge.solid-danger {
+        @apply border-transparent bg-red-600 text-white;
+    }
+
+    .badge.solid-info {
+        @apply border-transparent bg-teal-600 text-white;
+    }
+
+    .badge.solid-warning {
+        @apply border-transparent bg-yellow-500 text-white;
+    }
+
+    .badge.solid-white {
+        @apply border border-gray-200 bg-white text-gray-800;
+    }
+
+    .badge.solid-secondary {
+        @apply border-transparent bg-gray-400 text-gray-900;
+    }
+
+    /* === SOFT VARIANTS === */
+
+    /* === ACTIVE STATE === (Matches selected tab: soft blue) */
+    .badge.soft-primary {
+        @apply bg-sky-50 text-sky-600 border border-sky-200;
+    }
+
+    .badge.soft-dark {
+        @apply border-transparent bg-gray-100 text-gray-800;
+    }
+
+    .badge.soft-danger {
+        @apply border-transparent bg-red-50 text-red-800;
+    }
+
+    .badge.soft-info {
+        @apply border-transparent bg-teal-50 text-teal-800;
+    }
+
+    .badge.soft-warning {
+        @apply border-transparent bg-yellow-50 text-yellow-800;
+    }
+
+    .badge.soft-white {
+        @apply border-transparent bg-white/10 text-white;
+    }
+
+    .badge.soft-secondary {
+        @apply border border-gray-100 bg-gray-50 text-gray-600;
+    }
+
+    /* === OUTLINE VARIANTS === */
+
+    /* === INACTIVE STATE === (Matches outline tab) */
+    .badge.outline-primary {
+        @apply border border-sky-600 text-sky-600 bg-transparent;
+    }
+
+    .badge.outline-primary:hover,
+    .badge.outline-primary:focus {
+        @apply bg-sky-50;
+    }
+
+    .badge.outline-dark {
+        @apply border border-gray-800 text-gray-800 bg-transparent transition-colors;
+    }
+    .badge.outline-dark:hover,
+    .badge.outline-dark:focus {
+        @apply bg-gray-100;
+    }
+
+    .badge.outline-danger {
+        @apply border border-red-500 text-red-500 bg-transparent transition-colors;
+    }
+    .badge.outline-danger:hover,
+    .badge.outline-danger:focus {
+        @apply bg-red-50;
+    }
+
+    .badge.outline-info {
+        @apply border border-teal-500 text-teal-500 bg-transparent transition-colors;
+    }
+    .badge.outline-info:hover,
+    .badge.outline-info:focus {
+        @apply bg-teal-50;
+    }
+
+    .badge.outline-warning {
+        @apply border border-yellow-500 text-yellow-500 bg-transparent transition-colors;
+    }
+    .badge.outline-warning:hover,
+    .badge.outline-warning:focus {
+        @apply bg-yellow-50;
+    }
+
+    .badge.outline-white {
+        @apply border border-white text-white bg-transparent transition-colors;
+    }
+    .badge.outline-white:hover,
+    .badge.outline-white:focus {
+        @apply bg-white/10;
+    }
+
+    .badge.outline-secondary {
+        @apply border border-gray-300 text-gray-500 bg-transparent transition-colors;
+    }
+    .badge.outline-secondary:hover,
+    .badge.outline-secondary:focus {
+        @apply bg-gray-100;
+    }
+
+    /* === DOT VARIANTS === */
+    .badge .dot-primary {
+        @apply w-2 h-2 rounded-full bg-sky-600;
+    }
+
+    .badge .dot-dark {
+        @apply w-2 h-2 rounded-full bg-gray-800;
+    }
+
+    .badge .dot-danger {
+        @apply w-2 h-2 rounded-full bg-red-600;
+    }
+
+    .badge .dot-info {
+        @apply w-2 h-2 rounded-full bg-teal-600;
+    }
+
+    .badge .dot-warning {
+        @apply w-2 h-2 rounded-full bg-yellow-500;
+    }
+
+    .badge .dot-white {
+        @apply w-2 h-2 rounded-full bg-white;
+    }
+
+    .badge .dot-secondary {
+        @apply w-2 h-2 rounded-full bg-gray-400;
+    }
+}

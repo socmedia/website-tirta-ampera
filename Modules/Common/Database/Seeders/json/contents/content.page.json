@@ -1,0 +1,26 @@
+[
+    {
+        "key": "page.hero.section.image",
+        "input_type": "input:image",
+        "name": "Image",
+        "value": "/assets/images/our-story.png",
+        "page": "page",
+        "section": "hero.section"
+    },
+    {
+        "key": "page.hero.section.title",
+        "input_type": "input:text",
+        "name": "Title",
+        "value": "Accelerate Your Laravel Development with SOC Software House",
+        "page": "page",
+        "section": "hero.section"
+    },
+    {
+        "key": "page.hero.section.subtitle",
+        "input_type": "input:text",
+        "name": "Sub Title",
+        "value": "A solid foundation for modern Laravel applications",
+        "page": "page",
+        "section": "hero.section"
+    }
+]

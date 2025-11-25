@@ -1,0 +1,62 @@
+[
+    {
+        "key": "global.news.heading",
+        "input_type": "input:text",
+        "name": "Heading",
+        "value": "Berita & Kegiatan Korporat"
+    },
+    {
+        "key": "global.news.description",
+        "input_type": "textarea",
+        "name": "Description",
+        "value": "Informasi terbaru seputar inovasi, kegiatan, dan siaran pers dari Perumda Tirta Ampera."
+    },
+    {
+        "key": "global.news.cta",
+        "input_type": "input:text",
+        "name": "CTA",
+        "value": "Lihat Semua Berita"
+    },
+    {
+        "key": "global.cta.apps.title",
+        "input_type": "input:text",
+        "name": "Title",
+        "value": "Download Tirta Amperaku"
+    },
+    {
+        "key": "global.cta.apps.desc",
+        "input_type": "textarea",
+        "name": "Description",
+        "value": "Nikmati kemudahan layanan pelanggan, pembayaran tagihan, dan berbagai fitur menarik lainnya langsung di genggaman Anda."
+    },
+    {
+        "key": "global.cta.apps.android_url",
+        "input_type": "input:text",
+        "name": "Android URL",
+        "value": "https://play.google.com/store/apps/details?id=com.tirtaampera.app"
+    },
+    {
+        "key": "global.cta.apps.ios_url",
+        "input_type": "input:text",
+        "name": "iOS URL",
+        "value": "https://apps.apple.com/id/app/tirta-Amperaku/id0000000000"
+    },
+    {
+        "key": "global.cta.contact.title",
+        "input_type": "input:text",
+        "name": "CTA Akhir - Title",
+        "value": "Punya Pertanyaan Lain? Kami Siap Bantu!"
+    },
+    {
+        "key": "global.cta.contact.subtitle",
+        "input_type": "textarea",
+        "name": "CTA Akhir - Subtitle",
+        "value": "Baik Anda pelanggan lama maupun warga baru yang ingin tahu lebih banyak, tim kami selalu menyambut Anda dengan hangat."
+    },
+    {
+        "key": "global.cta.contact.button.text",
+        "input_type": "input:text",
+        "name": "CTA Akhir - Button Text",
+        "value": "Hubungi Kami Langsung"
+    }
+]

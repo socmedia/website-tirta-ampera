@@ -1,0 +1,30 @@
+{
+    "name": "ssh/common",
+    "description": "",
+    "authors": [
+        {
+            "name": "SOC Software House",
+            "email": "socsoftwarehouse@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Common\\": "App/",
+            "Modules\\Common\\Database\\Factories\\": "database/factories/",
+            "Modules\\Common\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Common\\Tests\\": "tests/"
+        }
+    }
+}

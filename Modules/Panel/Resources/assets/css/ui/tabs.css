@@ -1,0 +1,19 @@
+@layer components {
+  .tab-button {
+    @apply relative mb-2 inline-flex items-center gap-x-2 rounded-lg px-2 py-1.5 text-sm
+           after:pointer-events-none after:absolute after:inset-x-2 after:-bottom-2 after:z-10 after:h-0.5
+           hover:bg-zinc-100 focus:bg-zinc-100 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700;
+  }
+
+  .tab-active {
+    @apply text-zinc-800 after:bg-zinc-800 dark:text-neutral-200 dark:after:bg-neutral-400;
+  }
+
+  .tab-inactive {
+    @apply text-zinc-500 hover:text-zinc-800;
+  }
+
+  .tab-count {
+    @apply text-xs font-medium text-gray-500 dark:text-gray-400;
+  }
+}

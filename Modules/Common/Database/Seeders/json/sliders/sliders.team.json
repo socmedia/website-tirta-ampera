@@ -1,0 +1,70 @@
+[
+    {
+        "desktop_media_path": "/assets/images/bod/indra-ranuh.png",
+        "mobile_media_path": null,
+        "status": true,
+        "type": "bod",
+        "heading": "Indra Ranuh",
+        "sub_heading": "Chief Executive Officer",
+        "description": "Indra leads SOC Software House with a vision for digital innovation and business growth.",
+        "alt": "Indra Ranuh",
+        "meta": {
+            "button_text": "",
+            "button_url": ""
+        },
+        "sort_order": 0,
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "desktop_media_path": "/assets/images/bod/musthofa-dwi-saptono.png",
+        "mobile_media_path": null,
+        "status": true,
+        "type": "bod",
+        "heading": "Musthofa Dwi Saptono",
+        "sub_heading": "Chief Operating Officer",
+        "description": "Musthofa ensures operational excellence and seamless project delivery at SOC Software House.",
+        "alt": "Musthofa Dwi Saptono",
+        "meta": {
+            "button_text": "",
+            "button_url": ""
+        },
+        "sort_order": 1,
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "desktop_media_path": "/assets/images/bod/ayu-pratiwi.png",
+        "mobile_media_path": null,
+        "status": true,
+        "type": "bod",
+        "heading": "Ayu Pratiwi",
+        "sub_heading": "Chief Technology Officer",
+        "description": "Ayu drives the technology strategy and leads the development team.",
+        "alt": "Ayu Pratiwi",
+        "meta": {
+            "button_text": "",
+            "button_url": ""
+        },
+        "sort_order": 2,
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "desktop_media_path": "/assets/images/bod/budi-santoso.png",
+        "mobile_media_path": null,
+        "status": true,
+        "type": "bod",
+        "heading": "Budi Santoso",
+        "sub_heading": "Chief Financial Officer",
+        "description": "Budi manages the financial planning and analysis for SOC Software House.",
+        "alt": "Budi Santoso",
+        "meta": {
+            "button_text": "",
+            "button_url": ""
+        },
+        "sort_order": 3,
+        "created_at": null,
+        "updated_at": null
+    }
+]
