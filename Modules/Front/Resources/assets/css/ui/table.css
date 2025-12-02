@@ -4,28 +4,69 @@
     }
 
     .table {
-        @apply min-w-full divide-y divide-zinc-200;
+        @apply min-w-full divide-y divide-neutral-200;
     }
 
     .table thead {
-        @apply bg-zinc-50 py-1.5;
+        @apply bg-neutral-50 py-1.5;
     }
 
     .table tbody {
-        @apply -m-1.5 bg-white;
+        @apply bg-white;
     }
 
     .table thead th {
-        @apply px-6 py-3 uppercase font-semibold text-xs text-left text-zinc-600 hover:text-zinc-500 focus:outline-hidden focus:text-zinc-500;
+        @apply px-6 py-3 uppercase font-semibold text-xs text-left text-neutral-600 hover:text-neutral-500 focus:outline-hidden focus:text-neutral-500;
     }
 
     .table tbody td {
-        @apply size-px px-6 py-3 text-sm text-zinc-700;
+        @apply size-px px-6 py-3 text-sm text-neutral-700;
     }
 
     .table.freeze-right thead th:last-child,
     .table.freeze-right tbody td:last-child {
         /* @apply sticky right-0 bg-white z-10; */
         /* box-shadow: -4px 0 6px -1px rgba(0, 0, 0, 0.1); */
+    }
+
+    .prose .table {
+        /* 1. Switch to separate to allow rounding */
+        /* 2. Add the outer border and rounding to the table itself */
+        /* 3. Use overflow-hidden to clip the square corners of the th/td */
+        @apply my-6 w-full text-left border-separate border-spacing-0 border border-neutral-200 rounded-lg overflow-hidden;
+    }
+
+    .prose .table thead {
+        @apply bg-neutral-50;
+    }
+
+    .prose .table th {
+        @apply !px-4 !py-4 font-semibold text-neutral-700 !whitespace-nowrap !align-middle;
+    }
+
+    .prose .table td {
+        @apply !px-4 !py-2 text-sm text-neutral-700;
+    }
+
+    /* BORDER LOGIC:
+       Since we use border-separate, we apply borders to the Right and Bottom
+       of every cell, then remove them from the last column/row to avoid
+       double borders with the main table border.
+    */
+
+    .prose .table th,
+    .prose .table td {
+        @apply border-b border-r border-neutral-200;
+    }
+
+    /* Remove right border from the last cell in every row */
+    .prose .table th:last-child,
+    .prose .table td:last-child {
+        @apply border-r-0;
+    }
+
+    /* Remove bottom border from the last row's cells */
+    .prose .table tbody tr:last-child td {
+        @apply border-b-0;
     }
 }

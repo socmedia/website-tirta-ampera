@@ -18,7 +18,6 @@ export default defineConfig({
                 "Modules/Front/Resources/assets/js/theme.js",
                 "Modules/Front/Resources/assets/js/cropper.js",
                 "Modules/Front/Resources/assets/js/swiper.js",
-                "Modules/Front/Resources/assets/js/leaflet.js",
                 "Modules/Front/Resources/assets/js/libphonenumber.js",
                 "Modules/Front/Resources/assets/js/form.js",
 
@@ -32,8 +31,6 @@ export default defineConfig({
                 "Modules/Panel/Resources/assets/js/markdown.js",
                 "Modules/Panel/Resources/assets/js/daterangepicker.js",
                 "Modules/Panel/Resources/assets/js/chart.js",
-                // "Modules/Customer/Resources/assets/js/app.js",
-                // "Modules/Partner/Resources/assets/js/app.js",
             ],
             refresh: true,
         }),
