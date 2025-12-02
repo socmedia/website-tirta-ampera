@@ -4,7 +4,7 @@
         "input_type": "input:text",
         "meta": {},
         "name": "SEO Title",
-        "value": "Berita & Artikel",
+        "value": "Berita Terkini PDAM Boyolali, Update Air Bersih & Layanan",
         "page": "news",
         "section": "title"
     },
@@ -13,7 +13,7 @@
         "input_type": "textarea",
         "meta": {},
         "name": "SEO Description",
-        "value": "Ikuti kabar terbaru, kisah, dan artikel dari Perumda Air Minum Tirta Ampera Boyolali. Temukan insight, acara, dan perkembangan seputar pelayanan air minum dan teknologi.",
+        "value": "Temukan info terbaru seputar layanan air bersih di PERUMDA Air Minum Tirta Ampera. Berita, solusi, dan inspirasi untuk warga Boyolali. Yuk, update kabarmu di sini!",
         "page": "news",
         "section": "description"
     },
@@ -31,7 +31,7 @@
         "input_type": "input:text",
         "meta": {},
         "name": "SEO Keywords",
-        "value": "Tirta Ampera Boyolali, berita, artikel, pelayanan air, pengumuman, teknologi, acara, update perusahaan",
+        "value": "PDAM Boyolali, PERUMDA Air Minum Tirta Ampera, berita air Boyolali, info pdam, update pelayanan air, pengumuman pdam, gangguan air boyolali, tarif air boyolali, solusi air bersih, kisah pelanggan, kabar air terkini, acara PDAM Boyolali, promo pembayaran air, pengaduan layanan air, berita warga boyolali",
         "page": "news",
         "section": "keywords"
     }

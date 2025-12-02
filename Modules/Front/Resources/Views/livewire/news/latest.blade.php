@@ -1,8 +1,8 @@
 <div class="mx-auto max-w-[85rem] px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
     <div class="mx-auto max-w-2xl text-center">
-        <h2 class="text-3xl font-bold text-gray-800 lg:text-4xl">
+        <h3 class="mb-8 text-2xl font-bold text-gray-900 after:mt-2 after:block after:h-1 after:w-12 after:bg-sky-600">
             {{ getContent('global.news.heading') }}
-        </h2>
+        </h3>
         <p class="mt-3 text-lg text-gray-600">
             {{ getContent('global.news.description') }}
         </p>

@@ -15,14 +15,14 @@ class PostSeeder extends Seeder
     public function run(): void
     {
         // Example: seed random posts for testing (remove if not needed)
-        Post::factory()->count(100)->create();
+        // Post::factory()->count(100)->create();
 
         // Insert news from JSON
-        // $news = self::fromJson();
+        $news = self::fromJson();
 
-        // foreach ($news as $item) {
-        //     Post::create($item);
-        // }
+        foreach ($news as $item) {
+            Post::create($item);
+        }
     }
 
     /**
@@ -44,8 +44,8 @@ class PostSeeder extends Seeder
         $news = [];
 
         foreach ($newsRaw as $item) {
-            $category = $item['category'] ?? null;
-            $authorName = $item['author'] ?? 'Super Admin';
+            $category = $item['category_id'] ?? null;
+            $authorName = 'Super Admin';
 
             $findCategory = null;
             if ($category) {

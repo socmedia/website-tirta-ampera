@@ -44,24 +44,42 @@ class Related extends Component
     }
 
     /**
+     * Get the related news data.
+     *
+     * @return \Illuminate\Support\Collection|\Illuminate\Pagination\LengthAwarePaginator
+     */
+    protected function getRelatedNews()
+    {
+        $filters = [
+            'per_page' => 4,
+        ];
+
+        // Prefer category as primary relation, fallback to tags if present
+        if (!empty($this->category)) {
+            $filters['category_id'] = $this->category;
+        } elseif (!empty($this->tags)) {
+            $filters['tags'] = $this->tags;
+        }
+
+        if (!empty($this->exceptId)) {
+            $filters['except_id'] = $this->exceptId;
+        }
+
+        $filters['sort'] = 'published_at';
+        $filters['order'] = 'desc';
+
+        return (new PostService)->publicPosts($filters);
+    }
+
+    /**
      * Render the related news view.
      *
      * @return \Illuminate\View\View
      */
     public function render()
     {
-        $filters = [
-            'category_id' => $this->category,
-            'tags' => $this->tags,
-            'per_page' => 4,
-        ];
-
-        if (!empty($this->exceptId)) {
-            $filters['except_id'] = $this->exceptId;
-        }
-
         return view('front::livewire.news.related', [
-            'news' => (new PostService)->publicPosts($filters),
+            'news' => $this->getRelatedNews(),
         ]);
     }
 }
