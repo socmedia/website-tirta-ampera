@@ -20,6 +20,12 @@ class ContentTableSeeder extends Seeder
             self::fromJson('content.global.json'),
             self::fromJson('content.news.json'),
             self::fromJson('content.page.json'),
+            self::fromJson('content.service-change_name.json'),
+            self::fromJson('content.service-move_meter.json'),
+            self::fromJson('content.service-pay_bill.json'),
+            self::fromJson('content.service-reconnect.json'),
+            self::fromJson('content.service-replace_stop_valve.json'),
+            self::fromJson('content.service-temporary_disconnect.json'),
         );
 
         // Insert contents (no translations - not translatable anymore)

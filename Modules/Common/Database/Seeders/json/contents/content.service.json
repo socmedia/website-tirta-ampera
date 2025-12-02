@@ -3,37 +3,37 @@
         "key": "service.header.title.part1",
         "input_type": "input:text",
         "name": "Judul Header Layanan (Bagian 1)",
-        "value": "Layanan Tirta Ampera,"
+        "value": "Kemudahan Urusan Air,"
     },
     {
         "key": "service.header.title.part2",
         "input_type": "input:text",
         "name": "Judul Header Layanan (Bagian 2)",
-        "value": "Sekarang Lebih Mudah Diakses"
+        "value": "Setiap Kebutuhan, Dekat dengan Anda"
     },
     {
         "key": "service.header.highlight",
         "input_type": "input:text",
         "name": "Highlight Header",
-        "value": "Kami Tidak Hanya Mengalirkan Air, Kami Mengalirkan Kenyamanan Layanan."
+        "value": "Air bersih lancar, hidup jadi tenang bersama Tirta Ampera."
     },
     {
         "key": "service.header.description",
         "input_type": "textarea",
         "name": "Deskripsi Header Layanan",
-        "value": "Komitmen kami adalah memastikan setiap pelanggan mendapatkan akses layanan air bersih yang cepat, transparan, dan dapat diurus secara mandiri tanpa terhalang jarak dan waktu. Kami menyederhanakan semua kebutuhan air Anda, mengurangi antrean, dan mempercepat respons."
+        "value": "Kami hadir untuk memastikan setiap langkah pengurusan layanan air PDAM Boyolali lebih praktis dan transparan. Mulai dari bayar tagihan, pasang baru, hingga pengaduan, semua bisa Anda akses dengan mudah, kapan pun dan di mana pun."
     },
     {
         "key": "service.pillar.title",
         "input_type": "input:text",
         "name": "Judul Bagian 3 Pilar Layanan",
-        "value": "Layanan Utama Unggulan"
+        "value": "Solusi Layanan untuk Ketenangan Anda"
     },
     {
         "key": "service.pillar.description",
         "input_type": "textarea",
         "name": "Deskripsi Bagian 3 Pilar Layanan",
-        "value": "Kami berinvestasi pada sistem layanan untuk memecahkan tiga masalah utama layanan air tradisional, memberikan Anda kontrol penuh atas penggunaan dan administrasi air bersih."
+        "value": "Kami senantiasa berinovasi demi kepraktisan dan kenyamanan pelanggan. Tiga pilar ini kami hadirkan sebagai jawaban atas kebutuhan warga Boyolali untuk urusan air bersih yang lebih mudah dan terkendali."
     },
     {
         "key": "service.pillar.items",
@@ -41,22 +41,22 @@
         "name": "Data 3 Pilar Layanan",
         "value": [
             {
-                "title": "Pilar Pembayaran & Tagihan",
-                "subtitle": "Transparansi Finansial",
+                "title": "Bayar & Pantau Tagihan",
+                "subtitle": "Keuangan Jelas, Hati Lega",
                 "icon": "bx bx-credit-card",
-                "description": "Lupakan kertas dan antrean. Kami memberikan akses 24/7 ke data keuangan Anda untuk perencanaan anggaran yang lebih baik."
+                "description": "Cek tagihan air, pantau pembayaran, dan atur anggaran keluarga tanpa ribet. Semua info tagihan PDAM Boyolali bisa Anda akses 24 jam."
             },
             {
-                "title": "Pilar Laporan & Pengaduan",
-                "subtitle": "Respons Cepat",
+                "title": "Lapor Masalah Teknis",
+                "subtitle": "Cepat Tanggap, Bebas Cemas",
                 "icon": "bx bx-location-check",
-                "description": "Kami memastikan laporan gangguan Anda langsung sampai ke tim teknis di lapangan melalui sistem terpadu. Setiap laporan Anda adalah prioritas."
+                "description": "Sekarang, keluhan atau gangguan air bisa langsung Anda laporkan lewat sistem online. Tim kami siap bergerak cepat menangani setiap laporan."
             },
             {
-                "title": "Pilar Pemasangan Baru & Administrasi",
-                "subtitle": "Efisiensi Proses",
+                "title": "Pasang Baru & Ubah Data",
+                "subtitle": "Praktis, Tak Perlu Antre",
                 "icon": "bx bx-file",
-                "description": "Seluruh proses pengajuan kini dapat dilakukan dengan mudah dari rumah, menghilangkan kebutuhan untuk datang ke kantor."
+                "description": "Pengajuan pasang baru sambungan PDAM, pindah alamat, atau pembaruan data kini cukup dari rumah. Hemat waktu, bisa sambil santai bersama keluarga."
             }
         ]
     },
@@ -64,13 +64,13 @@
         "key": "service.extra.title",
         "input_type": "input:text",
         "name": "Judul Layanan Tambahan",
-        "value": "Layanan Administrasi Lainnya"
+        "value": "Urusan Lain? Kami Siap Membantu"
     },
     {
         "key": "service.extra.description",
         "input_type": "textarea",
         "name": "Deskripsi Layanan Tambahan",
-        "value": "Untuk kebutuhan administrasi, pemeliharaan, dan perubahan kepemilikan aset, layanan berikut dapat diajukan melalui kantor unit, kantor pusat, atau aplikasi Tirta Amperaku."
+        "value": "Selain layanan utama, kami juga menyediakan berbagai kemudahan administratif untuk kebutuhan sehari-hari warga Boyolali. Silakan ajukan melalui kantor unit, kantor pusat, atau aplikasi Tirta Amperaku."
     },
     {
         "key": "service.extra.items",
@@ -79,44 +79,44 @@
         "value": [
             {
                 "icon": "bx bxs-file-detail",
-                "title": "Bayar Tagihan Online",
-                "description": "Layanan pembayaran tagihan air bulanan secara online melalui aplikasi atau layanan mitra, tanpa harus datang ke kantor.",
-                "link_label": "Selengkapnya",
+                "title": "Bayar Tagihan Air Online",
+                "description": "Lebih praktis! Cek dan bayar tagihan air bulanan Anda via aplikasi atau mitra resmi kami. Tak perlu repot ke kantor.",
+                "link_label": "Cek Tagihan Sekarang",
                 "link_route": "front.service.pay-bill"
             },
             {
                 "icon": "bx bxs-forward-big",
                 "title": "Pindah Meter",
-                "description": "Layanan untuk permintaan pemindahan posisi meter air. Umumnya diajukan karena renovasi, pembangunan, atau penataan ulang properti.",
-                "link_label": "Selengkapnya",
+                "description": "Renovasi rumah atau pindah lokasi meter air, cukup hubungi kami. Tim kami bantu proses pemindahan dengan mudah.",
+                "link_label": "Ajukan Pindah Meter",
                 "link_route": "front.service.move-meter"
             },
             {
                 "icon": "bx bx-git-compare",
                 "title": "Ganti Stop Kran",
-                "description": "Layanan teknis untuk mengganti komponen Stop Kran pada instalasi pelanggan akibat kerusakan atau masalah teknis yang mengganggu suplai air.",
-                "link_label": "Selengkapnya",
+                "description": "Stop kran bermasalah? Kami siap mengganti perangkat agar suplai air tetap lancar ke rumah Anda.",
+                "link_label": "Minta Bantuan Ganti",
                 "link_route": "front.service.replace-stop-valve"
             },
             {
                 "icon": "bx bxs-file-detail",
-                "title": "Balik Nama",
-                "description": "Layanan untuk mengganti nama pemilik sambungan air yang terdaftar di sistem kami. Wajib diajukan saat terjadi perubahan kepemilikan aset, seperti karena jual-beli, warisan, atau hibah.",
-                "link_label": "Selengkapnya",
+                "title": "Balik Nama Sambungan",
+                "description": "Ganti kepemilikan sambungan PDAM Boyolali sekarang mudah. Silakan ajukan saat ada perubahan nama akibat jual beli, warisan, atau hibah aset.",
+                "link_label": "Ganti Nama Sekarang",
                 "link_route": "front.service.change-name"
             },
             {
                 "icon": "bx bxs-cog",
-                "title": "Tutup Sementara",
-                "description": "Permohonan resmi untuk menghentikan sementara suplai air jika properti tidak digunakan dalam jangka waktu tertentu (misalnya, bepergian lama).",
-                "link_label": "Selengkapnya",
+                "title": "Tutup Sementara Sambungan",
+                "description": "Rumah kosong atau ditinggal sementara? Jangan khawatir, kami bisa bantu penghentian suplai air sesuai kebutuhan Anda.",
+                "link_label": "Ajukan Tutup Sementara",
                 "link_route": "front.service.temporary-disconnect"
             },
             {
                 "icon": "bx bx-git-commit",
-                "title": "Buka Kembali",
-                "description": "Permohonan untuk mengaktifkan kembali sambungan air yang sebelumnya ditutup sementara oleh pelanggan, sehingga layanan air bisa digunakan kembali.",
-                "link_label": "Selengkapnya",
+                "title": "Sambungan Aktif Kembali",
+                "description": "Butuh air lagi setelah masa tutup sementara? Hubungi kami. Kami pastikan sambungan air Anda aktif dan siap digunakan kembali.",
+                "link_label": "Aktifkan Sambungan",
                 "link_route": "front.service.reconnect"
             }
         ]

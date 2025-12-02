@@ -21,13 +21,13 @@
         "key": "about.header.subtitle",
         "input_type": "textarea",
         "name": "Header Subtitle/Pengantar",
-        "value": "Halo, Warga Boyolali! Sebagai Perumda Air Minum Tirta Ampera, kami bangga melayani kebutuhan dasar Anda. Kami adalah tim yang berdedikasi untuk kualitas, kontinuitas, dan pelayanan yang hangat, selalu siap mendampingi Anda."
+        "value": "Setiap tetes air dari PDAM Boyolali adalah wujud komitmen kami untuk Anda. Tim Tirta Ampera siap memastikan kebutuhan air bersih keluarga terpenuhi dengan kualitas terbaik, layanan cepat, dan penuh perhatian. Mari wujudkan Boyolali yang lebih sehat dan nyaman bersama kami."
     },
     {
         "key": "about.vm.title",
         "input_type": "input:text",
         "name": "Visi Misi - Title",
-        "value": "Apa yang Kami Perjuangkan?"
+        "value": "Kami Mengalirkan Solusi, Bukan Hanya Layanan"
     },
     {
         "key": "about.vm.description",

@@ -3,19 +3,19 @@
         "key": "global.news.heading",
         "input_type": "input:text",
         "name": "Heading",
-        "value": "Berita & Kegiatan Korporat"
+        "value": "Kabar Terkini & Kisah Kami untuk Boyolali"
     },
     {
         "key": "global.news.description",
         "input_type": "textarea",
         "name": "Description",
-        "value": "Informasi terbaru seputar inovasi, kegiatan, dan siaran pers dari Perumda Tirta Ampera."
+        "value": "Jangan lewatkan info terbaru seputar layanan air bersih, inovasi, serta cerita inspiratif dari PDAM Boyolali.\n\nKami hadir membagikan kabar baik, solusi baru, dan agenda penting langsung kepada Anda."
     },
     {
         "key": "global.news.cta",
         "input_type": "input:text",
         "name": "CTA",
-        "value": "Lihat Semua Berita"
+        "value": "Jelajahi Berita Terbaru"
     },
     {
         "key": "global.cta.apps.title",
@@ -42,21 +42,52 @@
         "value": "https://apps.apple.com/id/app/tirta-Amperaku/id0000000000"
     },
     {
+        "key": "global.cta.apps.secondary.title",
+        "input_type": "input:text",
+        "name": "Apps Secondary - Judul",
+        "value": "Semua Layanan Air dalam Satu Aplikasi"
+    },
+    {
+        "key": "global.cta.apps.secondary.lead",
+        "input_type": "input:text",
+        "name": "Apps Secondary - Lead",
+        "value": "Praktis. Cepat. Langsung dari smartphone Anda."
+    },
+    {
+        "key": "global.cta.apps.secondary.desc",
+        "input_type": "textarea",
+        "name": "Apps Secondary - Deskripsi",
+        "value": "Tidak perlu lagi antre di loket. Unduh aplikasi <b>Tirta Amperaku</b> untuk cek tagihan, pembayaran instan, hingga pengaduan layanan langsung dari smartphone Anda."
+    },
+    {
+        "key": "global.cta.apps.secondary.features",
+        "input_type": "json",
+        "name": "Apps Secondary - Fitur",
+        "value": [
+            "Cek & bayar tagihan air <b>real-time</b>",
+            "Layanan pengaduan & histori pemakaian",
+            "Riwayat transaksi pembayaran tersimpan",
+            "Dukungan pembayaran berbagai metode (QRIS & VA)",
+            "Promo & informasi terbaru langsung di aplikasi",
+            "Masih banyak fitur lainnya"
+        ]
+    },
+    {
         "key": "global.cta.contact.title",
         "input_type": "input:text",
         "name": "CTA Akhir - Title",
-        "value": "Punya Pertanyaan Lain? Kami Siap Bantu!"
+        "value": "Masih Bingung? Kami Siap Mendengar & Membantu"
     },
     {
         "key": "global.cta.contact.subtitle",
         "input_type": "textarea",
         "name": "CTA Akhir - Subtitle",
-        "value": "Baik Anda pelanggan lama maupun warga baru yang ingin tahu lebih banyak, tim kami selalu menyambut Anda dengan hangat."
+        "value": "Kami selalu di sini untuk membantu Anda, baik pelanggan setia, warga baru, maupun yang sekadar ingin tahu seputar layanan air Bersih di Boyolali.\n\nYuk, sampaikan pertanyaan atau kebutuhan Anda!"
     },
     {
         "key": "global.cta.contact.button.text",
         "input_type": "input:text",
         "name": "CTA Akhir - Button Text",
-        "value": "Hubungi Kami Langsung"
+        "value": "Tanya Tim PDAM Sekarang"
     }
 ]

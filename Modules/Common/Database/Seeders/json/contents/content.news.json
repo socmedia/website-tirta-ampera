@@ -3,12 +3,12 @@
         "key": "news.heading",
         "input_type": "input:text",
         "name": "Heading",
-        "value": "Berita di Tirta Ampera"
+        "value": "Kabar Terkini"
     },
     {
         "key": "news.description",
         "input_type": "textarea",
         "name": "Description",
-        "value": "Temukan berita dan update terbaru dari Tirta Ampera. Dapatkan informasi resmi, tips produk, dan pengumuman perusahaan di sini."
+        "value": "Update berita layanan air, informasi pelanggan, dan info penting lain seputar PDAM Boyolali."
     }
 ]

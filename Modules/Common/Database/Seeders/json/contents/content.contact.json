@@ -1,32 +1,26 @@
 [
     {
-        "key": "contact.hero.section.image",
-        "input_type": "input:image",
-        "name": "Image",
-        "value": "/assets/images/contact-hero.png"
-    },
-    {
         "key": "contact.hero.section.title",
         "input_type": "input:text",
         "name": "Title",
-        "value": "Contact SOC Software House"
+        "value": "Yuk, Terhubung Bersama Kami di PDAM Boyolali"
     },
     {
         "key": "contact.hero.section.subtitle",
         "input_type": "input:text",
         "name": "Sub Title",
-        "value": "Officially launching the Laravel Boilerplate—your foundation for faster, easier Laravel app development."
+        "value": "Ada kebutuhan air bersih, ingin pasang baru, cek tagihan, atau sampaikan aspirasi? Kami selalu hadir dan siap membantu Anda, warga Boyolali."
     },
     {
         "key": "contact.inquiry.heading",
         "input_type": "input:text",
         "name": "Heading",
-        "value": "Get in Touch About Laravel Boilerplate"
+        "value": "Ada Pertanyaan? Tim Kami Siap Mendengar & Membantu"
     },
     {
         "key": "contact.inquiry.description",
         "input_type": "textarea",
         "name": "Description",
-        "value": "Have questions about the Laravel Boilerplate, want to collaborate, or need more information? Our team is ready to help you accelerate your Laravel development with a clean code structure, ready-to-use features, and clear documentation. This open source project is available for anyone who wants to build Laravel apps to industry standards."
+        "value": "Butuh info atau bantuan? Tim PDAM Boyolali siap jawab pertanyaan Anda dengan cepat dan ramah."
     }
 ]

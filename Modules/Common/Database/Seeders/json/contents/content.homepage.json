@@ -3,7 +3,7 @@
         "key": "homepage.hero.title",
         "input_type": "input:text",
         "name": "Title",
-        "value": "Perumda Air Minum"
+        "value": "PERUMDA Air Minum"
     },
     {
         "key": "homepage.hero.title_highlight",
@@ -58,7 +58,7 @@
         "key": "homepage.about.content",
         "input_type": "textarea",
         "name": "Content",
-        "value": "Perumda Air Minum Tirta Ampera adalah BUMD milik Pemerintah Kabupaten Boyolali yang berdedikasi penuh untuk menyelenggarakan pelayanan air bersih yang berkualitas, profesional, dan berkelanjutan bagi seluruh masyarakat."
+        "value": "PERUMDA Air Minum Tirta Ampera adalah BUMD milik Pemerintah Kabupaten Boyolali yang berdedikasi penuh untuk menyelenggarakan pelayanan air bersih yang berkualitas, profesional, dan berkelanjutan bagi seluruh masyarakat."
     },
     {
         "key": "homepage.about.features",

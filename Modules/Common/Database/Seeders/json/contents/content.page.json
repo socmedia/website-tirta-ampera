@@ -1,17 +1,9 @@
 [
     {
-        "key": "page.hero.section.image",
-        "input_type": "input:image",
-        "name": "Image",
-        "value": "/assets/images/our-story.png",
-        "page": "page",
-        "section": "hero.section"
-    },
-    {
         "key": "page.hero.section.title",
         "input_type": "input:text",
         "name": "Title",
-        "value": "Accelerate Your Laravel Development with SOC Software House",
+        "value": "Kami Hadir untuk Air Bersih, Hidup Lebih Baik di Boyolali",
         "page": "page",
         "section": "hero.section"
     },
@@ -19,7 +11,15 @@
         "key": "page.hero.section.subtitle",
         "input_type": "input:text",
         "name": "Sub Title",
-        "value": "A solid foundation for modern Laravel applications",
+        "value": "Nikmati kemudahan layanan Pasang Baru, Cek Tagihan, dan solusi air bersih bersama PDAM Boyolali.",
+        "page": "page",
+        "section": "hero.section"
+    },
+    {
+        "key": "page.hero.section.cta",
+        "input_type": "input:button",
+        "name": "CTA",
+        "value": "Cek Tagihan Sekarang",
         "page": "page",
         "section": "hero.section"
     }
