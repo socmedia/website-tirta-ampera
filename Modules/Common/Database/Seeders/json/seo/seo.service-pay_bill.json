@@ -1,0 +1,38 @@
+[
+    {
+        "key": "seo.pay_bill.title",
+        "input_type": "input:text",
+        "meta": {},
+        "name": "SEO Title",
+        "value": "Cek Tagihan Air PDAM Boyolali Mudah & Cepat Online",
+        "page": "service-pay_bill",
+        "section": "title"
+    },
+    {
+        "key": "seo.pay_bill.description",
+        "input_type": "textarea",
+        "meta": {},
+        "name": "SEO Description",
+        "value": "Ingin tahu tagihan air terbaru? Cek dan pantau langsung di website PDAM Boyolali! Praktis, transparan, dan selalu update. Yuk, cek tagihan air tanpa ribet sekarang juga.",
+        "page": "service-pay_bill",
+        "section": "description"
+    },
+    {
+        "key": "seo.pay_bill.image",
+        "input_type": "input:image",
+        "meta": {},
+        "name": "SEO Image",
+        "value": "/assets/images/logo_long.png",
+        "page": "service-pay_bill",
+        "section": "image"
+    },
+    {
+        "key": "seo.pay_bill.keywords",
+        "input_type": "input:text",
+        "meta": {},
+        "name": "SEO Keywords",
+        "value": "cek tagihan air, tagihan PDAM Boyolali, pembayaran air online, tagihan air terbaru, cek rekening air Boyolali, info tagihan PERUMDA Air Minum Tirta Ampera, cek tagihan air bulanan, bayar air online, layanan pelanggan PDAM, cek tagihan tanpa antre, cek tagihan PDAM dari rumah, pembayaran tagihan air warga, air Boyolali, info tagihan pelanggan, cek air bulanan mudah",
+        "page": "service-pay_bill",
+        "section": "keywords"
+    }
+]

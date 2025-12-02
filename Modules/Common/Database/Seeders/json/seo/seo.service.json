@@ -1,0 +1,38 @@
+[
+    {
+        "key": "seo.layanan.title",
+        "input_type": "input:text",
+        "meta": {},
+        "name": "SEO Title",
+        "value": "Aturan & Layanan PDAM Boyolali untuk Kebutuhan Anda",
+        "page": "layanan",
+        "section": "title"
+    },
+    {
+        "key": "seo.layanan.description",
+        "input_type": "textarea",
+        "meta": {},
+        "name": "SEO Description",
+        "value": "Yuk pahami aturan layanan PERUMDA Air Minum Tirta Ampera! Semua tata cara dan hak pelanggan PDAM Boyolali dijelaskan jelas di sini. Pelayanan kami ramah dan transparan. Bingung? Hubungi kami, siap membantu.",
+        "page": "layanan",
+        "section": "description"
+    },
+    {
+        "key": "seo.layanan.image",
+        "input_type": "input:image",
+        "meta": {},
+        "name": "SEO Image",
+        "value": "/assets/images/logo_long.png",
+        "page": "layanan",
+        "section": "image"
+    },
+    {
+        "key": "seo.layanan.keywords",
+        "input_type": "input:text",
+        "meta": {},
+        "name": "SEO Keywords",
+        "value": "aturan PDAM Boyolali, peraturan pelanggan air, layanan air Boyolali, syarat penggunaan PDAM, tata tertib air Tirta Ampera, hak pelanggan PDAM, ketentuan layanan air, info layanan air Boyolali, masalah air PDAM, ketentuan pelanggan rumah tangga, aturan sambungan air, syarat daftar PDAM, aturan meter air, bantuan pelanggan pdam, layanan PDAM warga Boyolali",
+        "page": "layanan",
+        "section": "keywords"
+    }
+]

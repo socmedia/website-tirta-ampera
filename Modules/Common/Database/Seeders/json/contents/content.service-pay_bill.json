@@ -1,0 +1,59 @@
+[
+    {
+        "key": "pay_bill.header.badge",
+        "input_type": "input:text",
+        "name": "Header Badge",
+        "value": "Layanan Kami untuk Anda"
+    },
+    {
+        "key": "pay_bill.header.title",
+        "input_type": "input:text",
+        "name": "Judul Header",
+        "value": "Bayar Tagihan Air Mudah & Cepat bersama <span class=\"text-sky-600\">PDAM Boyolali</span>"
+    },
+    {
+        "key": "pay_bill.header.description",
+        "input_type": "textarea",
+        "name": "Deskripsi Header",
+        "value": "Kini Anda bisa cek dan bayar tagihan air PDAM Tirta Ampera Boyolali tanpa ribet. Cukup masukkan nomor pelanggan, lihat rincian tagihan, dan bayar dari rumah. Lebih hemat waktu, aman, dan nyaman untuk Anda sekeluarga."
+    },
+    {
+        "key": "pay_bill.cards",
+        "input_type": "json",
+        "name": "Isi 4 Kartu Benefit",
+        "value": [
+            {
+                "icon": "bx bx-search",
+                "title": "Tagihan Selalu Up-to-date",
+                "items": [
+                    "Masukkan <span class=\"font-medium\">nomor pelanggan</span>, dan info tagihan langsung terlihat.",
+                    "Nikmati cek status tagihan air PDAM Boyolali kapan saja."
+                ]
+            },
+            {
+                "icon": "bx bx-mobile-alt",
+                "title": "Bayar Air Tanpa Antre",
+                "items": [
+                    "Bayar tagihan air <span class=\"font-medium text-sky-700\">langsung dari ponsel</span> kapan pun Anda butuh.",
+                    "Dukungan pembayaran dari aplikasi atau datang ke loket resmi kami di Boyolali."
+                ]
+            },
+            {
+                "icon": "bx bx-credit-card-front",
+                "title": "Proses Gampang & Aman",
+                "items": [
+                    "Tak perlu datang ke kantor, cukup beberapa klik.",
+                    "Bukti bayar otomatis tersimpan dan mudah diunduh sebagai arsip Anda."
+                ]
+            },
+            {
+                "icon": "bx bx-info-circle",
+                "title": "Notifikasi Langsung",
+                "items": [
+                    "Kami infokan tagihan lunas secara real-time ke Anda.",
+                    "Riwayat pembayaran air PDAM selalu bisa dicek, transparan untuk seluruh pelanggan."
+                ]
+            }
+        ]
+    }
+]

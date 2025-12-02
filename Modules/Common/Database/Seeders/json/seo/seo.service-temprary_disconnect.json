@@ -1,0 +1,38 @@
+[
+    {
+        "key": "seo.temprary_disconnect.title",
+        "input_type": "input:text",
+        "meta": {},
+        "name": "SEO Title",
+        "value": "Tutup Sementara Air PDAM Boyolali, Solusi Praktis Cepat",
+        "page": "service-temprary_disconnect",
+        "section": "title"
+    },
+    {
+        "key": "seo.temprary_disconnect.description",
+        "input_type": "textarea",
+        "meta": {},
+        "name": "SEO Description",
+        "value": "Butuh tutup sementara sambungan air? Ajukan di PERUMDA Air Minum Tirta Ampera Boyolali, proses simpel, biaya jelas, dan pelayanan ramah. Semua informasi syarat & prosedur lengkap di sini. Hubungi kami jika butuh bantuan.",
+        "page": "service-temprary_disconnect",
+        "section": "description"
+    },
+    {
+        "key": "seo.temprary_disconnect.image",
+        "input_type": "input:image",
+        "meta": {},
+        "name": "SEO Image",
+        "value": "/assets/images/logo_long.png",
+        "page": "service-temprary_disconnect",
+        "section": "image"
+    },
+    {
+        "key": "seo.temprary_disconnect.keywords",
+        "input_type": "input:text",
+        "meta": {},
+        "name": "SEO Keywords",
+        "value": "tutup sementara air PDAM, permohonan tutup air Boyolali, cara tutup sambungan air, persyaratan tutup sementara PDAM, biaya tutup air Boyolali, tutup air Tirta Ampera, layanan pelanggan air Boyolali, non aktifkan air rumah Boyolali, prosedur tutup air sementara, info tutup sementara PDAM, tutup air online Boyolali, pengajuan tutup air warga, PDAM Boyolali tutup sementara, sop tutup sementara air boyolali",
+        "page": "service-temprary_disconnect",
+        "section": "keywords"
+    }
+]

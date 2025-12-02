@@ -1,0 +1,38 @@
+[
+    {
+        "key": "seo.info_group.title",
+        "input_type": "input:text",
+        "meta": {},
+        "name": "SEO Title",
+        "value": "Golongan Pelanggan PDAM Boyolali: Lengkap & Jelas",
+        "page": "info-group",
+        "section": "title"
+    },
+    {
+        "key": "seo.info_group.description",
+        "input_type": "textarea",
+        "meta": {},
+        "name": "SEO Description",
+        "value": "Cari tahu informasi lengkap klasifikasi golongan pelanggan di PERUMDA Air Minum Tirta Ampera. Temukan kelompok sosial, rumah tangga, niaga, hingga industri, agar Anda makin mudah menentukan pilihan layanan yang tepat. Cek detailnya di sini!",
+        "page": "info-group",
+        "section": "description"
+    },
+    {
+        "key": "seo.info_group.image",
+        "input_type": "input:image",
+        "meta": {},
+        "name": "SEO Image",
+        "value": "/assets/images/logo_long.png",
+        "page": "info-group",
+        "section": "image"
+    },
+    {
+        "key": "seo.info_group.keywords",
+        "input_type": "input:text",
+        "meta": {},
+        "name": "SEO Keywords",
+        "value": "golongan pelanggan PDAM, klasifikasi PDAM Boyolali, jenis pelanggan air, kategori pelanggan Tirta Ampera, kelompok sosial air, pelanggan rumah tangga, peruntukan PDAM, tarif air Boyolali, kelompok industri, cara daftar pelanggan PDAM, pelanggan niaga, pelanggan instansi, info kelompok pelanggan, syarat langganan air Boyolali, layanan air Boyolali, layanan PDAM Tirta Ampera",
+        "page": "info-group",
+        "section": "keywords"
+    }
+]

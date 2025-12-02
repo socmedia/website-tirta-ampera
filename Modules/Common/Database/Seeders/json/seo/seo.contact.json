@@ -5,7 +5,7 @@
         "type": "seo",
         "meta": {},
         "name": "SEO Title",
-        "value": "Kontak Perumda Air Minum Tirta Ampera Boyolali",
+        "value": "Kontak PERUMDA Air Minum Tirta Ampera Boyolali",
         "page": "contact",
         "section": "title"
     },
@@ -15,7 +15,7 @@
         "type": "seo",
         "meta": {},
         "name": "SEO Description",
-        "value": "Hubungi Perumda Air Minum Tirta Ampera Boyolali untuk pertanyaan, pengaduan, atau kebutuhan layanan pelanggan. Temukan alamat kantor, nomor telepon, dan email resmi kami untuk pelayanan terbaik.",
+        "value": "Hubungi PERUMDA Air Minum Tirta Ampera Boyolali untuk pertanyaan, pengaduan, atau kebutuhan layanan pelanggan. Temukan alamat kantor, nomor telepon, dan email resmi kami untuk pelayanan terbaik.",
         "page": "contact",
         "section": "description"
     },
@@ -25,7 +25,7 @@
         "type": "seo",
         "meta": {},
         "name": "SEO Image",
-        "value": "public/assets/images/logo_long.png",
+        "value": "/assets/images/logo_long.png",
         "page": "contact",
         "section": "image"
     },
@@ -35,7 +35,7 @@
         "type": "seo",
         "meta": {},
         "name": "SEO Keywords",
-        "value": "Perumda Air Minum, Tirta Ampera, Boyolali, kontak, layanan pelanggan, pengaduan, air bersih, alamat, telepon, email",
+        "value": "PERUMDA Air Minum, Tirta Ampera, Boyolali, kontak, layanan pelanggan, pengaduan, air bersih, alamat, telepon, email",
         "page": "contact",
         "section": "keywords"
     }

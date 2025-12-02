@@ -1,0 +1,38 @@
+[
+    {
+        "key": "seo.info_tariff.title",
+        "input_type": "input:text",
+        "meta": {},
+        "name": "SEO Title",
+        "value": "Tarif Air PDAM Boyolali: Update Harga Terbaru dan Transparan",
+        "page": "info-tariff",
+        "section": "title"
+    },
+    {
+        "key": "seo.info_tariff.description",
+        "input_type": "textarea",
+        "meta": {},
+        "name": "SEO Description",
+        "value": "Cek tarif air terbaru di PERUMDA Air Minum Tirta Ampera. Dapatkan info biaya langganan, skema pembayaran, dan perhitungan tarif untuk rumah tangga hingga industri. Konsultasi mudah, tagihan transparan.",
+        "page": "info-tariff",
+        "section": "description"
+    },
+    {
+        "key": "seo.info_tariff.image",
+        "input_type": "input:image",
+        "meta": {},
+        "name": "SEO Image",
+        "value": "/assets/images/logo_long.png",
+        "page": "info-tariff",
+        "section": "image"
+    },
+    {
+        "key": "seo.info_tariff.keywords",
+        "input_type": "input:text",
+        "meta": {},
+        "name": "SEO Keywords",
+        "value": "tarif air PDAM Boyolali, harga air terbaru, biaya langganan PDAM, perhitungan tarif PDAM, tarif rumah tangga air, harga air PDAM 2024, biaya air industri, tarif sosial Boyolali, info tarif air mudah, biaya langganan air Boyolali, berapa tagihan air bulan ini, biaya PDAM Tirta Ampera, sistem tarif air PDAM",
+        "page": "info-tariff",
+        "section": "keywords"
+    }
+]

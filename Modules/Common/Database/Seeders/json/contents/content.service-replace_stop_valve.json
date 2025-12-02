@@ -1,0 +1,63 @@
+[
+    {
+        "key": "replace_stop_valve.header.badge",
+        "input_type": "input:text",
+        "name": "Header Badge",
+        "value": "Solusi Stop Kran Bocor"
+    },
+    {
+        "key": "replace_stop_valve.header.title",
+        "input_type": "input:text",
+        "name": "Judul Header",
+        "value": "Stop Kran Bermasalah? <span class=\"text-sky-600\">Kami Bantu Ganti Lebih Mudah!</span>"
+    },
+    {
+        "key": "replace_stop_valve.header.description",
+        "input_type": "textarea",
+        "name": "Deskripsi Header",
+        "value": "Stop kran rumah Anda bocor atau rusak? Tidak perlu repot, tim PERUMDA Air Minum Tirta Ampera Boyolali siap membantu penggantian stop kran utama di rumah Anda, langsung lewat aplikasi <b class=\\\"text-sky-700\\\">Tirta Amperaku</b> atau unit layanan terdekat. Biaya transparan, proses cepat dan hasil dijamin resmi oleh teknisi PDAM."
+    },
+    {
+        "key": "replace_stop_valve.cards",
+        "input_type": "json",
+        "name": "Isi 4 Kartu Benefit",
+        "value": [
+            {
+                "icon": "bx bx-badge-check",
+                "title": "Syarat dan Cakupan Layanan",
+                "items": [
+                    "Kami bantu penggantian <span class=\\\"font-medium text-sky-700\\\">stop kran utama</span> rusak di lokasi meter air pelanggan.",
+                    "Pastikan tidak ada tunggakan tagihan air, agar proses berjalan lancar.",
+                    "Perbaikan di luar pipa setelah meteran tidak menjadi bagian layanan ini."
+                ]
+            },
+            {
+                "icon": "bx bx-file",
+                "title": "Mudah Ajukan Permohonan",
+                "items": [
+                    "Isi form permohonan lewat aplikasi <span class=\\\"font-medium text-sky-700\\\">Tirta Amperaku</span> atau datang ke Unit Layanan terdekat.",
+                    "Sertakan bukti bayar tagihan air terakhir untuk proses lebih cepat."
+                ]
+            },
+            {
+                "icon": "bx bx-wallet",
+                "title": "Biaya Transparan & Jelas",
+                "items": [
+                    "Estimasi biaya menyesuaikan jenis/ukuran stop kran dan kebutuhan material.",
+                    "<span class=\\\"font-medium text-sky-700\\\">Rincian biaya akan kami infokan setelah survei lokasi</span> atau melalui aplikasi.",
+                    "Jika ditemukan kerusakan tambahan saat pemeriksaan, teknisi akan mengkonfirmasi biaya terlebih dahulu."
+                ]
+            },
+            {
+                "icon": "bx bx-shield-alt-2",
+                "title": "Aman, Bergaransi, dan Profesional",
+                "items": [
+                    "Teknisi resmi PDAM survei dan menginformasikan rincian biaya sebelum pengerjaan.",
+                    "<span class=\\\"font-medium\\\">Pembayaran sesuai estimasi biaya yang sudah Anda setujui.</span>",
+                    "<span class=\\\"font-medium text-sky-700\\\">Pengerjaan langsung oleh tenaga ahli</span> dan dijamin bergaransi material & jasa.",
+                    "Transaksi dicatat aman lewat sistem resmi PDAM Boyolali."
+                ]
+            }
+        ]
+    }
+]

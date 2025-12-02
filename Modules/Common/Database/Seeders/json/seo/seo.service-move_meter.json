@@ -1,0 +1,38 @@
+[
+    {
+        "key": "seo.move_meter.title",
+        "input_type": "input:text",
+        "meta": {},
+        "name": "SEO Title",
+        "value": "Pindah Meter Air PDAM Boyolali Mudah & Cepat Untuk Anda",
+        "page": "service-move_meter",
+        "section": "title"
+    },
+    {
+        "key": "seo.move_meter.description",
+        "input_type": "textarea",
+        "meta": {},
+        "name": "SEO Description",
+        "value": "Ingin pindah meter air? PDAM Boyolali siap bantu proses pindah meter dengan mudah, biaya pasti, dan layanan ramah. Semua langkah jelas, cepat, tanpa ribet! Hubungi kami sekarang bila butuh bantuan.",
+        "page": "service-move_meter",
+        "section": "description"
+    },
+    {
+        "key": "seo.move_meter.image",
+        "input_type": "input:image",
+        "meta": {},
+        "name": "SEO Image",
+        "value": "/assets/images/logo_long.png",
+        "page": "service-move_meter",
+        "section": "image"
+    },
+    {
+        "key": "seo.move_meter.keywords",
+        "input_type": "input:text",
+        "meta": {},
+        "name": "SEO Keywords",
+        "value": "pindah meter air, pindah meter PDAM, PDAM Boyolali, prosedur pindah meter air, syarat pindah meter, cara pindah meter, biaya pindah meter air, pemindahan meter Boyolali, ganti posisi meter air, pelayanan meter air, cara urus pindah meter air, pasang ulang PDAM, info pindah meter PDAM, pengurusan meter air Boyolali, tanya pindah meter air",
+        "page": "service-move_meter",
+        "section": "keywords"
+    }
+]

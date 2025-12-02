@@ -1,0 +1,61 @@
+[
+    {
+        "key": "move_meter.header.badge",
+        "input_type": "input:text",
+        "name": "Header Badge",
+        "value": "Layanan Pindah Meter"
+    },
+    {
+        "key": "move_meter.header.title",
+        "input_type": "input:text",
+        "name": "Judul Header",
+        "value": "Pindah Meter Air di Boyolali <span class=\"text-sky-600\">Kini Lebih Mudah</span>"
+    },
+    {
+        "key": "move_meter.header.description",
+        "input_type": "textarea",
+        "name": "Deskripsi Header",
+        "value": "Ingin memindahkan meter air PDAM Boyolali ke lokasi baru? Kami siap membantu prosesnya lebih cepat, tanpa ribet, dan bisa dilakukan dari mana saja. Ajukan permohonan lewat aplikasi <b>Tirta Amperaku</b> di HP Anda atau kunjungi Unit Pelayanan terdekat. Nikmati kemudahan layanan pindah meter. Semua demi kenyamanan Anda dan keluarga."
+    },
+    {
+        "key": "move_meter.cards",
+        "input_type": "json",
+        "name": "Isi 4 Kartu Benefit",
+        "value": [
+            {
+                "icon": "bx bx-user-check",
+                "title": "Apa Saja Syaratnya?",
+                "items": [
+                    "Pelanggan aktif dan <span class=\"font-medium\">tagihan selalu lunas</span>.",
+                    "Lokasi meter baru masih di lahan atau rumah milik Anda yang sama."
+                ]
+            },
+            {
+                "icon": "bx bx-file-detail",
+                "title": "Dokumen yang Perlu Disiapkan",
+                "items": [
+                    "Formulir permohonan (bisa langsung isi di aplikasi <span class=\"font-medium text-sky-700\">Tirta Amperaku</span>).",
+                    "Bukti pembayaran tagihan air terakhir."
+                ]
+            },
+            {
+                "icon": "bx bx-checklist",
+                "title": "Langkah Kami Membantu Anda",
+                "items": [
+                    "Tim kami survei lokasi & menghitung estimasi biaya.",
+                    "Lakukan pembayaran sesuai rincian di loket, <span class=\"font-medium text-sky-700\">atau lewat aplikasi</span>.",
+                    "Proses pemindahan meter air dilakukan setelah seluruh biaya lunas. Mudah!"
+                ]
+            },
+            {
+                "icon": "bx bx-info-circle",
+                "title": "Catatan agar Lebih Jelas",
+                "items": [
+                    "Meter air tetap menjadi milik PERUMDA Air Minum Tirta Ampera.",
+                    "Setelah dipindah, keamanan dan perawatan meter menjadi tanggung jawab Anda.",
+                    "Keputusan pindah meter disesuaikan hasil survei teknis tim lapangan kami."
+                ]
+            }
+        ]
+    }
+]

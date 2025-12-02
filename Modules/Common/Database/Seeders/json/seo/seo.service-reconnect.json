@@ -1,0 +1,38 @@
+[
+    {
+        "key": "seo.reconnect.title",
+        "input_type": "input:text",
+        "meta": {},
+        "name": "SEO Title",
+        "value": "Buka Sambungan Air PDAM Boyolali Mudah & Cepat",
+        "page": "service-reconnect",
+        "section": "title"
+    },
+    {
+        "key": "seo.reconnect.description",
+        "input_type": "textarea",
+        "meta": {},
+        "name": "SEO Description",
+        "value": "Ingin air mengalir kembali? Ajukan buka sambungan di PERUMDA Air Minum Tirta Ampera. Proses cepat, biaya jelas, dan persyaratan mudah. Hubungi kami untuk bantuan ramah.",
+        "page": "service-reconnect",
+        "section": "description"
+    },
+    {
+        "key": "seo.reconnect.image",
+        "input_type": "input:image",
+        "meta": {},
+        "name": "SEO Image",
+        "value": "/assets/images/logo_long.png",
+        "page": "service-reconnect",
+        "section": "image"
+    },
+    {
+        "key": "seo.reconnect.keywords",
+        "input_type": "input:text",
+        "meta": {},
+        "name": "SEO Keywords",
+        "value": "buka sambungan air, sambungan air aktif lagi, reconnect PDAM Boyolali, layanan pelanggan air, syarat buka air, biaya reconnect PDAM, pengaktifan air rumah, buka meter air, PDAM Boyolali reconnect, air rumah nyala lagi, daftar sambungan air baru, pengajuan sambungan ulang, cara buka air PDAM, sambungan air nonaktif aktif lagi, call center PDAM Boyolali, bantuan sambungan air",
+        "page": "service-reconnect",
+        "section": "keywords"
+    }
+]

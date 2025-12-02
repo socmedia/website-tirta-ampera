@@ -1,0 +1,38 @@
+[
+    {
+        "key": "seo.info_prohibition.title",
+        "input_type": "input:text",
+        "meta": {},
+        "name": "SEO Title",
+        "value": "Larangan Penting PDAM Boyolali: Jaga Layanan Air Bersih",
+        "page": "info-prohibition",
+        "section": "title"
+    },
+    {
+        "key": "seo.info_prohibition.description",
+        "input_type": "textarea",
+        "meta": {},
+        "name": "SEO Description",
+        "value": "Pahami batasan sebagai pelanggan PERUMDA Air Minum Tirta Ampera. Hindari pelanggaran seperti merusak meter, segel, atau menyadap air. Bersama kita jaga layanan tetap lancar dan aman untuk semua. Info selengkapnya di sini!",
+        "page": "info-prohibition",
+        "section": "description"
+    },
+    {
+        "key": "seo.info_prohibition.image",
+        "input_type": "input:image",
+        "meta": {},
+        "name": "SEO Image",
+        "value": "/assets/images/logo_long.png",
+        "page": "info-prohibition",
+        "section": "image"
+    },
+    {
+        "key": "seo.info_prohibition.keywords",
+        "input_type": "input:text",
+        "meta": {},
+        "name": "SEO Keywords",
+        "value": "larangan pelanggan pdam, aturan PDAM Boyolali, pelanggaran air, segel meteran rusak, curi air pdam, penyadapan air, sanksi pelanggan air, peraturan Tirta Ampera, larangan pipa air, informasi hukum air, tips jaga layanan air, pelanggan dilarang rusak segel, denda pelanggan air, aturan distribusi air, pelaporan pelanggaran pdam",
+        "page": "info-prohibition",
+        "section": "keywords"
+    }
+]

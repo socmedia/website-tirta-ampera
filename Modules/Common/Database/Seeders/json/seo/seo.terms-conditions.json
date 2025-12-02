@@ -4,7 +4,7 @@
         "input_type": "input:text",
         "meta": {},
         "name": "SEO Title",
-        "value": "Syarat & Ketentuan Perumda Air Minum Tirta Ampera Boyolali",
+        "value": "Syarat & Aturan Website PDAM Boyolali untuk Pelanggan",
         "page": "terms-conditions",
         "section": "title"
     },
@@ -13,7 +13,7 @@
         "input_type": "textarea",
         "meta": {},
         "name": "SEO Description",
-        "value": "Ketahui syarat dan ketentuan penggunaan layanan Perumda Air Minum Tirta Ampera Boyolali. Informasi ini penting untuk memahami hak, kewajiban, serta tata tertib dalam penggunaan website dan pelayanan kami.",
+        "value": "Pahami hak dan kewajiban Anda saat mengakses website PERUMDA Air Minum Tirta Ampera. Informasi ini memastikan penggunaan layanan kami aman, nyaman, dan jelas. Ada pertanyaan? Silakan hubungi tim kami.",
         "page": "terms-conditions",
         "section": "description"
     },
@@ -22,7 +22,7 @@
         "input_type": "input:image",
         "meta": {},
         "name": "SEO Image",
-        "value": "public/assets/images/logo_long.png",
+        "value": "/assets/images/logo_long.png",
         "page": "terms-conditions",
         "section": "image"
     },
@@ -31,7 +31,7 @@
         "input_type": "input:text",
         "meta": {},
         "name": "SEO Keywords",
-        "value": "Perumda Air Minum, Tirta Ampera, Boyolali, syarat dan ketentuan, peraturan penggunaan, layanan pelanggan, website",
+        "value": "syarat ketentuan PDAM Boyolali, aturan website Tirta Ampera, peraturan layanan air, akses website PDAM, hak pelanggan PDAM, tata tertib PDAM, cara pakai website pdam, kebijakan pengguna PDAM, aturan penggunaan air, syarat dan ketentuan air, regulasi PDAM Boyolali, syarat berlangganan air Boyolali, panduan layanan pdam, website resmi Tirta Ampera, informasi pelanggan Boyolali",
         "page": "terms-conditions",
         "section": "keywords"
     }

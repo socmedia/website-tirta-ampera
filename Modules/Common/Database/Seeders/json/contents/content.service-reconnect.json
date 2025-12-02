@@ -1,0 +1,64 @@
+[
+    {
+        "key": "reconnect.header.badge",
+        "input_type": "input:text",
+        "name": "Header Badge",
+        "value": "Aktifkan Lagi Air Anda"
+    },
+    {
+        "key": "reconnect.header.title",
+        "input_type": "input:text",
+        "name": "Judul Header",
+        "value": "Saatnya Nikmati Air Bersih Boyolali Lagi, <span class=\"text-sky-600\">Mudah & Tanpa Ribet</span>"
+    },
+    {
+        "key": "reconnect.header.description",
+        "input_type": "textarea",
+        "name": "Deskripsi Header",
+        "value": "Sudah melunasi tunggakan dan ingin kembali menikmati layanan air PDAM Boyolali? Kami siap membantu sambungan air Anda aktif lagi. Proses cepat, ramah, dan terjamin resmi. Yuk, biarkan rumah Anda kembali dialiri air bersih dalam waktu singkat bersama kami."
+    },
+    {
+        "key": "reconnect.cards",
+        "input_type": "json",
+        "name": "Isi 4 Kartu Benefit",
+        "value": [
+            {
+                "icon": "bx bx-badge-check",
+                "title": "Mudahnya Aktifkan Kembali Sambungan Anda",
+                "items": [
+                    "Layanan ini untuk pelanggan yang sebelumnya sambungan airnya dihentikan sementara.",
+                    "Cukup lunasi seluruh tunggakan tagihan air Anda.",
+                    "Bawa dokumen pendukung saat mengajukan permohonan.",
+                    "Ada biaya administrasi sesuai ketentuan."
+                ]
+            },
+            {
+                "icon": "bx bx-check-circle",
+                "title": "Langkah Singkat Pengajuan Buka Kembali",
+                "items": [
+                    "<span class=\"font-medium text-sky-700\">Lunasi Tagihan:</span> Selesaikan pembayaran semua tagihan tertunggak.",
+                    "<span class=\"font-medium text-sky-700\">Ajukan Permohonan:</span> Datang ke Unit Pelayanan PDAM Boyolali atau hubungi tim kami.",
+                    "<span class=\"font-medium text-sky-700\">Berkas Dicek:</span> Kami bantu memeriksa kelengkapan dan keaslian dokumen Anda.",
+                    "<span class=\"font-medium text-sky-700\">Penyambungan Ulang:</span> Tim teknis kami akan segera mengaktifkan kembali air di rumah Anda."
+                ]
+            },
+            {
+                "icon": "bx bx-wallet",
+                "title": "Transparan & Jelas Soal Biaya",
+                "items": [
+                    "Biaya administrasi dibuka kembali sesuai aturan resmi PDAM Boyolali.",
+                    "Ingin tahu detail biaya? <span class=\"font-medium text-sky-700\">Silakan tanyakan langsung ke petugas atau Customer Service kami.</span>"
+                ]
+            },
+            {
+                "icon": "bx bx-info-circle",
+                "title": "Tips & Info Agar Lancar",
+                "items": [
+                    "Dengan layanan ini, air bersih di rumah Anda segera kembali mengalir sehingga praktis tanpa repot.",
+                    "Simpan bukti pembayaran dan dokumen pengajuan sebagai arsip Anda.",
+                    "<span class=\"font-medium\">Perlu bantuan lebih lanjut?</span> Tim Customer Service kami siap mendampingi Anda setiap langkah."
+                ]
+            }
+        ]
+    }
+]

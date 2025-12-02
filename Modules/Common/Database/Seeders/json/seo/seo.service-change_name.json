@@ -1,0 +1,38 @@
+[
+    {
+        "key": "seo.change_name.title",
+        "input_type": "input:text",
+        "meta": {},
+        "name": "SEO Title",
+        "value": "Balik Nama PDAM Boyolali Mudah & Cepat, Syarat Jelas!",
+        "page": "service-change_name",
+        "section": "title"
+    },
+    {
+        "key": "seo.change_name.description",
+        "input_type": "textarea",
+        "meta": {},
+        "name": "SEO Description",
+        "value": "Butuh ganti nama pelanggan air? Proses balik nama di PERUMDA Air Minum Tirta Ampera Boyolali kini lebih praktis, transparan, dan ramah. Simak syarat serta langkah mudahnya, hubungi tim kami untuk bantuan.",
+        "page": "service-change_name",
+        "section": "description"
+    },
+    {
+        "key": "seo.change_name.image",
+        "input_type": "input:image",
+        "meta": {},
+        "name": "SEO Image",
+        "value": "/assets/images/logo_long.png",
+        "page": "service-change_name",
+        "section": "image"
+    },
+    {
+        "key": "seo.change_name.keywords",
+        "input_type": "input:text",
+        "meta": {},
+        "name": "SEO Keywords",
+        "value": "balik nama PDAM, ganti nama pelanggan air, syarat balik nama air, biaya balik nama pdam, ubah data pelanggan air, cara balik nama pdam, layanan PDAM Boyolali, PDAM Tirta Ampera, administrasi sambungan air, dokumen balik nama pdam, proses namain air, balik nama sambungan air, update nama langganan, perubahan data pelanggan air, hubungi PDAM Boyolali",
+        "page": "service-change_name",
+        "section": "keywords"
+    }
+]

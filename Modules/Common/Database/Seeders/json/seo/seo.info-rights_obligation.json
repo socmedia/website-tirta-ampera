@@ -1,0 +1,38 @@
+[
+    {
+        "key": "seo.info_rights_obligation.title",
+        "input_type": "input:text",
+        "meta": {},
+        "name": "SEO Title",
+        "value": "Hak & Kewajiban Pelanggan PDAM Boyolali Lengkap",
+        "page": "info-rights_obligation",
+        "section": "title"
+    },
+    {
+        "key": "seo.info_rights_obligation.description",
+        "input_type": "textarea",
+        "meta": {},
+        "name": "SEO Description",
+        "value": "Cari tahu hak serta kewajiban pelanggan di PERUMDA Air Minum Tirta Ampera. Temukan info soal komplain tagihan, perawatan meter, hingga tips pembayaran tepat waktu. Jika butuh bantuan, kami siap membantu!",
+        "page": "info-rights_obligation",
+        "section": "description"
+    },
+    {
+        "key": "seo.info_rights_obligation.image",
+        "input_type": "input:image",
+        "meta": {},
+        "name": "SEO Image",
+        "value": "/assets/images/logo_long.png",
+        "page": "info-rights_obligation",
+        "section": "image"
+    },
+    {
+        "key": "seo.info_rights_obligation.keywords",
+        "input_type": "input:text",
+        "meta": {},
+        "name": "SEO Keywords",
+        "value": "hak pelanggan air, kewajiban PDAM, hak pelanggan PDAM Boyolali, komplain tagihan PDAM, cara bayar air, meteran air rusak, hak pelanggan perumda air minum, informasi pelanggan PDAM, solusi tagihan air membengkak, pembayaran air online, aturan pelanggan PDAM, tips pelanggan air, PDAM Boyolali, hak & kewajiban air bersih, prosedur komplain PDAM, pelayanan air Boyolali",
+        "page": "info-rights_obligation",
+        "section": "keywords"
+    }
+]

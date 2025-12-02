@@ -1,0 +1,62 @@
+[
+    {
+        "key": "change_name.header.badge",
+        "input_type": "input:text",
+        "name": "Header Badge",
+        "value": "Layanan Balik Nama"
+    },
+    {
+        "key": "change_name.header.title",
+        "input_type": "input:text",
+        "name": "Judul Header",
+        "value": "Balik Nama PDAM Semudah Tersenyum, Data Anda Pun Aman"
+    },
+    {
+        "key": "change_name.header.description",
+        "input_type": "textarea",
+        "name": "Deskripsi Header",
+        "value": "Kami hadir membantu Anda yang ingin mengganti nama pemilik sambungan air PDAM Boyolali. Pengajuan dilakukan saat terjadi perubahan kepemilikan seperti jual beli rumah, warisan, atau hibah keluarga, tanpa ribet dan prosesnya transparan. Mari pastikan data pelanggan selalu akurat bersama PDAM Tirta Ampera."
+    },
+    {
+        "key": "change_name.cards",
+        "input_type": "json",
+        "name": "Isi 4 Kartu Benefit",
+        "value": [
+            {
+                "icon": "bx bx-badge-check",
+                "title": "Siapa Saja Bisa Ajukan?",
+                "items": [
+                    "Tidak ada tunggakan air hingga bulan berjalan.",
+                    "Anda baru membeli, menerima warisan atau mendapatkan hibah atas rumah/lahan pelanggan PDAM Boyolali."
+                ]
+            },
+            {
+                "icon": "bx bx-file-detail",
+                "title": "Dokumen yang Kami Butuhkan",
+                "items": [
+                    "Fotokopi KTP pemilik baru.",
+                    "Fotokopi Kartu Keluarga (KK) pemilik baru."
+                ]
+            },
+            {
+                "icon": "bx bx-checklist",
+                "title": "Langkah Mudah Balik Nama",
+                "items": [
+                    "Bawa semua dokumen ke Unit Pelayanan PDAM terdekat.",
+                    "Tim kami akan membantu verifikasi dokumen dan status tagihan.",
+                    "Setelah administrasi selesai, data Anda segera diperbarui."
+                ]
+            },
+            {
+                "icon": "bx bx-info-circle",
+                "title": "Info Penting untuk Pelanggan",
+                "items": [
+                    "Balik nama tidak mengubah nomor sambungan maupun tarif PDAM Anda.",
+                    "Nama pemilik baru akan langsung tertera di sistem dan tagihan berikutnya.",
+                    "Balik nama memastikan hak dan kewajiban pelanggan sesuai data terbaru.",
+                    "Bingung syaratnya? Silakan konsultasi ke Unit Pelayanan atau hubungi Customer Service kami."
+                ]
+            }
+        ]
+    }
+]

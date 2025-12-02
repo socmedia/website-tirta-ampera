@@ -1,0 +1,66 @@
+[
+    {
+        "key": "temporary_disconnect.header.badge",
+        "input_type": "input:text",
+        "name": "Header Badge",
+        "value": "Administrasi Mudah"
+    },
+    {
+        "key": "temporary_disconnect.header.title",
+        "input_type": "input:text",
+        "name": "Judul Header",
+        "value": "Istirahat Sementara? Tutup Sambungan Air Boyolali Jadi Lebih Praktis"
+    },
+    {
+        "key": "temporary_disconnect.header.description",
+        "input_type": "textarea",
+        "name": "Deskripsi Header",
+        "value": "Sedang tidak memakai air bersih karena rumah kosong, renovasi, atau pindah sementara? Kami bantu proses Tutup Sementara layanan PDAM Boyolali supaya lebih mudah, resmi, dan transparan. Nikmati ketenangan tanpa tagihan berjalan, cukup ajukan permohonan sesuai kebutuhan Anda. <b>Biaya administrasi berlaku mengikuti ketentuan resmi kami.</b>"
+    },
+    {
+        "key": "temporary_disconnect.cards",
+        "input_type": "json",
+        "name": "Isi 4 Kartu Benefit",
+        "value": [
+            {
+                "icon": "bx bx-badge-check",
+                "title": "Siapa yang Bisa Mengajukan?",
+                "items": [
+                    "Layanan ini untuk Anda yang ingin menghentikan pemakaian air sementara secara resmi melalui kanal PDAM Boyolali.",
+                    "Ajukan jika rumah/perusahaan tidak digunakan dalam waktu tertentu, seperti mudik panjang atau renovasi.",
+                    "<span class=\"font-medium text-sky-700\">Kami kenakan biaya administrasi sesuai aturan.</span>"
+                ]
+            },
+            {
+                "icon": "bx bx-file-detail",
+                "title": "Dokumen Penting & Persiapan",
+                "items": [
+                    "Isikan permohonan tutup sementara di Unit Pelayanan PERUMDA Air Minum Tirta Ampera Boyolali.",
+                    "Pastikan semua tagihan air sudah lunas sebelum pengajuan.",
+                    "Siapkan pembayaran biaya administrasi sesuai info dari petugas kami."
+                ]
+            },
+            {
+                "icon": "bx bx-check-circle",
+                "title": "Langkah Pengajuan Tutup Sementara",
+                "items": [
+                    "Kunjungi Unit Pelayanan terdekat atau hubungi Customer Service PDAM Boyolali.",
+                    "Tim kami akan memeriksa data serta status pembayaran Anda.",
+                    "Dapatkan info detail biaya administrasi langsung dari petugas.",
+                    "Lakukan pembayaran administrasi secara mudah.",
+                    "Petugas kami akan menjadwalkan dan memproses penutupan sambungan air Anda.",
+                    "Siap lanjut prosesnya? Pilih tombol di bawah untuk mulai pengajuan."
+                ]
+            },
+            {
+                "icon": "bx bx-info-circle",
+                "title": "Info Layanan & Keuntungan",
+                "items": [
+                    "Status pelanggan tetap aman, layanan dapat dibuka kembali kapan saja sesuai kebutuhan.",
+                    "Butuh penjelasan atau bantuan lebih detail? Kami siap melayani Anda di Customer Service dan Unit Pelayanan.",
+                    "Semua proses resmi, terdokumentasi, dan selalu mengutamakan kenyamanan Anda."
+                ]
+            }
+        ]
+    }
+]

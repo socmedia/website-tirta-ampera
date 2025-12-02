@@ -1,0 +1,38 @@
+[
+    {
+        "key": "seo.replace_stop_valve.title",
+        "input_type": "input:text",
+        "meta": {},
+        "name": "SEO Title",
+        "value": "Ganti Stop Kran Air Mudah di PDAM Boyolali",
+        "page": "service-replace_stop_valve",
+        "section": "title"
+    },
+    {
+        "key": "seo.replace_stop_valve.description",
+        "input_type": "textarea",
+        "meta": {},
+        "name": "SEO Description",
+        "value": "Ganti stop kran air kini praktis dan transparan bersama PERUMDA Air Minum Tirta Ampera. Ajukan permohonan secara mudah dan dapatkan dukungan agar aliran air di rumah Anda tetap lancar. Yuk, urus sekarang!",
+        "page": "service-replace_stop_valve",
+        "section": "description"
+    },
+    {
+        "key": "seo.replace_stop_valve.image",
+        "input_type": "input:image",
+        "meta": {},
+        "name": "SEO Image",
+        "value": "/assets/images/logo_long.png",
+        "page": "service-replace_stop_valve",
+        "section": "image"
+    },
+    {
+        "key": "seo.replace_stop_valve.keywords",
+        "input_type": "input:text",
+        "meta": {},
+        "name": "SEO Keywords",
+        "value": "ganti stop kran, penggantian stop kran air, stop kran bocor, PDAM Boyolali, biaya ganti stop kran, syarat penggantian kran air, cara ganti stop kran pdam, stop kran rusak, stop kran air mati, bantuan ganti kran, layanan pelanggan air Boyolali, Tirta Ampera Boyolali, ganti saluran air, perbaikan stop kran rumah, permohonan penggantian stop kran, solusi kran air lambat",
+        "page": "service-replace_stop_valve",
+        "section": "keywords"
+    }
+]

@@ -15,12 +15,23 @@ class SeoTableSeeder extends Seeder
     public function run()
     {
         $seoFiles = [
-            'seo.homepage.json',
             'seo.about.json',
             'seo.contact.json',
+            'seo.homepage.json',
+            'seo.info-group.json',
+            'seo.info-prohibition.json',
+            'seo.info-rights_obligation.json',
+            'seo.info-tariff.json',
             'seo.news.json',
-            'seo.terms-conditions.json',
             'seo.privacy-policy.json',
+            'seo.service-change_name.json',
+            'seo.service-move_meter.json',
+            'seo.service-pay_bill.json',
+            'seo.service-reconnect.json',
+            'seo.service-replace_stop_valve.json',
+            'seo.service-temprary_disconnect.json',
+            'seo.service.json',
+            'seo.terms-conditions.json',
         ];
 
         $seos = [];
