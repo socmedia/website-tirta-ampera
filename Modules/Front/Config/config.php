@@ -157,40 +157,44 @@ return [
         ],
     ],
     'contact' => [
-        [
-            'icon' => 'bx bx-location',
-            'label' => 'Alamat',
-            'value' => getSetting('contact_address'),
+        'main' => [
+            [
+                'icon' => 'bx bx-location',
+                'label' => 'Alamat',
+                'value' => getSetting('contact_address'),
+            ],
+            [
+                'icon' => 'bx bx-phone',
+                'label' => 'Telp.',
+                'value' => getSetting('contact_phone'),
+            ],
+            [
+                'icon' => 'bx bx-printer',
+                'label' => 'Fax',
+                'value' => getSetting('contact_fax'),
+            ],
         ],
-        [
-            'icon' => 'bx bx-phone',
-            'label' => 'Telepon',
-            'value' => getSetting('contact_phone'),
-        ],
-        [
-            'icon' => 'bx bx-printer',
-            'label' => 'Fax',
-            'value' => getSetting('contact_fax'),
-        ],
-        [
-            'icon' => 'bx bx-user-voice',
-            'label' => 'Info Pelayanan',
-            'value' => getSetting('contact_service_info'),
-        ],
-        [
-            'icon' => 'bx bx-envelope',
-            'label' => 'Email',
-            'value' => getSetting('contact_email'),
-        ],
-        [
-            'icon' => 'bx bx-envelope',
-            'label' => 'Email Support',
-            'value' => getSetting('contact_support_email'),
-        ],
-        [
-            'icon' => 'bxl bx-whatsapp',
-            'label' => 'WhatsApp',
-            'value' => getSetting('contact_whatsapp'),
+        'help' => [
+            [
+                'icon' => 'bx bx-user-voice',
+                'label' => 'Info Pelayanan',
+                'value' => getSetting('contact_service_info'),
+            ],
+            [
+                'icon' => 'bxl bx-whatsapp',
+                'label' => 'WhatsApp',
+                'value' => phone(getSetting('contact_whatsapp')),
+            ],
+            [
+                'icon' => 'bx bx-envelope',
+                'label' => 'Email',
+                'value' => getSetting('contact_email'),
+            ],
+            [
+                'icon' => 'bx bx-envelope',
+                'label' => 'Email Support',
+                'value' => getSetting('contact_support_email'),
+            ],
         ],
     ],
     'socials' => Schema::hasTable('app_settings') ? [

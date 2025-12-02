@@ -56,6 +56,21 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+    | Portal URLs
+    |--------------------------------------------------------------------------
+    |
+    | These URLs are used for integration with the PDAM Tirta Amperaku portal.
+    | The PORTAL_URL is the public portal base URL,
+    | and PORTAL_API_URL is the API endpoint base URL.
+    | Set these in your ".env" file.
+    |
+    */
+
+    'portal_url' => env('PORTAL_URL', 'http://portal.tirtampera.co.id/'),
+    'portal_api_url' => env('PORTAL_API_URL', 'http://portal.tirtampera.co.id/api/v1/'),
+
+    /*
+    |--------------------------------------------------------------------------
     | Application Timezone
     |--------------------------------------------------------------------------
     |

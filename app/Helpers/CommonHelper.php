@@ -248,28 +248,30 @@ if (!function_exists('getSidebarItems')) {
 
 if (!function_exists('getContent')) {
     /**
-     * Get a content value by key, using cache and fallback to DB.
+     * Get a content column value by key, using cache and fallback to DB.
      *
      * @param string $key
+     * @param string $column
      * @param mixed $default
      * @return mixed
      */
-    function getContent(string $key, mixed $default = null): mixed
+    function getContent(string $key, string $column = 'value', mixed $default = null): mixed
     {
         $cacheKey = "content:{$key}";
 
         $cached = cache($cacheKey);
 
-        // Return cached value, json-decode when input_type is json
-        if ($cached && is_array($cached) && array_key_exists('value', $cached)) {
+        // Return cached value, json-decode when input_type is json and column is 'value'
+        if ($cached && is_array($cached) && array_key_exists($column, $cached)) {
             if (
-                (isset($cached['input_type']) && $cached['input_type'] === 'json')
+                $column === 'value'
+                && (isset($cached['input_type']) && $cached['input_type'] === 'json')
                 && is_string($cached['value'])
             ) {
                 $decoded = json_decode($cached['value'], true);
                 return $decoded !== null ? $decoded : $default;
             }
-            return $cached['value'];
+            return $cached[$column];
         }
 
         // Check if table exists before querying
@@ -280,22 +282,24 @@ if (!function_exists('getContent')) {
         // Optional fallback logic: try DB if not in cache
         $content = Content::where('key', $key)->first();
         if ($content) {
-            // Optionally cache it now
-            Cache::put($cacheKey, [
+            // Optionally cache all columns now
+            $cacheData = [
                 'name' => $content->name,
                 'value' => $content->value,
                 'type' => $content->type,
                 'input_type' => $content->input_type,
                 'meta' => $content->meta,
-            ]);
+            ];
+            Cache::put($cacheKey, $cacheData);
             if (
-                (isset($content->input_type) && $content->input_type === 'json')
+                $column === 'value'
+                && (isset($content->input_type) && $content->input_type === 'json')
                 && is_string($content->value)
             ) {
                 $decoded = json_decode($content->value, true);
                 return $decoded !== null ? $decoded : $default;
             }
-            return $content->value;
+            return $content->{$column} ?? $default;
         }
 
         return $default;
@@ -304,28 +308,30 @@ if (!function_exists('getContent')) {
 
 if (!function_exists('getSetting')) {
     /**
-     * Get an app setting value by key, using cache and fallback to DB.
+     * Get an app setting column value by key, using cache and fallback to DB.
      *
      * @param string $key
+     * @param string $column
      * @param mixed $default
      * @return mixed
      */
-    function getSetting(string $key, mixed $default = null): mixed
+    function getSetting(string $key, string $column = 'value', mixed $default = null): mixed
     {
         $cacheKey = "app_setting:{$key}";
 
         $cached = cache($cacheKey);
 
-        // Return cached value, json-decode when type is json
-        if ($cached && is_array($cached) && array_key_exists('value', $cached)) {
+        // Return cached value, json-decode when type is json and column is 'value'
+        if ($cached && is_array($cached) && array_key_exists($column, $cached)) {
             if (
-                (isset($cached['type']) && $cached['type'] === 'json')
+                $column === 'value'
+                && (isset($cached['type']) && $cached['type'] === 'json')
                 && is_string($cached['value'])
             ) {
                 $decoded = json_decode($cached['value'], true);
                 return $decoded !== null ? $decoded : $default;
             }
-            return $cached['value'];
+            return $cached[$column];
         }
 
         // Check if table exists before querying
@@ -336,22 +342,24 @@ if (!function_exists('getSetting')) {
         // Optional fallback logic: try DB if not in cache
         $setting = AppSetting::where('key', $key)->first();
         if ($setting) {
-            // Optionally cache it now
-            Cache::put($cacheKey, [
+            // Optionally cache all columns now
+            $cacheData = [
                 'name' => $setting->name,
                 'value' => $setting->value,
                 'group' => $setting->group,
                 'type' => $setting->type,
                 'meta' => $setting->meta,
-            ]);
+            ];
+            Cache::put($cacheKey, $cacheData);
             if (
-                (isset($setting->type) && $setting->type === 'json')
+                $column === 'value'
+                && (isset($setting->type) && $setting->type === 'json')
                 && is_string($setting->value)
             ) {
                 $decoded = json_decode($setting->value, true);
                 return $decoded !== null ? $decoded : $default;
             }
-            return $setting->value;
+            return $setting->{$column} ?? $default;
         }
 
         return $default;
