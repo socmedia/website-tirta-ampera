@@ -20,7 +20,7 @@
         <label class="form-label mb-2 block" for="whatsapp_number">{{ __('front::form.whatsapp_number') }}</label>
         <div class="flex flex-row gap-2 md:gap-4">
             <div class="flex-shrink-0" x-data x-init="$store.libphonenumber">
-                <select class="form-select bg-blue-50 py-2.5 focus:border-blue-200 focus:bg-blue-100" id="country"
+                <select class="form-select bg-sky-50 py-2.5 focus:border-sky-200 focus:bg-sky-100" id="country"
                         name="country" wire:model.lazy="whatsapp_code" required>
                     <template x-for="(country, idx) in $store.libphonenumber.countries"
                               :key="country.countryCode + '-' + idx">
@@ -32,7 +32,7 @@
                 </select>
             </div>
             <div class="flex-1">
-                <input class="form-input w-full bg-blue-50 focus:border-blue-200 focus:bg-blue-100"
+                <input class="form-input w-full bg-sky-50 focus:border-sky-200 focus:bg-sky-100"
                        id="input-whatsapp-number" name="whatsapp_number" type="text" x-mask="999-9999-99999"
                        placeholder="{{ __('front::form.enter_whatsapp_number') }}"
                        x-on:change="$wire.set('whatsapp_number', `${$el.value.replace(/[-A-Za-z% ,.]/g, '')}`)"

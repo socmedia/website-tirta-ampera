@@ -31,9 +31,9 @@
                         <div class="relative z-10 flex h-full w-full items-center py-16 sm:py-20 md:py-32">
                             <div class="container">
                                 <div
-                                     class="text-shadow-2xs mb-4 flex items-center text-xs font-medium text-blue-600 sm:text-xl">
+                                     class="text-shadow-2xs mb-4 flex items-center text-xs font-medium text-sky-600 sm:text-xl">
                                     <span
-                                          class="mr-2 hidden h-0.5 w-6 border-l-2 border-blue-200 bg-blue-600 md:inline-block"></span>
+                                          class="mr-2 hidden h-0.5 w-6 border-l-2 border-sky-200 bg-sky-600 md:inline-block"></span>
                                     {{ $slide['sub_heading'] }}
                                 </div>
 

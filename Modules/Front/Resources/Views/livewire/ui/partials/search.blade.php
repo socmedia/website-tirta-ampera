@@ -1,7 +1,7 @@
 <div x-data="{
     showSearch: false
 }">
-    <button class="grid place-items-center hover:text-blue-600" aria-label="{{ __('front::global.search') }}"
+    <button class="grid place-items-center hover:text-sky-600" aria-label="{{ __('front::global.search') }}"
             x-on:click="showSearch = true">
         <i class="bx bx-search" aria-hidden="true"></i>
     </button>
@@ -11,7 +11,7 @@
             <nav class="mb-4 flex border-b border-neutral-200" role="tablist"
                  aria-label="{{ __('front::global.search_tabs') }}">
                 @foreach ($tabs as $key => $label)
-                    <button class="{{ $tab === $key ? 'border-blue-200 text-blue-600' : 'border-transparent text-neutral-500 hover:text-blue-600' }} -mb-px border-b-2 px-4 py-2 text-sm font-medium transition-all focus:outline-none"
+                    <button class="{{ $tab === $key ? 'border-sky-200 text-sky-600' : 'border-transparent text-neutral-500 hover:text-sky-600' }} -mb-px border-b-2 px-4 py-2 text-sm font-medium transition-all focus:outline-none"
                             id="search-tab-{{ $key }}" role="tab"
                             aria-selected="{{ $tab === $key ? 'true' : 'false' }}"
                             aria-controls="search-tabpanel-{{ $key }}"
@@ -51,7 +51,7 @@
                     @endif
                     @forelse ($results as $item)
                         @if (isset($item->url))
-                            <li class="{{ $loop->last ? '' : 'border-b border-gray-200' }} flex items-start gap-4 py-3 transition hover:bg-blue-50"
+                            <li class="{{ $loop->last ? '' : 'border-b border-gray-200' }} flex items-start gap-4 py-3 transition hover:bg-sky-50"
                                 tabindex="0" itemscope
                                 itemtype="https://schema.org/{{ isset($item->formatted_price) ? 'Product' : 'Article' }}">
                                 <a class="group flex w-full items-start gap-4 focus:outline-none"
@@ -65,11 +65,11 @@
                                     @endif
                                     <div class="flex-1 self-center">
                                         @if (isset($item->category_name))
-                                            <div class="mb-1 text-[10px] uppercase text-blue-600" itemprop="genre">
+                                            <div class="mb-1 text-[10px] uppercase text-sky-600" itemprop="genre">
                                                 {{ $item->category_name }}
                                             </div>
                                         @endif
-                                        <div class="font-semibold text-neutral-800 group-hover:text-blue-600"
+                                        <div class="font-semibold text-neutral-800 group-hover:text-sky-600"
                                              itemprop="name">
                                             {{ $item->name ?? ($item->title ?? '-') }}
                                         </div>
@@ -103,7 +103,7 @@
                                         {{ $item->name ?? ($item->title ?? '-') }}
                                     </div>
                                     @if (isset($item->category_name))
-                                        <div class="mb-1 text-xs uppercase text-blue-600" itemprop="genre">
+                                        <div class="mb-1 text-xs uppercase text-sky-600" itemprop="genre">
                                             {{ $item->category_name }}</div>
                                     @endif
                                     @if (isset($item->description))

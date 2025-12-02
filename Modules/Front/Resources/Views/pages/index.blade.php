@@ -60,7 +60,7 @@
             <div class="relative ms-4">
                 <img class="w-full rounded-b-2xl"
                      src="{{ getContent('homepage.hero.image') ?? 'https://placehold.co/700x800/0067A3/FFFFFF?text=Foto+Instalasi+Pengolahan+Air' }}"
-                     alt="Foto Instalasi Pengolahan Air Perumda Tirta Ampera Boyolali">
+                     alt="Foto Instalasi Pengolahan Air PERUMDA Tirta Ampera Boyolali">
                 <div
                      class="-z-1 bg-linear-to-tr absolute inset-0 -mb-4 -ms-4 me-4 mt-4 size-full rounded-b-2xl from-sky-200 via-white/0 to-white/0 lg:-mb-6 lg:-ms-6 lg:me-6 lg:mt-6">
                 </div>
@@ -89,13 +89,14 @@
             </div>
         </div>
     </div>
+
     {{-- ABOUT US SECTION --}}
     <div class="container py-16 lg:py-36">
         <div class="grid items-center gap-12 md:grid-cols-2">
             <div class="relative">
                 <img class="rounded-xl"
                      src="{{ getContent('homepage.about.image') ?? 'https://placehold.co/600x400/E0F2FE/0C4A6E?text=Gedung+Kantor+Pusat' }}"
-                     alt="{{ getContent('homepage.about.title', 'Gedung Kantor Perumda Tirta Ampera Boyolali') }}">
+                     alt="{{ getContent('homepage.about.title', 'Gedung Kantor PERUMDA Tirta Ampera Boyolali') }}">
                 <div class="absolute bottom-0 end-0 -z-10 -mb-4 -me-4 size-56 rounded-md bg-slate-100"></div>
             </div>
             <div>

@@ -13,8 +13,8 @@
         <div class="container mx-auto">
 
             @if ($subtitle)
-                <div class="mb-4 flex items-center text-2xl font-medium text-blue-600">
-                    <span class="mr-3 inline-block h-0.5 w-6 bg-blue-600"></span> {{ $subtitle }}
+                <div class="mb-4 flex items-center text-2xl font-medium text-sky-600">
+                    <span class="mr-3 inline-block h-0.5 w-6 bg-sky-600"></span> {{ $subtitle }}
                 </div>
             @endif
 

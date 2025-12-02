@@ -1,4 +1,4 @@
-<section class="bg-white py-20">
+<section class="container py-20">
     <div
          class="flex flex-col-reverse justify-between gap-32 rounded-2xl bg-gradient-to-r from-sky-600 to-blue-700 px-8 lg:flex-row xl:px-24">
         <div class="relative flex w-full items-end justify-center overflow-hidden lg:w-2/6">
@@ -15,9 +15,7 @@
             <div class="mb-8 flex flex-wrap justify-center gap-2 lg:justify-start">
                 <span
                       class="inline-flex items-center gap-1 rounded-full bg-lime-400/20 px-3 py-1 text-xs font-semibold text-lime-300">
-                    <svg class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                        <path d="M12 4v16m8-8H4"></path>
-                    </svg>
+                    <i class="bx bx-plus"></i>
                     Mobile Experience
                 </span>
                 <span

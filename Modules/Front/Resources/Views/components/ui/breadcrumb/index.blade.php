@@ -7,7 +7,7 @@
     $count = count($items);
 @endphp
 
-<div class="relative z-50 mt-20 border-y border-neutral-200 bg-white">
+<div class="relative z-50 mt-20 border-y border-neutral-200 bg-transparent">
     <div class="container">
         <div class="flex min-h-[62px] items-center py-4">
             <div

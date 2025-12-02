@@ -104,7 +104,7 @@ class FrontController extends Controller
      */
     public function customerInfoRightsObligations()
     {
-        return view('front::pages.customer-info.rights-obligations');
+        return view('front::pages.customer-info.rights-obligation');
     }
 
     /**
@@ -114,7 +114,7 @@ class FrontController extends Controller
      */
     public function customerInfoProhibitions()
     {
-        return view('front::pages.customer-info.prohibitions');
+        return view('front::pages.customer-info.prohibition');
     }
 
     /**
@@ -124,7 +124,7 @@ class FrontController extends Controller
      */
     public function customerInfoGroups()
     {
-        return view('front::pages.customer-info.groups');
+        return view('front::pages.customer-info.group');
     }
 
     /**

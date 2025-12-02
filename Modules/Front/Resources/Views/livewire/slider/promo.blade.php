@@ -45,7 +45,7 @@
                 @foreach ($promoSlider as $promo)
                     <div class="swiper-slide flex items-center justify-center py-4">
                         <div
-                             class="aspect-square m-2 w-full overflow-hidden rounded-lg bg-blue-50 ring-1 ring-blue-200 transition hover:bg-blue-100 hover:shadow-lg">
+                             class="aspect-square m-2 w-full overflow-hidden rounded-lg bg-sky-50 ring-1 ring-sky-200 transition hover:bg-sky-100 hover:shadow-lg">
                             <img class="h-full w-full object-cover transition hover:scale-105"
                                  src="{{ $promo['thumbnail'] }}" alt="{{ $promo['heading'] }}" loading="lazy" />
                         </div>

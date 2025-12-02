@@ -10,7 +10,7 @@
         {{-- Per Page Dropdown (Livewire-bound) --}}
         <div class="ml-4">
             <label class="sr-only" for="perPage">Per Page</label>
-            <select class="rounded-lg border-zinc-200 bg-white px-3 py-2 text-sm text-zinc-700 focus:border-blue-500 focus:ring-blue-500 dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-300 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+            <select class="rounded-lg border-zinc-200 bg-white px-3 py-2 text-sm text-zinc-700 focus:border-sky-500 focus:ring-sky-500 dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-300 dark:focus:border-sky-500 dark:focus:ring-sky-500"
                     id="perPage" wire:model.lazy="perPage">
                 @foreach ($options as $option)
                     <option value="{{ $option }}">{{ $option }}</option>
