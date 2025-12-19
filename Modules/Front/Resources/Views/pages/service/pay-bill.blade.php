@@ -28,12 +28,12 @@
                 </div>
             </div>
 
-            <div class="mx-auto my-16 max-w-4xl">
+            {{-- <div class="mx-auto my-16 max-w-4xl">
                 <livewire:front::service.pay-bill />
-            </div>
+            </div> --}}
 
 
-            <div class="mx-auto grid max-w-5xl gap-8 md:grid-cols-2">
+            <div class="mx-auto mt-20 grid max-w-5xl gap-8 md:grid-cols-2">
                 @foreach (getContent('pay_bill.cards', 'value') as $card)
                     <div
                          class="rounded-lg bg-gradient-to-r from-sky-500/20 via-cyan-200/40 to-lime-200/40 p-0.5 transition transition-colors hover:from-lime-200/40 hover:via-cyan-200/40 hover:to-sky-500/20">

@@ -24,18 +24,42 @@
                 </span>
             </div>
             <div class="flex flex-col items-center justify-center gap-7 md:flex-row lg:justify-start">
-                <a class="cursor-pointer" href="{{ getContent('global.cta.apps.android_url') }}" target="_blank"
-                   rel="noopener">
-                    <img class="h-12"
-                         src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
-                         alt="Get it on Google Play" />
-                </a>
-                <a class="cursor-pointer" href="{{ getContent('global.cta.apps.ios_url') }}" target="_blank"
-                   rel="noopener">
-                    <img class="h-12"
-                         src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
-                         alt="Download on the App Store" />
-                </a>
+                @php
+                    $androidUrl = getContent('global.cta.apps.android_url');
+                    $iosUrl = getContent('global.cta.apps.ios_url');
+                @endphp
+
+                {{-- Android Button --}}
+                @if ($androidUrl)
+                    <a class="cursor-pointer" href="{{ $androidUrl }}" target="_blank" rel="noopener">
+                        <img class="h-12"
+                             src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
+                             alt="Get it on Google Play" />
+                    </a>
+                @else
+                    <button class="cursor-pointer border-0 bg-transparent p-0" type="button"
+                            x-on:click="$store.ui.notify('Maaf, aplikasi belum tersedia di Google Play Store. Nantikan kehadirannya segera, ya!')">
+                        <img class="h-12"
+                             src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
+                             alt="Get it on Google Play (Belum Tersedia)" />
+                    </button>
+                @endif
+
+                {{-- iOS Button --}}
+                @if ($iosUrl)
+                    <a class="cursor-pointer" href="{{ $iosUrl }}" target="_blank" rel="noopener">
+                        <img class="h-12"
+                             src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+                             alt="Download on the App Store" />
+                    </a>
+                @else
+                    <button class="cursor-pointer border-0 bg-transparent p-0" type="button"
+                            x-on:click="$store.ui.notify('Maaf, aplikasi belum tersedia di App Store. Nantikan kehadirannya segera, ya!')">
+                        <img class="h-12"
+                             src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+                             alt="Download on the App Store (Belum Tersedia)" />
+                    </button>
+                @endif
             </div>
         </div>
     </div>

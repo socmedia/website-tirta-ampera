@@ -210,9 +210,5 @@ return [
             'icon' => 'bxl bx-tiktok',
             'url' => getSetting('social_tiktok'),
         ],
-        [
-            'icon' => 'bxl bx-twitter',
-            'url' => getSetting('social_twitter'),
-        ],
     ] : [],
 ];

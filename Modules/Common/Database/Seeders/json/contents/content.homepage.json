@@ -21,7 +21,7 @@
         "key": "homepage.hero.image",
         "input_type": "input:image",
         "name": "Image",
-        "value": "https://placehold.co/700x800/0067A3/FFFFFF?text=Foto+Instalasi+Pengolahan+Air"
+        "value": "/assets/images/content/bg-hero.png"
     },
     {
         "key": "homepage.hero.stats",
@@ -29,15 +29,15 @@
         "name": "Stats",
         "value": [
             {
-                "number": "70.000+",
+                "number": "75.000+",
                 "label": "Pelanggan Terlayani"
             },
             {
-                "number": "22",
+                "number": "18",
                 "label": "Kecamatan Terjangkau"
             },
             {
-                "number": "98%",
+                "number": "100%",
                 "label": "Kualitas Air Teruji"
             }
         ]
@@ -47,6 +47,12 @@
         "input_type": "input:text",
         "name": "Title",
         "value": "BUMD Profesional Kebanggaan Boyolali"
+    },
+    {
+        "key": "homepage.about.image",
+        "input_type": "input:image",
+        "name": "Image",
+        "value": "/assets/images/content/front-about.jpeg"
     },
     {
         "key": "homepage.about.subtitle",
@@ -97,22 +103,25 @@
         "name": "Service List",
         "value": [
             {
-                "title": "Cek & Bayar Tagihan",
-                "desc": "Bayar tagihan air Anda kapan saja, di mana saja, tanpa perlu login atau antre di loket.",
-                "cta": "Bayar Sekarang",
-                "url": "/layanan"
+                "icon": "bx bxs-file-detail",
+                "title": "Bayar Tagihan Air Online",
+                "desc": "Lebih praktis! Cek dan bayar tagihan air bulanan Anda via aplikasi atau mitra resmi kami. Tak perlu repot ke kantor.",
+                "link_label": "Cek Tagihan Sekarang",
+                "link_route": null
             },
             {
+                "icon": "bx bx-git-commit",
                 "title": "Sambungan Baru",
                 "desc": "Ajukan sambungan baru air bersih untuk rumah atau bisnis Anda secara online.",
-                "cta": "Ajukan Sekarang",
-                "url": "/layanan"
+                "link_label": "Ajukan Sekarang",
+                "link_route": null
             },
             {
-                "title": "Pengaduan & Laporan",
+                "icon": "bx bxs-alert-triangle",
+                "title": "Pengaduan Pelanggan",
                 "desc": "Laporkan kebocoran, air keruh, atau gangguan layanan 24 jam melalui saluran resmi kami.",
-                "cta": "Lapor Sekarang",
-                "url": "/hubungi-kami"
+                "link_label": "Lapor Sekarang",
+                "link_route": null
             }
         ]
     },

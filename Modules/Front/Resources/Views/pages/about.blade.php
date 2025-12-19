@@ -21,16 +21,9 @@
 
         <!-- Section 1: Header Utama dan Pengantar (Modern, Responsive) -->
         <section class="py-10 sm:py-16 lg:py-32">
-            <x-front::partials.section-title :content="getContent('about.header.subtitle')">
-                <x-slot name="title">
-                    {{ getContent('about.header.title.part1') }}
-                    <span class="text-sky-600">
-                        {{ getContent('about.header.title.part2') }}
-                    </span>
-                </x-slot>
-            </x-front::partials.section-title>
+            <x-front::partials.section-title :content="getContent('about.header.subtitle')" :title="getContent('about.header.title')" />
             <div class="mt-8 px-2 sm:mt-12 sm:px-4">
-                <img class="shadow-xendit h-44 max-h-[350px] w-full rounded-2xl object-cover sm:h-60 md:h-72 lg:h-[350px]"
+                <img class="shadow-xendit aspect-[3/2] w-full rounded-2xl object-cover"
                      src="{{ getContent('about.header.image') }}" alt="Ilustrasi Tim Tirta Ampera Melayani Masyarakat"
                      onerror="this.onerror=null;this.src='{{ getSetting('thumbnail_3_2') }}';">
             </div>
@@ -56,7 +49,7 @@
                 </div>
                 <div class="grid w-full max-w-5xl grid-cols-1 gap-8 md:grid-cols-2 md:gap-12">
                     <!-- Static Image (does not change), now with additional shadow -->
-                    <img class="order-first max-h-[340px] w-full rounded-lg object-cover shadow-xl md:order-last"
+                    <img class="aspect-square order-first w-full rounded-lg object-cover shadow-xl md:order-last"
                          src="{{ getContent('about.vm.image') }}" alt="Tentang Kami" />
                     <!-- Changing Text Content -->
                     <div class="prose">
@@ -104,14 +97,11 @@
     <div class="container">
         <livewire:front::slider.milestone />
 
-        <!-- Section 4: Struktur Organisasi (Flat Card, Simple, Minimal, Less Ugly Colors) -->
+        {{-- <!-- Section 4: Struktur Organisasi (Flat Card, Simple, Minimal, Less Ugly Colors) -->
         <section class="body-font text-gray-600">
             <div class="container mx-auto px-5 py-24" x-data="{ activeTab: 'direksi' }">
                 <div class="mb-20 text-center">
                     <x-front::partials.section-title class="mb-20" :title="getContent('about.leadership.title')" :content="getContent('about.leadership.direksi.subtitle')" />
-                    <div class="mt-6 flex justify-center">
-                        <div class="inline-flex h-1 w-16 rounded-full bg-sky-500"></div>
-                    </div>
 
                     <!-- Tabs / Toggle Buttons -->
                     <div class="mt-10 flex flex-row justify-center gap-2 sm:gap-4">
@@ -146,12 +136,6 @@
                                 <h2 class="mb-3 text-lg font-medium text-gray-900">Nama Direktur Utama</h2>
                                 <p class="mb-2 text-xs font-semibold text-sky-600">Direktur Utama</p>
                                 <p class="text-base leading-relaxed">Memimpin visi dan strategi perusahaan.</p>
-                                <span class="mt-3 inline-flex items-center font-medium text-sky-500">Pelajari Selengkapnya
-                                    <svg class="ml-2 h-4 w-4" fill="none" stroke="currentColor" stroke-linecap="round"
-                                         stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
-                                        <path d="M5 12h14M12 5l7 7-7 7"></path>
-                                    </svg>
-                                </span>
                             </div>
                         </div>
                         <!-- Direksi Card 2 -->
@@ -169,12 +153,6 @@
                                 <h2 class="mb-3 text-lg font-medium text-gray-900">Nama Direktur Teknik</h2>
                                 <p class="mb-2 text-xs font-semibold text-sky-600">Direktur Teknik</p>
                                 <p class="text-base leading-relaxed">Menjamin kualitas dan kontinuitas suplai air.</p>
-                                <span class="mt-3 inline-flex items-center font-medium text-sky-500">Pelajari Selengkapnya
-                                    <svg class="ml-2 h-4 w-4" fill="none" stroke="currentColor" stroke-linecap="round"
-                                         stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
-                                        <path d="M5 12h14M12 5l7 7-7 7"></path>
-                                    </svg>
-                                </span>
                             </div>
                         </div>
                         <!-- Direksi Card 3 -->
@@ -192,13 +170,6 @@
                                 <p class="mb-2 text-xs font-semibold text-sky-600">Direktur Keuangan</p>
                                 <p class="text-base leading-relaxed">Mengelola keuangan untuk efisiensi dan transparansi.
                                 </p>
-                                <span class="mt-3 inline-flex items-center font-medium text-sky-500">Pelajari Selengkapnya
-                                    <svg class="ml-2 h-4 w-4" fill="none" stroke="currentColor"
-                                         stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                         viewBox="0 0 24 24">
-                                        <path d="M5 12h14M12 5l7 7-7 7"></path>
-                                    </svg>
-                                </span>
                             </div>
                         </div>
                     </div>
@@ -222,13 +193,6 @@
                                 <p class="mb-2 text-xs font-semibold text-sky-600">Ketua Dewan Pengawas</p>
                                 <p class="text-base leading-relaxed">Dewan Pengawas bertugas mengawal tata kelola agar
                                     perusahaan tetap akuntabel dan sesuai aturan.</p>
-                                <span class="mt-3 inline-flex items-center font-medium text-sky-500">Pelajari Selengkapnya
-                                    <svg class="ml-2 h-4 w-4" fill="none" stroke="currentColor"
-                                         stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                         viewBox="0 0 24 24">
-                                        <path d="M5 12h14M12 5l7 7-7 7"></path>
-                                    </svg>
-                                </span>
                             </div>
                         </div>
                         <!-- Pengawas Card 2 -->
@@ -246,22 +210,10 @@
                                 <p class="mb-2 text-xs font-semibold text-sky-600">Anggota Dewan Pengawas</p>
                                 <p class="text-base leading-relaxed">Turut serta dalam menjaga pengawasan dan kinerja
                                     perusahaan.</p>
-                                <span class="mt-3 inline-flex items-center font-medium text-sky-500">Pelajari Selengkapnya
-                                    <svg class="ml-2 h-4 w-4" fill="none" stroke="currentColor"
-                                         stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                         viewBox="0 0 24 24">
-                                        <path d="M5 12h14M12 5l7 7-7 7"></path>
-                                    </svg>
-                                </span>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <button
-                        class="mx-auto mt-16 flex rounded border-0 bg-sky-500 px-8 py-2 text-lg text-white hover:bg-sky-600 focus:outline-none">
-                    Hubungi Kami
-                </button>
             </div>
         </section>
 
@@ -289,7 +241,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
 
         <x-front::partials.cta.contact />
     </div>

@@ -26,6 +26,8 @@ Route::group([
     ], function () {
         Route::get('/', [FrontController::class, 'service'])->name('index');
         Route::get('/bayar-tagihan', [FrontController::class, 'servicePayBill'])->name('pay-bill');
+        Route::get('/pasang-baru', [FrontController::class, 'serviceNewConnection'])->name('new-connection');
+        Route::get('/pengaduan-pelanggan', [FrontController::class, 'serviceComplaint'])->name('complaint');
         Route::get('/pindah-meter', [FrontController::class, 'serviceMoveMeter'])->name('move-meter');
         Route::get('/ganti-stop-kran', [FrontController::class, 'serviceReplaceStopValve'])->name('replace-stop-valve');
         Route::get('/balik-nama', [FrontController::class, 'serviceChangeName'])->name('change-name');
@@ -49,7 +51,7 @@ Route::group([
         'as' => 'news.'
     ], function () {
         Route::get('/', [FrontController::class, 'news'])->name('index');
-        Route::get('/{slug}', [FrontController::class, 'newsDetail'])->name('show');
+        Route::get('/{slug}', [FrontController::class, 'newsDetail'])->middleware('post.view')->name('show');
     });
 
     Route::get('/kontak', [FrontController::class, 'contact'])->name('contact');

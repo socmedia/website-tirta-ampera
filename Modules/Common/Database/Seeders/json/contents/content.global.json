@@ -33,13 +33,13 @@
         "key": "global.cta.apps.android_url",
         "input_type": "input:text",
         "name": "Android URL",
-        "value": "https://play.google.com/store/apps/details?id=com.tirtaampera.app"
+        "value": "https://play.google.com/store/apps/details?id=id.co.tirtaampera.customerapp"
     },
     {
         "key": "global.cta.apps.ios_url",
         "input_type": "input:text",
         "name": "iOS URL",
-        "value": "https://apps.apple.com/id/app/tirta-Amperaku/id0000000000"
+        "value": null
     },
     {
         "key": "global.cta.apps.secondary.title",

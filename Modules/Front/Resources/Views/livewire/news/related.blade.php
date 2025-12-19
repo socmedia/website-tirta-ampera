@@ -16,7 +16,7 @@
             <article class="focus:outline-hidden group flex items-center gap-x-6" itemscope
                      itemtype="https://schema.org/Article">
                 <a class="flex w-full items-center gap-x-6 rounded-lg" href="{{ route('front.news.show', $item->slug) }}"
-                   itemprop="url">
+                   itemprop="url" wire:navigate>
                     @if ($item->thumbnail_url)
                         <div class="relative size-20 shrink-0 overflow-hidden rounded-lg">
                             <img class="absolute start-0 top-0 size-full rounded-lg object-cover"

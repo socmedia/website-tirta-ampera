@@ -30,7 +30,7 @@
                                     leaveTimeout = setTimeout(() => { open = false }, 250);
                                 ">
                                 <a class="navbar-link navbar-dropdown-button" href="{{ route($menu['route']) }}"
-                                   tabindex="0"
+                                   tabindex="0" wire:navigate
                                    @if (isset($menu['route'])) aria-current="{{ request()->routeIs($menu['active']) ? 'page' : '' }}" @endif
                                    :class="[
                                        'navbar-link',

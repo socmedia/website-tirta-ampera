@@ -35,4 +35,12 @@ return [
         ],
     ],
 
+    // Credentials service config using env vars from .env (lines 78
+    'credentials' => [
+        'client_id' => env('CLIENT_ID'),
+        'client_secret' => env('CLIENT_SECRET'),
+        'public_key' => env('CLIENT_PUBLIC_KEY', storage_path('credentials/public')),
+    ],
+
+
 ];

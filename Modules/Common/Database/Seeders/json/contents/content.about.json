@@ -6,22 +6,22 @@
         "value": "Tentang Kami"
     },
     {
-        "key": "about.header.title.part1",
+        "key": "about.header.title",
         "input_type": "input:text",
-        "name": "Header Title (Part 1)",
-        "value": "Kami Bangun Kepercayaan,"
-    },
-    {
-        "key": "about.header.title.part2",
-        "input_type": "input:text",
-        "name": "Header Title (Part 2 - Highlight)",
-        "value": "Bukan Sekadar Jaringan Pipa."
+        "name": "Header Title",
+        "value": "Kami Bangun <span class=\"text-sky-600\">Kepercayaan</span>, Bukan Sekadar Jaringan Perpipaan."
     },
     {
         "key": "about.header.subtitle",
         "input_type": "textarea",
         "name": "Header Subtitle/Pengantar",
         "value": "Setiap tetes air dari PDAM Boyolali adalah wujud komitmen kami untuk Anda. Tim Tirta Ampera siap memastikan kebutuhan air bersih keluarga terpenuhi dengan kualitas terbaik, layanan cepat, dan penuh perhatian. Mari wujudkan Boyolali yang lebih sehat dan nyaman bersama kami."
+    },
+    {
+        "key": "about.header.image",
+        "input_type": "input:image",
+        "name": "Header Image",
+        "value": "/assets/images/content/about-header-image.jpg"
     },
     {
         "key": "about.vm.title",
@@ -39,7 +39,7 @@
         "key": "about.vm.image",
         "input_type": "input:image",
         "name": "Gambar Visi Misi",
-        "value": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1000&q=80"
+        "value": "/assets/images/content/front-about.jpeg"
     },
     {
         "key": "about.vm.visi.title",

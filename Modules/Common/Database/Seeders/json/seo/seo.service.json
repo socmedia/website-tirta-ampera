@@ -1,6 +1,6 @@
 [
     {
-        "key": "seo.layanan.title",
+        "key": "seo.service.title",
         "input_type": "input:text",
         "meta": {},
         "name": "SEO Title",
@@ -9,7 +9,7 @@
         "section": "title"
     },
     {
-        "key": "seo.layanan.description",
+        "key": "seo.service.description",
         "input_type": "textarea",
         "meta": {},
         "name": "SEO Description",
@@ -18,7 +18,7 @@
         "section": "description"
     },
     {
-        "key": "seo.layanan.image",
+        "key": "seo.service.image",
         "input_type": "input:image",
         "meta": {},
         "name": "SEO Image",
@@ -27,7 +27,7 @@
         "section": "image"
     },
     {
-        "key": "seo.layanan.keywords",
+        "key": "seo.service.keywords",
         "input_type": "input:text",
         "meta": {},
         "name": "SEO Keywords",

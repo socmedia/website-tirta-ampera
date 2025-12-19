@@ -62,11 +62,11 @@
         . If scrolled, text-neutral-700.
     */
     .navbar-link {
-        @apply rounded-md px-3 py-2 border border-transparent transition-colors;
+        @apply rounded-md px-3 py-2 border border-transparent;
     }
 
     .navbar-link:not(.active) {
-        @apply text-white px-3 py-2 font-medium transition-colors duration-150 rounded-md hover:text-sky-700;
+        @apply text-white px-3 py-2 font-medium rounded-md hover:text-sky-700;
     }
 
     .navbar.always-fixed .navbar-link:not(.active) {

@@ -48,7 +48,7 @@
                 {{-- Right: Content --}}
                 <div>
                     <div class="mt-10 grid gap-4 lg:mt-0">
-                        @foreach (getContent('service.pillar.items', []) as $pillar)
+                        @foreach (getContent('service.pillar.items') ?? [] as $pillar)
                             <div class="flex h-full flex-col rounded-lg border border-neutral-100 bg-neutral-50 p-5">
                                 <span
                                       class="mb-8 flex size-12 size-14 items-center justify-center rounded-full bg-sky-600 text-2xl text-white">

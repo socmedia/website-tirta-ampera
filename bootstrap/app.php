@@ -19,6 +19,7 @@ $app = Application::configure(basePath: dirname(__DIR__))
             'auth.module' => \Modules\Auth\Http\Middleware\Authenticate::class,
             'guest' => \Modules\Auth\Http\Middleware\RedirectIfAuthenticated::class,
             'verified' => \Modules\Auth\Http\Middleware\EnsureEmailIsVerified::class,
+            'post.view' => \Modules\Common\Http\Middleware\ViewPost::class,
         ]);
 
         $middleware->web(

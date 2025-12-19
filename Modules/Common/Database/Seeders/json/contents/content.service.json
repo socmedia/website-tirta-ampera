@@ -85,6 +85,20 @@
                 "link_route": "front.service.pay-bill"
             },
             {
+                "icon": "bx bxs-alert-triangle",
+                "title": "Pengaduan Pelanggan",
+                "description": "Sampaikan keluhan atau masalah layanan PDAM Anda secara langsung melalui sistem pengaduan online kami. Tim kami siap merespon dengan cepat dan solutif.",
+                "link_label": "Buat Pengaduan",
+                "link_route": null
+            },
+            {
+                "icon": "bx bx-git-commit",
+                "title": "Sambungan Baru",
+                "description": "Ajukan sambungan baru air bersih untuk rumah atau bisnis Anda secara online.",
+                "link_label": "Ajukan Sekarang",
+                "link_route": null
+            },
+            {
                 "icon": "bx bxs-forward-big",
                 "title": "Pindah Meter",
                 "description": "Renovasi rumah atau pindah lokasi meter air, cukup hubungi kami. Tim kami bantu proses pemindahan dengan mudah.",

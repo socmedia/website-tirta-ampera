@@ -7,7 +7,7 @@
         <p class="mx-auto mb-6 max-w-md text-base text-sky-100 sm:mb-8 sm:max-w-2xl sm:text-lg md:max-w-3xl">
             {{ getContent('global.cta.contact.subtitle') }}
         </p>
-        <a class="btn solid-white btn-lg rounded-full" href="{{ route('front.contact') }}">
+        <a class="btn solid-white btn-lg rounded-full" href="{{ route('front.contact') }}" wire:navigate>
             {{ getContent('global.cta.contact.button.text') }}
             <i class="bx bx-arrow-right-stroke sm:text-xl"></i>
         </a>
