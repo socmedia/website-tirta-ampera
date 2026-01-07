@@ -188,7 +188,7 @@ trait PostAdapters
     }
 
     /**
-     * Accessor for the post's title (from translation if available).
+     * Accessor for the post's title.
      *
      * @return string
      */
@@ -197,14 +197,11 @@ trait PostAdapters
         if (isset($this->attributes['title'])) {
             return $this->attributes['title'] ?? '';
         }
-        if (method_exists($this, 'translation')) {
-            return $this->translation?->title ?? '';
-        }
         return '';
     }
 
     /**
-     * Accessor for the post's subject (from translation if available).
+     * Accessor for the post's subject.
      *
      * @return string
      */
@@ -213,16 +210,13 @@ trait PostAdapters
         if (isset($this->attributes['subject'])) {
             return $this->attributes['subject'] ?? '';
         }
-        if (method_exists($this, 'translation')) {
-            return $this->translation?->subject ?? '';
-        }
         return '';
     }
 
     // Excerpt accessor removed
 
     /**
-     * Accessor for the post's meta title (from translation if available).
+     * Accessor for the post's meta title.
      *
      * @return string
      */
@@ -231,14 +225,11 @@ trait PostAdapters
         if (isset($this->attributes['meta_title'])) {
             return $this->attributes['meta_title'] ?? '';
         }
-        if (method_exists($this, 'translation')) {
-            return $this->translation?->meta_title ?? '';
-        }
         return '';
     }
 
     /**
-     * Accessor for the post's meta description (from translation if available).
+     * Accessor for the post's meta description.
      *
      * @return string
      */
@@ -246,9 +237,6 @@ trait PostAdapters
     {
         if (isset($this->attributes['meta_description'])) {
             return $this->attributes['meta_description'] ?? '';
-        }
-        if (method_exists($this, 'translation')) {
-            return $this->translation?->meta_description ?? '';
         }
         return '';
     }

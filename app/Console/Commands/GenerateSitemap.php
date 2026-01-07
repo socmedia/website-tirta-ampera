@@ -32,73 +32,63 @@ class GenerateSitemap extends Command
     public function handle()
     {
         $urls = [];
-        $langs = ['id', 'en'];
+        $langs = ['id'];
 
-        // Main priority static routes (in order)
-        $mainRoutes = [
-            '/' => 'index',
-            '/about' => 'about',
-            '/product' => 'product',
-            '/location' => 'location',
-            '/collaboration' => 'collaboration',
-            '/investor' => 'investor',
+        // Static main/frontpage routes taken from web.php
+        $staticRoutes = [
+            // Main Pages
+            ['route' => 'front.index',              'priority' => '1',   'changefreq' => 'monthly'], // /
+            ['route' => 'front.about',              'priority' => '0.9', 'changefreq' => 'monthly'], // /tentang-kami
+
+            // Layanan group
+            ['route' => 'front.service.index',                      'priority' => '0.8', 'changefreq' => 'monthly'],    // /layanan
+            ['route' => 'front.service.pay-bill',                   'priority' => '0.7', 'changefreq' => 'monthly'],    // /layanan/bayar-tagihan
+            ['route' => 'front.service.new-connection',             'priority' => '0.7', 'changefreq' => 'monthly'],    // /layanan/pasang-baru
+            ['route' => 'front.service.complaint',                  'priority' => '0.7', 'changefreq' => 'monthly'],    // /layanan/pengaduan-pelanggan
+            ['route' => 'front.service.move-meter',                 'priority' => '0.7', 'changefreq' => 'monthly'],    // /layanan/pindah-meter
+            ['route' => 'front.service.replace-stop-valve',         'priority' => '0.7', 'changefreq' => 'monthly'],    // /layanan/ganti-stop-kran
+            ['route' => 'front.service.change-name',                'priority' => '0.7', 'changefreq' => 'monthly'],    // /layanan/balik-nama
+            ['route' => 'front.service.reconnect',                  'priority' => '0.7', 'changefreq' => 'monthly'],    // /layanan/buka-kembali
+            ['route' => 'front.service.temporary-disconnect',       'priority' => '0.7', 'changefreq' => 'monthly'],    // /layanan/tutup-sementara
+
+            // Info pelanggan group
+            ['route' => 'front.customer-info.rights-obligations',   'priority' => '0.7', 'changefreq' => 'monthly'],    // /info-pelanggan/hak-dan-kewajiban
+            ['route' => 'front.customer-info.prohibitions',         'priority' => '0.7', 'changefreq' => 'monthly'],    // /info-pelanggan/larangan
+            ['route' => 'front.customer-info.groups',               'priority' => '0.7', 'changefreq' => 'monthly'],    // /info-pelanggan/golongan
+            ['route' => 'front.customer-info.tariff',               'priority' => '0.7', 'changefreq' => 'monthly'],    // /info-pelanggan/tarif
+            ['route' => 'front.customer-info.disturbance-info',     'priority' => '0.7', 'changefreq' => 'monthly'],    // /info-pelanggan/info-gangguan
+
+            // Berita/news listing
+            ['route' => 'front.news.index',         'priority' => '0.6', 'changefreq' => 'daily'],      // /berita
+
+            // Other static pages
+            ['route' => 'front.contact',            'priority' => '0.5', 'changefreq' => 'monthly'],    // /kontak
+            ['route' => 'front.terms-conditions',   'priority' => '0.5', 'changefreq' => 'monthly'],    // /syarat-ketentuan
+            ['route' => 'front.privacy-policy',     'priority' => '0.5', 'changefreq' => 'monthly'],    // /kebijakan-privasi
         ];
 
-        foreach ($mainRoutes as $uri => $name) {
-            $baseUrl = url($uri);
+        foreach ($staticRoutes as $routeInfo) {
+            if (!\Illuminate\Support\Facades\Route::has($routeInfo['route'])) continue;
+            $loc = route($routeInfo['route']);
             $urls[] = [
-                'loc' => $baseUrl . '?lang=' . $langs[0], // default lang
-                'lastmod' => Carbon::now()->toAtomString(),
-                'priority' => '1',
-                'changefreq' => 'monthly',
-                'alternates' => collect($langs)->map(function ($lang) use ($baseUrl) {
-                    return [
-                        'hreflang' => $lang,
-                        'href' => $baseUrl . '?lang=' . $lang,
-                    ];
-                })->toArray(),
+                'loc'        => $loc . '?lang=' . $langs[0],
+                'lastmod'    => Carbon::now()->toAtomString(),
+                'priority'   => $routeInfo['priority'],
+                'changefreq' => $routeInfo['changefreq'],
+                'alternates' => [],
             ];
         }
 
         // News detail pages
-        foreach (Post::published()->with('translations')->get() as $news) {
-            foreach ($news->translations as $translation) {
-                $baseUrl = route('front.news.show', $translation->slug);
-
-                $urls[] = [
-                    'loc' => $baseUrl . '?lang=' . $langs[0],
-                    'lastmod' => optional($news->updated_at)->toAtomString() ?? Carbon::now()->toAtomString(),
-                    'priority' => '0.5',
-                    'changefreq' => 'weekly',
-                    'alternates' => collect($langs)->map(function ($lang) use ($baseUrl) {
-                        return [
-                            'hreflang' => $lang,
-                            'href' => $baseUrl . '?lang=' . $lang,
-                        ];
-                    })->toArray(),
-                ];
-            }
-        }
-
-        // Investor documents categories
-        $category = Category::where('group', 'investor_documents')->first();
-        if ($category) {
-            foreach ($category->translations as $translation) {
-                $baseUrl = route('front.investor.documents', $translation->slug);
-
-                $urls[] = [
-                    'loc' => $baseUrl . '?lang=' . $langs[0],
-                    'lastmod' => optional($category->updated_at)->toAtomString() ?? Carbon::now()->toAtomString(),
-                    'priority' => '0.5',
-                    'changefreq' => 'weekly',
-                    'alternates' => collect($langs)->map(function ($lang) use ($baseUrl) {
-                        return [
-                            'hreflang' => $lang,
-                            'href' => $baseUrl . '?lang=' . $lang,
-                        ];
-                    })->toArray(),
-                ];
-            }
+        foreach (Post::published()->get() as $news) {
+            $baseUrl = route('front.news.show', $news->slug);
+            $urls[] = [
+                'loc' => $baseUrl . '?lang=' . $langs[0],
+                'lastmod' => optional($news->updated_at)->toAtomString() ?? Carbon::now()->toAtomString(),
+                'priority' => '0.4',
+                'changefreq' => 'weekly',
+                'alternates' => [],
+            ];
         }
 
         // ✅ Build XML using DOMDocument
@@ -117,16 +107,7 @@ class GenerateSitemap extends Command
             $loc = $dom->createElement('loc', htmlspecialchars($url['loc'], ENT_XML1));
             $urlElement->appendChild($loc);
 
-            // <xhtml:link rel="alternate" ... />
-            if (!empty($url['alternates'])) {
-                foreach ($url['alternates'] as $alternate) {
-                    $link = $dom->createElement('xhtml:link');
-                    $link->setAttribute('rel', 'alternate');
-                    $link->setAttribute('hreflang', $alternate['hreflang']);
-                    $link->setAttribute('href', $alternate['href']);
-                    $urlElement->appendChild($link);
-                }
-            }
+            // <xhtml:link rel="alternate" ... /> -- Not needed, as 'alternates' will always be empty
 
             // <lastmod>
             $lastmod = $dom->createElement('lastmod', $url['lastmod']);
